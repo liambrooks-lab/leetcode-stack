@@ -95,6 +95,15 @@ print(is_match(string_val, pattern))
 # Output: True
 ```
 
+**Game Theory &mdash; Sum Game:**
+```javascript
+const { sumGame } = require('./game_theory/sum_game');
+
+const num = "?3295???";
+console.log(sumGame(num));
+// Output: false
+```
+
 **Linked Lists &mdash; Reverse Nodes in k-Group:**
 ```javascript
 const { reverseKGroup, createList } = require('./linked_lists/reverse_k_group');
@@ -104,7 +113,16 @@ console.log(reverseKGroup(head, 2));
 // Output: [2, 1, 4, 3, 5]
 ```
 
-**Math & Greedy &mdash; Roman to Integer:**
+**Greedy — Jump Game II (O(N) Optimization):**
+```cpp
+#include "greedy/jump_game_ii.h"
+
+std::vector<int> nums = {2, 3, 1, 1, 4};
+std::cout << jump(nums) << std::endl;
+// Output: 2
+```
+
+**Math — Roman to Integer:**
 ```cpp
 #include "math/roman_to_integer.h"
 
@@ -193,6 +211,31 @@ python3 filename.py
 node filename.js
 ```
 ---
+
+## Fault Tolerance
+
+These modules are architected as isolated algorithmic functions stripped of redundant boilerplate. Local execution may encounter expected integration faults. Deploy the following protocols to override them:
+
+* **Missing Entry Point (Execution Halt):** Core modules omit driver code. You must manually instantiate the `Solution` class within a standard `main()` function prior to local C++ compilation.
+* **Memory Anomalies & Segmentation Faults:** To diagnose uninitialized pointers, out-of-bounds access, or stack smashing during local testing, enforce GCC memory sanitization:
+  ```bash
+  g++ -O3 -Wall -Wextra -fsanitize=address filename.cpp -o debug_exec
+  ./debug_exec
+  ```
+* **V8 Module Resolution:** If JavaScript modules encounter require or scope faults when tested directly, ensure execution within a standardized Node.js sandbox or strip the export statements for raw script execution.
+
+---
+
+## Computational Paradigms & Micro-Optimizations
+
+Beyond adhering to standard asymptotic limits, this repository enforces strict execution protocols to bypass high-level runtime overheads (e.g., V8 engine garbage collection and heap fragmentation):
+
+* **State-Space Pruning:** Aggressive mathematical termination of duplicate recursive branches and overlapping subproblems prior to execution.
+* **In-Place Mutability:** Complete elimination of auxiliary tracking structures via granular pointer manipulation, cyclic swapping, and bitwise state shifts.
+* **Runtime-Agnostic Arithmetic:** Utilizing direct ASCII memory access and bit-level operations to bypass heavy type-conversion latency inherent in higher-level languages.
+
+---
+
 <br>
 <div align="right">
   <b>Rudranarayan Jena</b><br>
