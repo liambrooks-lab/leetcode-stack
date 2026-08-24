@@ -191,6 +191,16 @@ This infrastructure relies on zero manual indexing. Solutions are integrated, co
 
 ---
 
+## Computational Paradigms & Micro-Optimizations
+
+Beyond adhering to standard asymptotic limits, this repository enforces strict execution protocols to bypass high-level runtime overheads (e.g., V8 engine garbage collection and heap fragmentation):
+
+* **State-Space Pruning:** Aggressive mathematical termination of duplicate recursive branches and overlapping subproblems prior to execution.
+* **In-Place Mutability:** Complete elimination of auxiliary tracking structures via granular pointer manipulation, cyclic swapping, and bitwise state shifts.
+* **Runtime-Agnostic Arithmetic:** Utilizing direct ASCII memory access and bit-level operations to bypass heavy type-conversion latency inherent in higher-level languages.
+
+---
+
 ## Local Execution
 
 To benchmark implementations locally, deploy the following standard execution protocols:
@@ -223,16 +233,6 @@ These modules are architected as isolated algorithmic functions stripped of redu
   ./debug_exec
   ```
 * **V8 Module Resolution:** If JavaScript modules encounter require or scope faults when tested directly, ensure execution within a standardized Node.js sandbox or strip the export statements for raw script execution.
-
----
-
-## Computational Paradigms & Micro-Optimizations
-
-Beyond adhering to standard asymptotic limits, this repository enforces strict execution protocols to bypass high-level runtime overheads (e.g., V8 engine garbage collection and heap fragmentation):
-
-* **State-Space Pruning:** Aggressive mathematical termination of duplicate recursive branches and overlapping subproblems prior to execution.
-* **In-Place Mutability:** Complete elimination of auxiliary tracking structures via granular pointer manipulation, cyclic swapping, and bitwise state shifts.
-* **Runtime-Agnostic Arithmetic:** Utilizing direct ASCII memory access and bit-level operations to bypass heavy type-conversion latency inherent in higher-level languages.
 
 ---
 
