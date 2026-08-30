@@ -25,13 +25,40 @@ The repository is maintained autonomously and structured strictly by algorithmic
 
 ### Snippets
 
-**Arrays & Hashing &mdash; Two Sum:**
+**Arrays &mdash; State-Space Grouping:**
 ```python
-from arrays.two_sum import two_sum
+from arrays.lexicographically_smallest_array import lexicographically_smallest_array
+
+nums = [1, 5, 3, 9, 8]
+print(lexicographically_smallest_array(nums, 2))
+# Output: [1, 3, 5, 8, 9]
+```
+
+**Hashing &mdash; O(1) Probabilistic Lookups:**
+```python
+from hashing.two_sum import two_sum
 
 nums = [2, 7, 11, 15]
 print(two_sum(nums, 9))
 # Output: [0, 1]
+```
+
+**Intervals &mdash; In-Place Boundary Merging:**
+```python
+from intervals.merge_intervals import merge
+
+intervals = [[1, 3], [2, 6], [8, 10], [15, 18]]
+print(merge(intervals))
+# Output: [[1, 6], [8, 10], [15, 18]]
+```
+
+**Matrices &mdash; O(1) Space 2D Traversals:**
+```python
+from matrices.spiral_matrix import spiral_order
+
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(spiral_order(matrix))
+# Output: [1, 2, 3, 6, 9, 8, 7, 4, 5]
 ```
 
 **Prefix Sum &mdash; State-Space Accumulation:**
