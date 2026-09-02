@@ -174,6 +174,26 @@ from sliding_window.longest_substring import length_of_longest_substring
 text = "abcabcbb"
 print(length_of_longest_substring(text))
 # Output: 3
+
+```
+**Graphs — State-Space Traversal & Connectivity:**
+
+```cpp
+
+#include "Graphs/graph.h"
+
+Graph graph(5);
+
+graph.addEdge(0, 1);
+graph.addEdge(0, 2);
+graph.addEdge(1, 3);
+graph.addEdge(2, 3);
+graph.addEdge(3, 4);
+
+graph.traverse(0);
+
+// Output: 0 1 2 3 4
+
 ```
 
 **Stacks &mdash; Valid Parentheses:**
