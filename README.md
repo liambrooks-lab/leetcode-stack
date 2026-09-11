@@ -214,6 +214,23 @@ std::cout << myAtoi(input) << std::endl;
 // Output: -42
 ```
 
+**Trees — Recursive Subtree State Aggregation:**
+```python
+
+from Trees.subtree_average import Solution, TreeNode
+
+root = TreeNode(4)
+root.left = TreeNode(8)
+root.right = TreeNode(5)
+root.left.left = TreeNode(0)
+root.left.right = TreeNode(1)
+root.right.right = TreeNode(6)
+
+print(Solution().averageOfSubtree(root))
+# Output: 5
+
+```
+
 **Two Pointers &mdash; Container With Most Water:**
 ```python
 from two_pointers.container_with_most_water import max_area
