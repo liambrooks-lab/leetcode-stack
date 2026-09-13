@@ -1,8 +1,6 @@
 # leetcode-stack
 
-<div align="right">
-  <strong>🌐 <a href="./README.hi.md">हिंदी में पढ़ें</a></strong>
-</div>
+[![Hindi Translation](https://img.shields.io/badge/%F0%9F%8C%90_%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80_%E0%A4%AE%E0%A5%87%E0%A4%82_%E0%A4%AA%E0%A4%A2%E0%A4%BC%E0%A5%87%E0%A4%82-1081c1?style=for-the-badge)](README.hi.md)
 
 ---
 > **A zero-to-one algorithmic infrastructure, independently architected for state-space optimization, advanced data structure engineering, and computational efficiency.**
