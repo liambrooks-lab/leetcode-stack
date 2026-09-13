@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Rotate Image",
+  "category": "Matrices",
+  "time_complexity": "O(M * N)",
+  "space_complexity": "O(M * N)"
+}
+*/
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {

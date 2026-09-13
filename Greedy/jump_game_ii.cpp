@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Jump Game Ii",
+  "category": "Greedy",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 class Solution {
 public:
     int jump(vector<int>& nums) {

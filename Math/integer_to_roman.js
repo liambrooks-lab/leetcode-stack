@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Integer To Roman",
+  "category": "Math",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 /**
  * @param {number} num
  * @return {string}

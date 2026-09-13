@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Longest Palindromic Substring",
+  "category": "Two_Pointers",
+  "time_complexity": "O(N^2)",
+  "space_complexity": "O(1)"
+}
+*/
 #pragma GCC optimize("O3", "unroll-loops")
 #include <string>
 

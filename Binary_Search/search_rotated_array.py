@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Search Rotated Array",
+  "category": "Binary_Search",
+  "time_complexity": "O(log N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def search(self, nums: list[int], target: int) -> int:
         left, right = 0, len(nums) - 1

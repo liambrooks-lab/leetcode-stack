@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Pow X N",
+  "category": "Math",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         # Base case for zero power

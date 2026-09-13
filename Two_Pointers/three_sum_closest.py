@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Three Sum Closest",
+  "category": "Two_Pointers",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         nums.sort()

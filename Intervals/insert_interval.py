@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Insert Interval",
+  "category": "Intervals",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def insert(self, intervals, newInterval):
         res = []

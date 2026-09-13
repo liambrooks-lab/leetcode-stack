@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Reverse Integer",
+  "category": "Math",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 class Solution {
 public:
     int reverse(int x) {

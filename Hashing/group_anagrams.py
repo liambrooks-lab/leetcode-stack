@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Group Anagrams",
+  "category": "Hashing",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def groupAnagrams(self, strs):
         groups = {}

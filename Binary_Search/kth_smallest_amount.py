@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Kth Smallest Amount",
+  "category": "Binary_Search",
+  "time_complexity": "O(log N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def findKthSmallest(self, coins: List[int], k: int) -> int:
         coins.sort()

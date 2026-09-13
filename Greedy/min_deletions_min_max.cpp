@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Min Deletions Min Max",
+  "category": "Greedy",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 class Solution {
 public:
     int minimumDeletions(vector<int>& nums) {

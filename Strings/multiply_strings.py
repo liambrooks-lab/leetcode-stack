@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Multiply Strings",
+  "category": "Strings",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         if num1 == "0" or num2 == "0":

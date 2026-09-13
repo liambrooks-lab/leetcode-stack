@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Rotate List",
+  "category": "Linked_Lists",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {

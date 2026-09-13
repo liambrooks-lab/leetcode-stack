@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Palindrome No",
+  "category": "Math",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 class Solution {
 public:
     bool isPalindrome(int x) {

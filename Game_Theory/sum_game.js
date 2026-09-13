@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Sum Game",
+  "category": "Game_Theory",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 /**
  * @param {string} num
  * @return {boolean}

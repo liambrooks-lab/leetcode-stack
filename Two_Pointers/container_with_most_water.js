@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Container With Most Water",
+  "category": "Two_Pointers",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 /**
  * @param {number[]} height
  * @return {number}

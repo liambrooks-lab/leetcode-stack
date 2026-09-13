@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Distribute Elements I",
+  "category": "Arrays",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 /**
  * @param {number[]} nums
  * @return {number[]}

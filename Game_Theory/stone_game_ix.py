@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Stone Game Ix",
+  "category": "Game_Theory",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 
 
 class Solution:

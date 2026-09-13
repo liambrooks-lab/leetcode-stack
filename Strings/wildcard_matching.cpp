@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Wildcard Matching",
+  "category": "Strings",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 class Solution {
 public:
     bool isMatch(string s, string p) {

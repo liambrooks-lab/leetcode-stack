@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Sudoku Solver",
+  "category": "Backtracking",
+  "time_complexity": "O(2^N)",
+  "space_complexity": "O(N)"
+}
+"""
 class Solution:
     def solveSudoku(self, board: list[list[str]]) -> None:
         rows = [0] * 9

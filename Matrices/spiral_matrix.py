@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Spiral Matrix",
+  "category": "Matrices",
+  "time_complexity": "O(M * N)",
+  "space_complexity": "O(M * N)"
+}
+"""
 from typing import List
 
 class Solution:

@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Next Greater Palindrome",
+  "category": "Strings",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 from collections import Counter
 
 

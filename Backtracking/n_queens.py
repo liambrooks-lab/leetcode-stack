@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "N Queens",
+  "category": "Backtracking",
+  "time_complexity": "O(2^N)",
+  "space_complexity": "O(N)"
+}
+"""
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         full_mask = (1 << n) - 1

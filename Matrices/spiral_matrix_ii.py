@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Spiral Matrix Ii",
+  "category": "Matrices",
+  "time_complexity": "O(M * N)",
+  "space_complexity": "O(M * N)"
+}
+"""
 class Solution:
     def generateMatrix(self, n: int) -> list[list[int]]:
         # Pre-allocate the exact memory required for the n x n grid to prevent resizing overhead

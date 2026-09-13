@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Cinema Seat Allocation",
+  "category": "Bit_Manipulation",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 MAP_COUNT = [2] + [int(not (idx & 240) or not (idx & 60) or not (idx & 15))
                     for idx in range(1, 256)]
 MAP_POWER = [0, 0, 1, 2, 4, 8, 16, 32, 64, 128, 0]

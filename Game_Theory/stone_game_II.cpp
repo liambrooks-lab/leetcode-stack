@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Stone Game Ii",
+  "category": "Game_Theory",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 class Solution {
 public:
     int stoneGameII(vector<int>& piles) {

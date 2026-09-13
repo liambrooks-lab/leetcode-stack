@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Shortest Path Cleanup Bitmask",
+  "category": "Graphs",
+  "time_complexity": "O(V + E)",
+  "space_complexity": "O(V + E)"
+}
+*/
 class Solution {
     int dir[5] = {-1,0,1,0,-1};
 public:

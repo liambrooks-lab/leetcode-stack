@@ -1,4 +1,12 @@
 /*
+{
+  "problem_name": "Add Two Numbers",
+  "category": "Linked_Lists",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
+/*
  * Problem: Add Two Numbers
  * Approach: Math with Carry (Linked List Traversal)
  * Time Complexity: O(max(N, M)) - Where N and M are the lengths of the lists.

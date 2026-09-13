@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Trapping Rain Water",
+  "category": "Two_Pointers",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def trap(self, height: List[int]) -> int:
         left = 0

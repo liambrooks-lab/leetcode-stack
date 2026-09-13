@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Regular Expressions Matching",
+  "category": "Dynamic_Programming",
+  "time_complexity": "O(N^2)",
+  "space_complexity": "O(N)"
+}
+*/
 /**
  * @param {string} s
  * @param {string} p

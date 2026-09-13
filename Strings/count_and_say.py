@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Count And Say",
+  "category": "Strings",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def countAndSay(self, n: int) -> str:
         # Base case

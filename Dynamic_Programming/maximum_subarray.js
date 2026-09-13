@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Maximum Subarray",
+  "category": "Dynamic_Programming",
+  "time_complexity": "O(N^2)",
+  "space_complexity": "O(N)"
+}
+*/
 /**
  * @param {number[]} nums
  * @return {number}

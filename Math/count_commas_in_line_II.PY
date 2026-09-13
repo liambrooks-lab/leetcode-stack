@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Count Commas In Line Ii",
+  "category": "Math",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def countCommas(self, n: int) -> int:
         total_commas = 0

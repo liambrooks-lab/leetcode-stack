@@ -1,0 +1,44 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read # Least-privilege permissions
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Setup C++ (GCC)
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y g++ build-essential
+
+    - name: Run Validator
+      run: make validate
+
+    - name: Run Tests
+      run: make test
+
+    - name: Run Benchmarks
+      run: make benchmark
+
+    - name: Generate Index
+      run: make index

@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Letter Combinations",
+  "category": "Backtracking",
+  "time_complexity": "O(2^N)",
+  "space_complexity": "O(N)"
+}
+"""
 class Solution:
     def letterCombinations(self, digits: str) -> list[str]:
       

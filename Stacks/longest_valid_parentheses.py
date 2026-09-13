@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Longest Valid Parentheses",
+  "category": "Stacks",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 
 class Solution:
     def longestValidParentheses(self, s: str) -> int:

@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Combination Sum",
+  "category": "Backtracking",
+  "time_complexity": "O(2^N)",
+  "space_complexity": "O(N)"
+}
+"""
 class Solution:
     def combinationSum(self, candidates, target):
         result = []

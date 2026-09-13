@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Valid Parentheses",
+  "category": "Stacks",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 /**
  * @param {string} s
  * @return {boolean}

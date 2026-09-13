@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Find First Last Position",
+  "category": "Binary_Search",
+  "time_complexity": "O(log N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def searchRange(self, nums: list[int], target: int) -> list[int]:
         

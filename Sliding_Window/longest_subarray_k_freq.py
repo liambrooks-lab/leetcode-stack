@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Longest Subarray K Freq",
+  "category": "Sliding_Window",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def maxSubarrayLength(self, nums: List[int], k: int) -> int:
         from collections import deque
