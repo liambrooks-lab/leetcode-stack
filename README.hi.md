@@ -1,5 +1,9 @@
 # leetcode-stack
-[![Read in English](https://img.shields.io/badge/Language-English-blue?style=for-the-badge)](README.md)
+
+<div align="right">
+  <strong>🌐 <a href="./README.md">Read in English</a></strong>
+</div>
+
 ---
 > **एक ज़ीरो-टू-वन (0-to-1) एल्गोरिथम इंफ्रास्ट्रक्चर, जिसे स्टेट-स्पेस ऑप्टिमाइज़ेशन, एडवांस्ड डेटा स्ट्रक्चर इंजीनियरिंग और कंप्यूटेशनल एफिशिएंसी के लिए स्वतंत्र रूप से आर्किटेक्ट किया गया है।**
 
