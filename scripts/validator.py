@@ -46,17 +46,17 @@ def main():
                         filepath = os.path.join(root, file)
                         
                         if not check_snake_case(file):
-                            errors.append(f"{filepath}: Filename is not snake_case.")
+                            errors.append(f"[LINT WARNING] {filepath}: Naming anomaly detected. Expected snake_case format (e.g., my_problem_name.ext).")
                             
                         is_valid, msg = validate_metadata(filepath)
                         if not is_valid:
-                            errors.append(f"{filepath}: {msg}")
+                            errors.append(f"[METADATA ERROR] {filepath}: {msg}")
                             
     if errors:
-        print("Validation failed with the following errors:")
+        print("Validation finished with issues:")
         for err in errors:
             print(err)
-        sys.exit(1)
+        sys.exit(2)  # Specific error code for linting/metadata issues
     else:
         print("Validation passed. All files comply with repository standards.")
         sys.exit(0)

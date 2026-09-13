@@ -10,6 +10,13 @@ def get_git_sha():
     except Exception:
         return "unknown"
 
+def parse_unix_time(stderr_output):
+    import re
+    match = re.search(r'real\s+([0-9.]+)', stderr_output)
+    if match:
+        return float(match.group(1))
+    return None
+
 def run_benchmarks():
     tests_dir = 'tests'
     results = {}
@@ -26,24 +33,38 @@ def run_benchmarks():
             filepath = os.path.join(root, file)
             print(f"Benchmarking {filepath}...")
             
-            start_time = time.time()
+            start_time = time.perf_counter()
             try:
                 if file.endswith('.py'):
-                    subprocess.run([sys.executable, filepath], check=True, stdout=subprocess.DEVNULL)
+                    if sys.platform != 'win32':
+                        res = subprocess.run(f"time -p {sys.executable} '{filepath}'", shell=True, capture_output=True, text=True)
+                        exec_time = parse_unix_time(res.stderr) or (time.perf_counter() - start_time)
+                    else:
+                        subprocess.run([sys.executable, filepath], check=True, stdout=subprocess.DEVNULL)
+                        exec_time = time.perf_counter() - start_time
                 elif file.endswith('.js'):
-                    subprocess.run(['node', filepath], check=True, stdout=subprocess.DEVNULL)
+                    if sys.platform != 'win32':
+                        res = subprocess.run(f"time -p node '{filepath}'", shell=True, capture_output=True, text=True)
+                        exec_time = parse_unix_time(res.stderr) or (time.perf_counter() - start_time)
+                    else:
+                        subprocess.run(['node', filepath], check=True, stdout=subprocess.DEVNULL)
+                        exec_time = time.perf_counter() - start_time
                 elif file.endswith('.cpp'):
                     bin_path = os.path.join(root, 'test_bin')
                     if os.name == 'nt':
                         bin_path += '.exe'
                     subprocess.run(['g++', '-O3', '-std=c++17', filepath, '-o', bin_path], check=True, stdout=subprocess.DEVNULL)
                     
-                    exec_start = time.time()
-                    try:
-                        subprocess.run([bin_path], check=True, stdout=subprocess.DEVNULL)
-                    except OSError:
-                        pass
-                    exec_time = time.time() - exec_start
+                    if sys.platform != 'win32':
+                        res = subprocess.run(f"time -p ./{bin_path}", shell=True, capture_output=True, text=True)
+                        exec_time = parse_unix_time(res.stderr) or 0
+                    else:
+                        exec_start = time.perf_counter()
+                        try:
+                            subprocess.run([bin_path], check=True, stdout=subprocess.DEVNULL)
+                        except OSError:
+                            pass
+                        exec_time = time.perf_counter() - exec_start
                     
                     if os.path.exists(bin_path):
                         os.remove(bin_path)
@@ -51,8 +72,7 @@ def run_benchmarks():
                     results[filepath] = exec_time
                     continue
                     
-                elapsed = time.time() - start_time
-                results[filepath] = elapsed
+                results[filepath] = exec_time
             except subprocess.CalledProcessError as e:
                 print(f"Benchmark failed for {filepath}")
                 
