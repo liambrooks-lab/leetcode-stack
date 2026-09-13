@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Rm Element",
+  "category": "Two_Pointers",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def removeElement(self, nums: list[int], val: int) -> int:
    

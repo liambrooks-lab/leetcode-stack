@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Largest Almost Missing Integer",
+  "category": "Arrays",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 
 class Solution:
     def largestInteger(self, nums: List[int], k: int) -> int:

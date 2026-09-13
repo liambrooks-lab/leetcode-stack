@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Three Digit Even Count",
+  "category": "Math",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def totalNumbers(self, digits: List[int]) -> int:
         from collections import defaultdict

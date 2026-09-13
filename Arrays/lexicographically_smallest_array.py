@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Lexicographically Smallest Array",
+  "category": "Arrays",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def lexicographicallySmallestArray(self, nums: List[int], limit: int) -> List[int]:
         groups=[]

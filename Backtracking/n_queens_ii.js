@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "N Queens Ii",
+  "category": "Backtracking",
+  "time_complexity": "O(2^N)",
+  "space_complexity": "O(N)"
+}
+*/
 /**
  * @param {number} n
  * @return {number}

@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Critical Points Distance",
+  "category": "Linked_Lists",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 /**
  * Definition for singly-linked list.
  * struct ListNode {

@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Uniform Parity Array Ii",
+  "category": "Math",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 /**
  * @param {number[]} nums1
  * @return {boolean}

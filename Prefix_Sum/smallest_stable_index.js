@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Smallest Stable Index",
+  "category": "Prefix_Sum",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 /**
  * @param {number[]} nums
  * @param {number} k

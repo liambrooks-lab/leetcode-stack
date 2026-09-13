@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Merge K Lists",
+  "category": "Linked_Lists",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {

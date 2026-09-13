@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Unique Paths",
+  "category": "Math",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         dp = [ [0] * n for _ in range(m)]

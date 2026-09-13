@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Next Permutation",
+  "category": "Greedy",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def nextPermutation(self, nums: list[int]) -> None:
         """

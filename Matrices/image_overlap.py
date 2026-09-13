@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Image Overlap",
+  "category": "Matrices",
+  "time_complexity": "O(M * N)",
+  "space_complexity": "O(M * N)"
+}
+"""
 
 import numpy as np
 

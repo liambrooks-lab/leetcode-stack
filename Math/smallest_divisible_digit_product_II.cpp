@@ -1,4 +1,12 @@
 /*
+{
+  "problem_name": "Smallest Divisible Digit Product Ii",
+  "category": "Math",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
+/*
  * Problem: Smallest Divisible Digit Product II
  * Approach: Constructive Math / Greedy String Manipulation
  * Time Complexity: O(N) - Where N is the length of the string.

@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Sequential Prefix Sum",
+  "category": "Prefix_Sum",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def missingInteger(self, nums: List[int]) -> int:
         prefix_sum = nums[0]

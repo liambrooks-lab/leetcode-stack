@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Swap Pairs",
+  "category": "Linked_Lists",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):

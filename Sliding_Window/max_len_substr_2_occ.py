@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Max Len Substr 2 Occ",
+  "category": "Sliding_Window",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def maximumLengthSubstring(self, s: str) -> int:
   

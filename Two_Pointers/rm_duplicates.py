@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Rm Duplicates",
+  "category": "Two_Pointers",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         i=0

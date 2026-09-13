@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Longest Substring Without Rep Chars",
+  "category": "Sliding_Window",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 #include <string>
 #include <vector>
 #include <algorithm>

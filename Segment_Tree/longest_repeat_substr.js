@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Longest Repeat Substr",
+  "category": "Segment_Tree",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 /**
  * @param {string} s
  * @param {string} queryCharacters

@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Missing Multiple",
+  "category": "Math",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 #include <vector>
 #include <unordered_set>
 class Solution {

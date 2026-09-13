@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Maximum Weight 4 Intervals",
+  "category": "Dynamic_Programming",
+  "time_complexity": "O(N^2)",
+  "space_complexity": "O(N)"
+}
+"""
 class Solution:
     def maximumWeight(self, intervals: list[list[int]]) -> list[int]:
         import bisect

@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Three Sum",
+  "category": "Two_Pointers",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         res = []

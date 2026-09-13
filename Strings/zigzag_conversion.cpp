@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Zigzag Conversion",
+  "category": "Strings",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 #pragma GCC optimize("O3", "unroll-loops")
 #include <string>
 

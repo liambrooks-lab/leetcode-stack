@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Lex Greater Permutation",
+  "category": "Greedy",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def lexGreaterPermutation(self, s: str, target: str) -> str:
         freq = [0] * 26

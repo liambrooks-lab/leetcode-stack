@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Permutation Sequence",
+  "category": "Math",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 #include <string>
 #include <vector>
 

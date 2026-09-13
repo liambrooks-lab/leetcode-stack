@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Four Sum",
+  "category": "Two_Pointers",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 
 import bisect
 from typing import List

@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Substring Concat Words",
+  "category": "Sliding_Window",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 /**
  * @param {string} s
  * @param {string[]} words

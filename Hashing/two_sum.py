@@ -1,4 +1,12 @@
 """
+{
+  "problem_name": "Two Sum",
+  "category": "Hashing",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(N)"
+}
+"""
+"""
 Problem: Two Sum
 Approach: One-pass Hash Map
 Time Complexity: O(N) - Single traversal of the list.

@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Roman To Integer",
+  "category": "Math",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def romanToInt(self, s: str) -> int:
         v={

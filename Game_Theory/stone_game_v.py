@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Stone Game V",
+  "category": "Game_Theory",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class _CanonicalSolution(object):
 
     def stoneGameV(self, stoneValue):

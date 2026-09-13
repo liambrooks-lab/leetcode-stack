@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Longest Common Prefix",
+  "category": "Strings",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def longestCommonPrefix(self, strs: list[str]) -> str:
         if not strs:

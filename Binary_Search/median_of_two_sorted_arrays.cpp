@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Median Of Two Sorted Arrays",
+  "category": "Binary_Search",
+  "time_complexity": "O(log(min(M, N)))",
+  "space_complexity": "O(1)"
+}
+*/
 #include <vector>
 #include <algorithm>
 #include <climits>

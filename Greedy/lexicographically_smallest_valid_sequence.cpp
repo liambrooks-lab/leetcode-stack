@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Lexicographically Smallest Valid Sequence",
+  "category": "Greedy",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 class Solution {
 public:
     vector<int> validSequence(string word1, string word2) {

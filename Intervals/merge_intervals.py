@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Merge Intervals",
+  "category": "Intervals",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def merge(self, intervals):
         intervals.sort(key=lambda x: x[0])

@@ -1,3 +1,11 @@
+/*
+{
+  "problem_name": "Shortest Beautiful Substring",
+  "category": "Strings",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+*/
 var shortestBeautifulSubstring = function (s, k) {
   let minimumLengthFound = Infinity;
   let finalResultString = "";

@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Valid Sudoku",
+  "category": "Hashing",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def isValidSudoku(self, board: list[list[str]]) -> bool:
         # Arrays of 9 integers initialized to 0. 

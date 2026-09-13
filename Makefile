@@ -1,9 +1,11 @@
 # 1. Variables Definition
 CXX = g++
 CXXFLAGS = -O3 -std=c++17
+PYTHON = python3
+NODE = node
 
 # 2. PHONY Targets
-.PHONY: cpp py js clean push
+.PHONY: cpp py js clean push validate test benchmark index
 
 # 3. Execution Rules
 cpp:
@@ -13,18 +15,35 @@ cpp:
 
 py:
 	@echo "Running Python script: $(file)..."
-	python3 $(file)
+	$(PYTHON) $(file)
 
 js:
 	@echo "Running Node.js script: $(file)..."
-	node $(file)
+	$(NODE) $(file)
 
-# 4. Clean Rule
+# 4. Infrastructure Rules
+validate:
+	@echo "Running Repository Validator..."
+	python scripts/validator.py
+
+test:
+	@echo "Running Test Framework..."
+	python scripts/tester.py
+
+benchmark:
+	@echo "Running Reproducible Benchmarking..."
+	python scripts/benchmarker.py
+
+index:
+	@echo "Generating Problem Index..."
+	python scripts/indexer.py
+
+# 5. Clean Rule
 clean:
 	@echo "Cleaning up workspace..."
-	rm -f executable
+	rm -f executable test_bin test_bin.exe
 
-# 5. Git Automation Rule
+# 6. Git Automation Rule
 push:
 	@echo "Staging, Committing, and Pushing to GitHub..."
 	git add .

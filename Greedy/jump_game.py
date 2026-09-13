@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Jump Game",
+  "category": "Greedy",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def canJump(self, nums: list[int]) -> bool:
 

@@ -1,3 +1,11 @@
+"""
+{
+  "problem_name": "Length Of Last Word",
+  "category": "Strings",
+  "time_complexity": "O(N)",
+  "space_complexity": "O(1)"
+}
+"""
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         length = 0
