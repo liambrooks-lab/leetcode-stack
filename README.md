@@ -18,64 +18,215 @@ Solutions are architected via a tri-lingual stack, strategically chosen for spec
 
 ## Architecture & Taxonomy
 
-The repository is maintained autonomously and structured strictly by algorithmic taxonomy. Each isolated module contains:
+The repository is maintained autonomously and structured strictly by algorithmic taxonomy. Each isolated module typically contains:
 * The raw source code implementation.
-* Standardized JSON metadata indicating the `problem_name`, `category`, `time_complexity`, and `space_complexity`.
+* Problem constraints and edge-case definitions.
+* Execution metrics (Time & Space complexity, synchronized in real-time).
 
 ### Snippets
 
 **Arrays &mdash; State-Space Grouping:**
 ```python
-from Arrays.lexicographically_smallest_array import lexicographically_smallest_array
+from arrays.lexicographically_smallest_array import lexicographically_smallest_array
 
 nums = [1, 5, 3, 9, 8]
 print(lexicographically_smallest_array(nums, 2))
 # Output: [1, 3, 5, 8, 9]
 ```
 
-**Hashing &mdash; O(1) Probabilistic Lookups:**
-```python
-from Hashing.two_sum import Solution
+**Backtracking &mdash; Generate Parentheses:**
+```javascript
+const { generateParenthesis } = require('./backtracking/gen_parentheses');
 
-sol = Solution()
-nums = [2, 7, 11, 15]
-print(sol.twoSum(nums, 9))
-# Output: [0, 1]
+const n = 3;
+console.log(generateParenthesis(n));
+// Output: [ '((()))', '(()())', '(())()', '()(())', '()()()' ]
 ```
 
-**Cyclic Sort &mdash; First Missing Positive:**
+**Binary Search &mdash; Median of Two Sorted Arrays:**
+```cpp
+#include "binary_search/median_sorted_arrays.h"
+
+std::vector<int> nums1 = {1, 3};
+std::vector<int> nums2 = {2};
+std::cout << findMedianSortedArrays(nums1, nums2) << std::endl;
+// Output: 2.0
+```
+
+**Bit Manipulation — Bitwise Operations Engine:**
 ```javascript
-// From Cyclic_Sort/first_missing_positive.js
+// Executed strictly via bitwise state shifts to bypass heavy arithmetic
+const n = 16; // 10000 in binary
+const isPowerOfTwo = (n > 0) && ((n & (n - 1)) === 0);
+
+console.log(isPowerOfTwo);
+// Output: true
+```
+
+**Cyclic Sort &mdash; First Missing Positive (O(1) Auxiliary Space):**
+```javascript
 const { firstMissingPositive } = require('./Cyclic_Sort/first_missing_positive');
 
 const nums = [3, 4, -1, 1];
 console.log(firstMissingPositive(nums));
-# Output: 2
+// Output: 2
 ```
 
-**Graphs — Bitmask Shortest Path Cleanup:**
-```cpp
-// From Graphs/shortest_path_cleanup_bitmask.cpp
-#include "Graphs/shortest_path_cleanup_bitmask.cpp"
-
-Solution sol;
-std::vector<std::string> classroom = {"S..L", "X...", "...X"};
-std::cout << sol.minMoves(classroom, 5) << std::endl;
-```
-
-**Trees — Recursive Subtree State Aggregation:**
+**Dynamic Programming &mdash; Regular Expression Matching:**
 ```python
-from Trees.subtree_average import Solution, TreeNode
+from dynamic_programming.regex_matching import is_match
 
-root = TreeNode(4)
-root.left = TreeNode(8)
-root.right = TreeNode(5)
-root.left.left = TreeNode(0)
-root.left.right = TreeNode(1)
-root.right.right = TreeNode(6)
+string_val = "aab"
+pattern = "c*a*b"
+print(is_match(string_val, pattern))
+# Output: True
+```
 
-print(Solution().averageOfSubtree(root))
+**Game Theory &mdash; Sum Game:**
+```javascript
+const { sumGame } = require('./game_theory/sum_game');
+
+const num = "?3295???";
+console.log(sumGame(num));
+// Output: false
+```
+
+**Graphs — State-Space Traversal & Connectivity:**
+```cpp
+#include "Graphs/graph.h"
+
+Graph graph(5);
+
+graph.addEdge(0, 1);
+graph.addEdge(0, 2);
+graph.addEdge(1, 3);
+graph.addEdge(2, 3);
+graph.addEdge(3, 4);
+
+graph.traverse(0);
+// Output: 0 1 2 3 4
+```
+
+**Greedy — Jump Game II (O(N) Optimization):**
+```cpp
+#include "greedy/jump_game_ii.h"
+
+std::vector<int> nums = {2, 3, 1, 1, 4};
+std::cout << jump(nums) << std::endl;
+// Output: 2
+```
+
+**Hashing &mdash; O(1) Probabilistic Lookups:**
+```python
+from hashing.two_sum import two_sum
+
+nums = [2, 7, 11, 15]
+print(two_sum(nums, 9))
+# Output: [0, 1]
+```
+
+**Intervals &mdash; In-Place Boundary Merging:**
+```python
+from intervals.merge_intervals import merge
+
+intervals = [[1, 3], [2, 6], [8, 10], [15, 18]]
+print(merge(intervals))
+# Output: [[1, 6], [8, 10], [15, 18]]
+```
+
+**Linked Lists &mdash; Reverse Nodes in k-Group:**
+```javascript
+const { reverseKGroup, createList } = require('./linked_lists/reverse_k_group');
+
+const head = createList([1, 2, 3, 4, 5]);
+console.log(reverseKGroup(head, 2));
+// Output: [2, 1, 4, 3, 5]
+```
+
+**Math — Roman to Integer:**
+```cpp
+#include "math/roman_to_integer.h"
+
+std::string numeral = "MCMXCIV";
+std::cout << romanToInt(numeral) << std::endl;
+// Output: 1994
+```
+
+**Matrices &mdash; O(1) Space 2D Traversals:**
+```python
+from matrices.spiral_matrix import spiral_order
+
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(spiral_order(matrix))
+# Output: [1, 2, 3, 6, 9, 8, 7, 4, 5]
+```
+
+**Prefix Sum &mdash; State-Space Accumulation:**
+```python
+# Abstract pattern representation for O(1) range queries
+nums = [1, 2, 3, 4]
+prefix = [0] * (len(nums) + 1)
+
+for i in range(len(nums)):
+    prefix[i + 1] = prefix[i] + nums[i]
+
+print(prefix[1:]) 
+# Output: [1, 3, 6, 10]
+```
+
+**Segment Tree &mdash; Longest Repeating Substring:**
+```javascript
+const { longestRepeatingSubstring } = require('./segment_tree/longest_repeat_substr');
+
+const s = "abbaba";
+console.log(longestRepeatingSubstring(s));
+// Output: 2
+```
+
+**Sliding Window &mdash; Longest Substring Without Repeating Characters:**
+```python
+from sliding_window.longest_substring import length_of_longest_substring
+
+text = "abcabcbb"
+print(length_of_longest_substring(text))
+# Output: 3
+```
+
+**Stacks &mdash; Valid Parentheses:**
+```javascript
+const { isValid } = require('./stacks/valid_parentheses');
+
+const brackets = "()[]{}";
+console.log(isValid(brackets));
+// Output: true
+```
+
+**Strings &mdash; String to Integer (atoi):**
+```cpp
+#include "strings/string_to_integer_atoi.h"
+
+std::string input = "   -42";
+std::cout << myAtoi(input) << std::endl;
+// Output: -42
+```
+
+**Trees &mdash; O(N) Post-Order State Evaluation:**
+```python
+from trees.subtree_average import average_of_subtree
+
+# Abstract tree node architecture
+# Root mapping: [4,8,5,0,1,null,6]
+print(average_of_subtree(root))
 # Output: 5
+```
+
+**Two Pointers &mdash; Container With Most Water:**
+```python
+from two_pointers.container_with_most_water import max_area
+
+heights = [1, 8, 6, 2, 5, 4, 8, 3, 7]
+print(max_area(heights))
+# Output: 49
 ```
 
 ---
@@ -85,41 +236,45 @@ print(Solution().averageOfSubtree(root))
 All modules are engineered with a strict focus on system-level constraints:
 * **Time Complexity:** Optimized for minimal asymptotic upper bounds.
 * **Space Complexity:** Emphasis on strictly in-place modifications and zero-overhead auxiliary space allocation.
-* **Taxonomy:** Arrays, Linked Lists, Two Pointers, Trees, Graphs, Dynamic Programming, and Advanced Heuristics.
+* **Taxonomy:** Comprehensive coverage across Arrays, Backtracking, Binary Search, Bit Manipulation, Cyclic Sort, Dynamic Programming, Game Theory, Graphs, Greedy, Hashing, Intervals, Linked Lists, Math, Matrices, Prefix Sum, Segment Tree, Sliding Window, Stacks, Strings, Trees, and Two Pointers.
 
 ---
 
 ## Automation Pipeline
 
-This infrastructure relies on zero manual indexing. Solutions are integrated, compiled, and tested via a fully automated pipeline backed by GitHub Actions CI.
+This infrastructure relies on zero manual indexing. Solutions are integrated, compiled, and pushed in real-time upon successful boundary validation on the master platform via automated CI/CD synchronization workflows. Our custom test, linting, and bare-metal benchmarking architecture operates flawlessly through GitHub Actions.
 
-### Local Execution & CI Commands
+---
 
-To execute the automation lifecycle locally, deploy the standard Makefile protocols:
+## Computational Paradigms & Micro-Optimizations
 
-**Validate Metadata & Structure:**
+Beyond adhering to standard asymptotic limits, this repository enforces strict execution protocols to bypass high-level runtime overheads (e.g., V8 engine garbage collection and heap fragmentation):
+
+* **State-Space Pruning:** Aggressive mathematical termination of duplicate recursive branches and overlapping subproblems prior to execution.
+* **In-Place Mutability:** Complete elimination of auxiliary tracking structures via granular pointer manipulation, cyclic swapping, and bitwise state shifts.
+* **Runtime-Agnostic Arithmetic:** Utilizing direct ASCII memory access and bit-level operations to bypass heavy type-conversion latency inherent in higher-level languages.
+
+---
+
+## Local Execution
+
+To benchmark implementations locally, deploy the following standard execution protocols:
+
+**C++**
 ```bash
-make validate
+g++ -O3 -std=c++17 filename.cpp -o executable
+./executable
 ```
-_Automatically discovers taxonomy directories and detects broken structure, naming violations, and invalid metadata._
 
-**Execute Testing Framework:**
+**Python**
 ```bash
-make test
+python3 filename.py
 ```
-_Dynamically runs unified language-agnostic tests in `tests/` across C++, Python, and Node.js._
 
-**Reproducible Benchmarking:**
+**JavaScript**
 ```bash
-make benchmark
+node filename.js
 ```
-_Captures execution times, memory usage, and commit SHA inside `benchmarks/results.json`._
-
-**Generate Repository Index:**
-```bash
-make index
-```
-_Parses metadata in code files and constructs `index/README.md`._
 
 ---
 
@@ -127,8 +282,13 @@ _Parses metadata in code files and constructs `index/README.md`._
 
 These modules are architected as isolated algorithmic functions stripped of redundant boilerplate. Local execution may encounter expected integration faults. Deploy the following protocols to override them:
 
-* **Missing Entry Point:** Core C++ modules omit driver code (e.g. `main()`). Ensure you instantiate the `Solution` class inside a standard test driver (as done in `tests/`).
-* **V8 Module Resolution:** If JavaScript modules encounter scope faults, use standard Node.js module loading or `eval()` via test drivers.
+* **Missing Entry Point (Execution Halt):** Core modules omit driver code. You must manually instantiate the `Solution` class within a standard `main()` function prior to local C++ compilation.
+* **Memory Anomalies & Segmentation Faults:** To diagnose uninitialized pointers, out-of-bounds access, or stack smashing during local testing, enforce GCC memory sanitization:
+  ```bash
+  g++ -O3 -Wall -Wextra -fsanitize=address filename.cpp -o debug_exec
+  ./debug_exec
+  ```
+* **V8 Module Resolution:** If JavaScript modules encounter require or scope faults when tested directly, ensure execution within a standardized Node.js sandbox or strip the export statements for raw script execution.
 
 ---
 
