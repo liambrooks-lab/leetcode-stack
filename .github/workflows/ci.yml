@@ -12,6 +12,9 @@ permissions:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
 
     steps:
     - uses: actions/checkout@v4
@@ -42,3 +45,11 @@ jobs:
 
     - name: Generate Index
       run: make index
+
+    - name: Auto-Commit Generated Index & Benchmarks
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add index/ benchmarks/
+        git diff --quiet && git diff --staged --quiet || (git commit -m "chore(bot): auto-update repository index and benchmarks" && git push)
