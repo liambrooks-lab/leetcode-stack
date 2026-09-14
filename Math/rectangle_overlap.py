@@ -1,3 +1,12 @@
+"""
+{
+    "problem_name": "Rectangle Overlap",
+    "category": "Math",
+    "time_complexity": "O(1)",
+    "space_complexity": "O(1)"
+}
+"""
+
 class Solution:
     def isRectangleOverlap(self, rec1: list[int], rec2: list[int]) -> bool:
         # Strict 1D projection intersection across both X and Y axes
