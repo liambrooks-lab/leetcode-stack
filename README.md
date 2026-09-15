@@ -1,34 +1,34 @@
 # leetcode-stack
 
-[![Hindi Translation](https://img.shields.io/badge/%F0%9F%8C%90_%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80_%E0%A4%AE%E0%A5%87%E0%A4%82_%E0%A4%AA%E0%A4%A2%E0%A4%BC%E0%A5%87%E0%A4%82-1081c1?style=for-the-badge)](https://github.com/liambrooks-lab/leetcode-stack/tree/master)
+[![Read in English](https://img.shields.io/badge/%F0%9F%8C%90_Read_in_English-1081c1?style=for-the-badge)](https://github.com/liambrooks-lab/leetcode-stack/tree/main)
 
 ---
-> **A zero-to-one algorithmic infrastructure, independently architected for state-space optimization, advanced data structure engineering, and computational efficiency.**
+> **एक ज़ीरो-टू-वन (0-to-1) एल्गोरिथम इंफ्रास्ट्रक्चर, जिसे स्टेट-स्पेस ऑप्टिमाइज़ेशन, एडवांस्ड डेटा स्ट्रक्चर इंजीनियरिंग और कंप्यूटेशनल एफिशिएंसी के लिए स्वतंत्र रूप से आर्किटेक्ट किया गया है।**
 
-Engineered entirely from the ground up, this repository serves as a systematic archive of rigorous problem-solving. Every algorithmic module is strictly authored to enforce minimal auxiliary space and optimal asymptotic time complexities, reflecting continuous deployment from the LeetCode platform.
-
----
-
-## The Execution Stack
-
-Solutions are architected via a tri-lingual stack, strategically chosen for specific computational paradigms:
-
-* **`C++`** &mdash; Granular memory management, pointer arithmetic, and low-latency execution.
-* **`Python 3`** &mdash; Rapid logic orchestration, advanced built-in data structures, and mathematical modeling.
-* **`JavaScript / Node.js`** &mdash; Asynchronous execution patterns and web-standard logic deployment.
+बिल्कुल ज़मीनी स्तर (ground up) से इंजीनियर की गई यह रिपॉजिटरी कठोर प्रॉब्लम-सॉल्विंग का एक व्यवस्थित आर्काइव है। हर एल्गोरिथम मॉड्यूल को न्यूनतम ऑक्ज़ीलियरी स्पेस (auxiliary space) और इष्टतम एसिम्प्टोटिक टाइम कॉम्प्लेक्सिटी (optimal asymptotic time complexity) लागू करने के लिए सख्ती से लिखा गया है, जो सीधे LeetCode प्लेटफॉर्म से निरंतर डिप्लॉयमेंट को दर्शाता है।
 
 ---
 
-## Architecture & Taxonomy
+## द एग्जीक्यूशन स्टैक (The Execution Stack)
 
-The repository is maintained autonomously and structured strictly by algorithmic taxonomy. Each isolated module typically contains:
-* The raw source code implementation.
-* Problem constraints and edge-case definitions.
-* Execution metrics (Time & Space complexity, synchronized in real-time).
+सॉल्यूशंस को एक ट्राई-लिंगुअल (tri-lingual) स्टैक के माध्यम से आर्किटेक्ट किया गया है, जिन्हें विशिष्ट कंप्यूटेशनल पैमानों के लिए रणनीतिक रूप से चुना गया है:
 
-### Snippets
+* **`C++`** &mdash; ग्रैन्युलर मेमोरी मैनेजमेंट, पॉइंटर अरिथमेटिक, और लो-लेटेंसी एग्जीक्यूशन।
+* **`Python 3`** &mdash; रैपिड लॉजिक ऑर्केस्ट्रेशन, एडवांस्ड बिल्ट-इन डेटा स्ट्रक्चर्स, और गणितीय मॉडलिंग।
+* **`JavaScript / Node.js`** &mdash; एसिंक्रोनस एग्जीक्यूशन पैटर्न्स और वेब-स्टैंडर्ड लॉजिक डिप्लॉयमेंट।
 
-**Arrays &mdash; State-Space Grouping:**
+---
+
+## आर्किटेक्चर और टैक्सोनॉमी
+
+यह रिपॉजिटरी स्वायत्त (autonomously) रूप से मेंटेन की जाती है और सख्ती से एल्गोरिथम टैक्सोनॉमी के आधार पर संरचित है। प्रत्येक आइसोलेटेड मॉड्यूल में आमतौर पर शामिल हैं:
+* रॉ (raw) सोर्स कोड इम्प्लीमेंटेशन।
+* प्रॉब्लम कंस्ट्रेंट्स और एज-केस डेफिनेशन्स।
+* एग्जीक्यूशन मेट्रिक्स (टाइम और स्पेस कॉम्प्लेक्सिटी, रीयल-टाइम में सिंक्रोनाइज़्ड)।
+
+### स्निपेट्स (Snippets)
+
+**एरेज़ (Arrays) &mdash; स्टेट-स्पेस ग्रुपिंग:**
 ```python
 from arrays.lexicographically_smallest_array import lexicographically_smallest_array
 
@@ -37,7 +37,7 @@ print(lexicographically_smallest_array(nums, 2))
 # Output: [1, 3, 5, 8, 9]
 ```
 
-**Backtracking &mdash; Generate Parentheses:**
+**बैकट्रैकिंग (Backtracking) &mdash; पैरेन्थेसिस जनरेशन:**
 ```javascript
 const { generateParenthesis } = require('./backtracking/gen_parentheses');
 
@@ -46,7 +46,7 @@ console.log(generateParenthesis(n));
 // Output: [ '((()))', '(()())', '(())()', '()(())', '()()()' ]
 ```
 
-**Binary Search &mdash; Median of Two Sorted Arrays:**
+**बाइनरी सर्च (Binary Search) &mdash; दो सॉर्टेड एरेज़ का मीडियन:**
 ```cpp
 #include "binary_search/median_sorted_arrays.h"
 
@@ -56,7 +56,7 @@ std::cout << findMedianSortedArrays(nums1, nums2) << std::endl;
 // Output: 2.0
 ```
 
-**Bit Manipulation — Bitwise Operations Engine:**
+**बिट मैनिपुलेशन (Bit Manipulation) — बिटवाइज़ ऑपरेशंस इंजन:**
 ```javascript
 // Executed strictly via bitwise state shifts to bypass heavy arithmetic
 const n = 16; // 10000 in binary
@@ -66,7 +66,7 @@ console.log(isPowerOfTwo);
 // Output: true
 ```
 
-**Cyclic Sort &mdash; First Missing Positive (O(1) Auxiliary Space):**
+**साइक्लिक सॉर्ट (Cyclic Sort) &mdash; फर्स्ट मिसिंग पॉज़िटिव (O(1) ऑक्ज़ीलियरी स्पेस):**
 ```javascript
 const { firstMissingPositive } = require('./Cyclic_Sort/first_missing_positive');
 
@@ -75,7 +75,7 @@ console.log(firstMissingPositive(nums));
 // Output: 2
 ```
 
-**Dynamic Programming &mdash; Regular Expression Matching:**
+**डायनामिक प्रोग्रामिंग (Dynamic Programming) &mdash; रेगुलर एक्सप्रेशन मैचिंग:**
 ```python
 from dynamic_programming.regex_matching import is_match
 
@@ -85,7 +85,7 @@ print(is_match(string_val, pattern))
 # Output: True
 ```
 
-**Game Theory &mdash; Sum Game:**
+**गेम थ्योरी (Game Theory) &mdash; सम गेम:**
 ```javascript
 const { sumGame } = require('./game_theory/sum_game');
 
@@ -94,7 +94,7 @@ console.log(sumGame(num));
 // Output: false
 ```
 
-**Graphs — State-Space Traversal & Connectivity:**
+**ग्राफ्स (Graphs) — स्टेट-स्पेस ट्रैवर्सल और कनेक्टिविटी:**
 ```cpp
 #include "Graphs/graph.h"
 
@@ -110,7 +110,7 @@ graph.traverse(0);
 // Output: 0 1 2 3 4
 ```
 
-**Greedy — Jump Game II (O(N) Optimization):**
+**ग्रीडी (Greedy) — जंप गेम II (O(N) ऑप्टिमाइज़ेशन):**
 ```cpp
 #include "greedy/jump_game_ii.h"
 
@@ -119,7 +119,7 @@ std::cout << jump(nums) << std::endl;
 // Output: 2
 ```
 
-**Hashing &mdash; O(1) Probabilistic Lookups:**
+**हैशिंग (Hashing) &mdash; O(1) प्रोबेबिलिस्टिक लुकअप्स:**
 ```python
 from hashing.two_sum import two_sum
 
@@ -128,7 +128,7 @@ print(two_sum(nums, 9))
 # Output: [0, 1]
 ```
 
-**Intervals &mdash; In-Place Boundary Merging:**
+**इंटरवल (Intervals) &mdash; इन-प्लेस बाउंड्री मर्जिंग:**
 ```python
 from intervals.merge_intervals import merge
 
@@ -137,7 +137,7 @@ print(merge(intervals))
 # Output: [[1, 6], [8, 10], [15, 18]]
 ```
 
-**Linked Lists &mdash; Reverse Nodes in k-Group:**
+**लिंक्ड लिस्ट्स (Linked Lists) &mdash; रिवर्स नोड्स इन k-ग्रुप:**
 ```javascript
 const { reverseKGroup, createList } = require('./linked_lists/reverse_k_group');
 
@@ -146,7 +146,7 @@ console.log(reverseKGroup(head, 2));
 // Output: [2, 1, 4, 3, 5]
 ```
 
-**Math — Roman to Integer:**
+**मैथ (Math) — रोमन टू इंटीजर:**
 ```cpp
 #include "math/roman_to_integer.h"
 
@@ -155,7 +155,7 @@ std::cout << romanToInt(numeral) << std::endl;
 // Output: 1994
 ```
 
-**Matrices &mdash; O(1) Space 2D Traversals:**
+**मैट्रिसेस (Matrices) &mdash; O(1) स्पेस 2D ट्रैवर्सल:**
 ```python
 from matrices.spiral_matrix import spiral_order
 
@@ -164,7 +164,7 @@ print(spiral_order(matrix))
 # Output: [1, 2, 3, 6, 9, 8, 7, 4, 5]
 ```
 
-**Prefix Sum &mdash; State-Space Accumulation:**
+**प्रीफिक्स सम (Prefix Sum) &mdash; स्टेट-स्पेस एक्यूमुलेशन:**
 ```python
 # Abstract pattern representation for O(1) range queries
 nums = [1, 2, 3, 4]
@@ -177,7 +177,7 @@ print(prefix[1:])
 # Output: [1, 3, 6, 10]
 ```
 
-**Segment Tree &mdash; Longest Repeating Substring:**
+**सेगमेंट ट्री (Segment Tree) &mdash; लॉन्गेस्ट रिपीटिंग सबस्ट्रिंग:**
 ```javascript
 const { longestRepeatingSubstring } = require('./segment_tree/longest_repeat_substr');
 
@@ -186,7 +186,7 @@ console.log(longestRepeatingSubstring(s));
 // Output: 2
 ```
 
-**Sliding Window &mdash; Longest Substring Without Repeating Characters:**
+**स्लाइडिंग विंडो (Sliding Window) &mdash; लॉन्गेस्ट सबस्ट्रिंग विदाउट रिपीटिंग कैरेक्टर्स:**
 ```python
 from sliding_window.longest_substring import length_of_longest_substring
 
@@ -195,7 +195,7 @@ print(length_of_longest_substring(text))
 # Output: 3
 ```
 
-**Stacks &mdash; Valid Parentheses:**
+**स्टैक्स (Stacks) &mdash; वैलिड पैरेन्थेसिस:**
 ```javascript
 const { isValid } = require('./stacks/valid_parentheses');
 
@@ -204,7 +204,7 @@ console.log(isValid(brackets));
 // Output: true
 ```
 
-**Strings &mdash; String to Integer (atoi):**
+**स्ट्रिंग्स (Strings) &mdash; स्ट्रिंग टू इंटीजर (atoi):**
 ```cpp
 #include "strings/string_to_integer_atoi.h"
 
@@ -213,7 +213,7 @@ std::cout << myAtoi(input) << std::endl;
 // Output: -42
 ```
 
-**Trees &mdash; O(N) Post-Order State Evaluation:**
+**ट्रीज़ (Trees) &mdash; O(N) पोस्ट-ऑर्डर स्टेट इवैल्यूएशन:**
 ```python
 from trees.subtree_average import average_of_subtree
 
@@ -223,7 +223,7 @@ print(average_of_subtree(root))
 # Output: 5
 ```
 
-**Two Pointers &mdash; Container With Most Water:**
+**टू पॉइंटर्स (Two Pointers) &mdash; कंटेनर विद मोस्ट वाटर:**
 ```python
 from two_pointers.container_with_most_water import max_area
 
@@ -234,34 +234,34 @@ print(max_area(heights))
 
 ---
 
-## Engineering Standards
+## इंजीनियरिंग स्टैंडर्ड्स (Engineering Standards)
 
-All modules are engineered with a strict focus on system-level constraints:
-* **Time Complexity:** Optimized for minimal asymptotic upper bounds.
-* **Space Complexity:** Emphasis on strictly in-place modifications and zero-overhead auxiliary space allocation.
-* **Taxonomy:** Comprehensive coverage across Arrays, Backtracking, Binary Search, Bit Manipulation, Cyclic Sort, Dynamic Programming, Game Theory, Graphs, Greedy, Hashing, Intervals, Linked Lists, Math, Matrices, Prefix Sum, Segment Tree, Sliding Window, Stacks, Strings, Trees, and Two Pointers.
-
----
-
-## Automation Pipeline
-
-This infrastructure relies on zero manual indexing. Solutions are integrated, compiled, and pushed in real-time upon successful boundary validation on the master platform via automated CI/CD synchronization workflows. Our custom test, linting, and bare-metal benchmarking architecture operates flawlessly through GitHub Actions.
+सभी मॉड्यूल्स को सिस्टम-लेवल कंस्ट्रेंट्स पर सख्त फोकस के साथ इंजीनियर किया गया है:
+* **टाइम कॉम्प्लेक्सिटी:** न्यूनतम एसिम्प्टोटिक अपर बाउंड्स के लिए ऑप्टिमाइज़्ड।
+* **स्पेस कॉम्प्लेक्सिटी:** पूरी तरह से इन-प्लेस मोडिफिकेशन्स और ज़ीरो-ओवरहेड ऑक्ज़ीलियरी स्पेस एलोकेशन पर ज़ोर।
+* **टैक्सोनॉमी:** Arrays, Backtracking, Binary Search, Bit Manipulation, Cyclic Sort, Dynamic Programming, Game Theory, Graphs, Greedy, Hashing, Intervals, Linked Lists, Math, Matrices, Prefix Sum, Segment Tree, Sliding Window, Stacks, Strings, Trees, और Two Pointers में व्यापक कवरेज।
 
 ---
 
-## Computational Paradigms & Micro-Optimizations
+## ऑटोमेशन पाइपलाइन
 
-Beyond adhering to standard asymptotic limits, this repository enforces strict execution protocols to bypass high-level runtime overheads (e.g., V8 engine garbage collection and heap fragmentation):
-
-* **State-Space Pruning:** Aggressive mathematical termination of duplicate recursive branches and overlapping subproblems prior to execution.
-* **In-Place Mutability:** Complete elimination of auxiliary tracking structures via granular pointer manipulation, cyclic swapping, and bitwise state shifts.
-* **Runtime-Agnostic Arithmetic:** Utilizing direct ASCII memory access and bit-level operations to bypass heavy type-conversion latency inherent in higher-level languages.
+यह इंफ्रास्ट्रक्चर ज़ीरो मैनुअल इंडेक्सिंग पर निर्भर करता है। ऑटोमेटेड CI/CD सिंक्रोनाइज़ेशन वर्कफ़्लो के माध्यम से मास्टर प्लेटफॉर्म पर सफल बाउंड्री वैलिडेशन के बाद सॉल्यूशंस को रीयल-टाइम में इंटीग्रेट, कंपाइल और पुश किया जाता है। हमारा कस्टम टेस्ट, लिंटिंग, और बेयर-मेटल बेंचमार्किंग आर्किटेक्चर GitHub Actions के ज़रिए त्रुटिहीन (flawlessly) काम करता है।
 
 ---
 
-## Local Execution
+## कंप्यूटेशनल पैराडाइम्स और माइक्रो-ऑप्टिमाइज़ेशन्स
 
-To benchmark implementations locally, deploy the following standard execution protocols:
+मानक एसिम्प्टोटिक लिमिट्स का पालन करने के अलावा, यह रिपॉजिटरी हाई-लेवल रनटाइम ओवरहेड्स (जैसे V8 इंजन गार्बेज कलेक्शन और हीप फ्रैगमेंटेशन) को बायपास करने के लिए सख्त एग्जीक्यूशन प्रोटोकॉल लागू करती है:
+
+* **स्टेट-स्पेस प्रूनिंग:** एग्जीक्यूशन से पहले डुप्लीकेट रिकर्सिव ब्रांचेस और ओवरलैपिंग सबप्रॉब्लम्स का आक्रामक गणितीय टर्मिनेशन (termination)।
+* **इन-प्लेस म्यूटेबिलिटी:** ग्रैन्युलर पॉइंटर मैनिपुलेशन, साइक्लिक स्वैपिंग और बिटवाइज़ स्टेट शिफ्ट्स के ज़रिए ऑक्ज़ीलियरी ट्रैकिंग स्ट्रक्चर्स का पूर्ण उन्मूलन (elimination)।
+* **रनटाइम-एग्नोस्टिक अरिथमेटिक:** हाई-लेवल भाषाओं में मौजूद भारी टाइप-कन्वर्ज़न लेटेंसी को बायपास करने के लिए सीधे ASCII मेमोरी एक्सेस और बिट-लेवल ऑपरेशंस का उपयोग।
+
+---
+
+## लोकल एग्जीक्यूशन (Local Execution)
+
+इम्प्लीमेंटेशन्स को लोकली बेंचमार्क करने के लिए, निम्नलिखित स्टैंडर्ड एग्जीक्यूशन प्रोटोकॉल्स डिप्लॉय करें:
 
 **C++**
 ```bash
@@ -281,17 +281,17 @@ node filename.js
 
 ---
 
-## Fault Tolerance
+## फॉल्ट टॉलरेंस (Fault Tolerance)
 
-These modules are architected as isolated algorithmic functions stripped of redundant boilerplate. Local execution may encounter expected integration faults. Deploy the following protocols to override them:
+इन मॉड्यूल्स को अनावश्यक बॉयलरप्लेट से मुक्त आइसोलेटेड एल्गोरिथम फ़ंक्शन्स के रूप में आर्किटेक्ट किया गया है। लोकल एग्जीक्यूशन में अपेक्षित इंटीग्रेशन फॉल्ट्स आ सकते हैं। उन्हें ओवरराइड करने के लिए निम्नलिखित प्रोटोकॉल डिप्लॉय करें:
 
-* **Missing Entry Point (Execution Halt):** Core modules omit driver code. You must manually instantiate the `Solution` class within a standard `main()` function prior to local C++ compilation.
-* **Memory Anomalies & Segmentation Faults:** To diagnose uninitialized pointers, out-of-bounds access, or stack smashing during local testing, enforce GCC memory sanitization:
+* **मिसिंग एंट्री पॉइंट:** कोर मॉड्यूल्स में ड्राइवर कोड नहीं होता है। आपको लोकल C++ कंपाइलेशन से पहले एक स्टैंडर्ड `main()` फ़ंक्शन के भीतर मैन्युअली `Solution` क्लास को इंस्टेंशिएट (instantiate) करना होगा।
+* **मेमोरी एनोमलीज़ और सेगमेंटेशन फॉल्ट्स:** अनइनिशियलाइज़्ड पॉइंटर्स, आउट-ऑफ़-बाउंड्स एक्सेस, या स्टैक स्मैशिंग को डायग्नोस करने के लिए, GCC मेमोरी सैनिटाइज़ेशन लागू करें:
   ```bash
   g++ -O3 -Wall -Wextra -fsanitize=address filename.cpp -o debug_exec
   ./debug_exec
   ```
-* **V8 Module Resolution:** If JavaScript modules encounter require or scope faults when tested directly, ensure execution within a standardized Node.js sandbox or strip the export statements for raw script execution.
+* **V8 मॉड्यूल रिज़ॉल्यूशन:** यदि JavaScript मॉड्यूल्स को सीधे टेस्ट करते समय रिक्वायर या स्कोप फॉल्ट्स आते हैं, तो सुनिश्चित करें कि एग्जीक्यूशन एक स्टैंडर्डाइज़्ड Node.js सैंडबॉक्स के भीतर हो, या रॉ स्क्रिप्ट एग्जीक्यूशन के लिए एक्सपोर्ट स्टेटमेंट्स हटा दें।
 
 ---
 
