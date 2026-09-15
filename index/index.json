@@ -581,6 +581,13 @@
     "file": "Greedy/next_permutation.py"
   },
   {
+    "problem_name": "Maximum Number of Non-overlapping Palindrome Substrings",
+    "category": "Greedy",
+    "time_complexity": "O(N * K)",
+    "space_complexity": "O(1)",
+    "file": "Greedy/max_no_of_non_overlapping_palindrome_substrings.cpp"
+  },
+  {
     "problem_name": "Jump Game Ii",
     "category": "Greedy",
     "time_complexity": "O(N)",
