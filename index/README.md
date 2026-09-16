@@ -124,6 +124,7 @@ Automatically generated problem index.
 | Integer To Roman | `O(N)` | `O(1)` | [integer_to_roman.js](../Math/integer_to_roman.js) |
 | Missing Multiple | `O(N)` | `O(1)` | [missing_multiple.cpp](../Math/missing_multiple.cpp) |
 | Number Of Commas | `O(N)` | `O(1)` | [number_of_commas.py](../Math/number_of_commas.py) |
+| Number of Sets of K Non-Overlapping Line Segments | `O(K)` | `O(1)` | [k_non_overlapping_line_segments.cpp](../Math/k_non_overlapping_line_segments.cpp) |
 | Palindrome No | `O(N)` | `O(1)` | [palindrome_no.cpp](../Math/palindrome_no.cpp) |
 | Permutation Sequence | `O(N)` | `O(1)` | [permutation_sequence.cpp](../Math/permutation_sequence.cpp) |
 | Pow X N | `O(N)` | `O(1)` | [pow_x_n.py](../Math/pow_x_n.py) |

@@ -56,6 +56,13 @@
     "file": "Math/palindrome_no.cpp"
   },
   {
+    "problem_name": "Number of Sets of K Non-Overlapping Line Segments",
+    "category": "Math",
+    "time_complexity": "O(K)",
+    "space_complexity": "O(1)",
+    "file": "Math/k_non_overlapping_line_segments.cpp"
+  },
+  {
     "problem_name": "Roman To Integer",
     "category": "Math",
     "time_complexity": "O(N)",
