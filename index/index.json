@@ -203,6 +203,13 @@
     "file": "Sliding_Window/longest_subarray_k_freq.py"
   },
   {
+    "problem_name": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
+    "category": "Sliding Window",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(N)",
+    "file": "Sliding_Window/min_sum_of_lengths.cpp"
+  },
+  {
     "problem_name": "Max Len Substr 2 Occ",
     "category": "Sliding_Window",
     "time_complexity": "O(N)",

@@ -159,6 +159,12 @@ Automatically generated problem index.
 |---|---|---|---|
 | Longest Repeat Substr | `O(N)` | `O(1)` | [longest_repeat_substr.js](../Segment_Tree/longest_repeat_substr.js) |
 
+## Sliding Window
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Find Two Non-overlapping Sub-arrays Each With Target Sum | `O(N)` | `O(N)` | [min_sum_of_lengths.cpp](../Sliding_Window/min_sum_of_lengths.cpp) |
+
 ## Sliding_Window
 
 | Problem | Time Complexity | Space Complexity | File |
