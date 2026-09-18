@@ -82,6 +82,7 @@ Automatically generated problem index.
 | Jump Game Ii | `O(N)` | `O(1)` | [jump_game_ii.cpp](../Greedy/jump_game_ii.cpp) |
 | Lex Greater Permutation | `O(N)` | `O(1)` | [lex_greater_permutation.py](../Greedy/lex_greater_permutation.py) |
 | Lexicographically Smallest Valid Sequence | `O(N)` | `O(1)` | [lexicographically_smallest_valid_sequence.cpp](../Greedy/lexicographically_smallest_valid_sequence.cpp) |
+| Maximum Number of Non-Overlapping Substrings | `O(N)` | `O(1)` | [max_non_overlapping_substrings.py](../Greedy/max_non_overlapping_substrings.py) |
 | Maximum Number of Non-overlapping Palindrome Substrings | `O(N * K)` | `O(1)` | [max_no_of_non_overlapping_palindrome_substrings.cpp](../Greedy/max_no_of_non_overlapping_palindrome_substrings.cpp) |
 | Min Deletions Min Max | `O(N)` | `O(1)` | [min_deletions_min_max.cpp](../Greedy/min_deletions_min_max.cpp) |
 | Next Permutation | `O(N)` | `O(1)` | [next_permutation.py](../Greedy/next_permutation.py) |
