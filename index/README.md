@@ -120,6 +120,7 @@ Automatically generated problem index.
 | Problem | Time Complexity | Space Complexity | File |
 |---|---|---|---|
 | Array Parity Construct | `O(N)` | `O(1)` | [array_parity_construct.js](../Math/array_parity_construct.js) |
+| Circle and Rectangle Overlapping | `O(1)` | `O(1)` | [circle_and_rectangle_overlapping.cpp](../Math/circle_and_rectangle_overlapping.cpp) |
 | Divide Integers Alu | `O(N)` | `O(1)` | [divide_integers_alu.js](../Math/divide_integers_alu.js) |
 | Divisible By Sum Product | `O(N)` | `O(1)` | [divisible_by_sum_product.cpp](../Math/divisible_by_sum_product.cpp) |
 | Integer To Roman | `O(N)` | `O(1)` | [integer_to_roman.js](../Math/integer_to_roman.js) |

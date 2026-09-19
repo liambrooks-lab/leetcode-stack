@@ -77,6 +77,13 @@
     "file": "Math/divisible_by_sum_product.cpp"
   },
   {
+    "problem_name": "Circle and Rectangle Overlapping",
+    "category": "Math",
+    "time_complexity": "O(1)",
+    "space_complexity": "O(1)",
+    "file": "Math/circle_and_rectangle_overlapping.cpp"
+  },
+  {
     "problem_name": "Smallest Divisible Digit Product Ii",
     "category": "Math",
     "time_complexity": "O(N)",
