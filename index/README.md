@@ -193,6 +193,7 @@ Automatically generated problem index.
 | Longest Common Prefix | `O(N)` | `O(1)` | [longest_common_prefix.py](../Strings/longest_common_prefix.py) |
 | Multiply Strings | `O(N)` | `O(1)` | [multiply_strings.py](../Strings/multiply_strings.py) |
 | Next Greater Palindrome | `O(N)` | `O(1)` | [next_greater_palindrome.py](../Strings/next_greater_palindrome.py) |
+| Reverse Degree of a String | `O(N)` | `O(1)` | [reverse_degree_of_a_string.cpp](../Strings/reverse_degree_of_a_string.cpp) |
 | Shortest Beautiful Substring | `O(N)` | `O(1)` | [shortest_beautiful_substring.js](../Strings/shortest_beautiful_substring.js) |
 | String To Integer Atoi | `O(N)` | `O(1)` | [string_to_integer_atoi.cpp](../Strings/string_to_integer_atoi.cpp) |
 | Wildcard Matching | `O(N)` | `O(1)` | [wildcard_matching.cpp](../Strings/wildcard_matching.cpp) |

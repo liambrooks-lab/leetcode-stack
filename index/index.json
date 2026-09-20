@@ -133,6 +133,13 @@
     "file": "Graphs/shortest_path_cleanup_bitmask.cpp"
   },
   {
+    "problem_name": "Reverse Degree of a String",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/reverse_degree_of_a_string.cpp"
+  },
+  {
     "problem_name": "Wildcard Matching",
     "category": "Strings",
     "time_complexity": "O(N)",
