@@ -47,6 +47,12 @@ Automatically generated problem index.
 |---|---|---|---|
 | First Missing Positive | `O(N)` | `O(1)` | [first_missing_positive.js](../Cyclic_Sort/first_missing_positive.js) |
 
+## Dynamic Programming
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Find X-Values of Subarrays Modulo K | `O(N * K)` | `O(K)` | [find_x_values_modulo_k.cpp](../Dynamic_Programming/find_x_values_modulo_k.cpp) |
+
 ## Dynamic_Programming
 
 | Problem | Time Complexity | Space Complexity | File |
