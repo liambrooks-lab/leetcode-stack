@@ -161,6 +161,12 @@ Automatically generated problem index.
 | Sequential Prefix Sum | `O(N)` | `O(1)` | [sequential_prefix_sum.py](../Prefix_Sum/sequential_prefix_sum.py) |
 | Smallest Stable Index | `O(N)` | `O(1)` | [smallest_stable_index.js](../Prefix_Sum/smallest_stable_index.js) |
 
+## Segment Tree
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Find X-Values of Subarrays Modulo K (Range Queries) | `O(N + Q \log N)` | `O(N * K)` | [x_values_modulo_k_queries.cpp](../Segment_Tree/x_values_modulo_k_queries.cpp) |
+
 ## Segment_Tree
 
 | Problem | Time Complexity | Space Complexity | File |

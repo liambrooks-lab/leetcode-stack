@@ -273,6 +273,13 @@
     "file": "Hashing/group_anagrams.py"
   },
   {
+    "problem_name": "Find X-Values of Subarrays Modulo K (Range Queries)",
+    "category": "Segment Tree",
+    "time_complexity": "O(N + Q \\log N)",
+    "space_complexity": "O(N * K)",
+    "file": "Segment_Tree/x_values_modulo_k_queries.cpp"
+  },
+  {
     "problem_name": "Longest Repeat Substr",
     "category": "Segment_Tree",
     "time_complexity": "O(N)",
