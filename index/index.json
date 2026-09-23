@@ -224,6 +224,13 @@
     "file": "Sliding_Window/min_sum_of_lengths.cpp"
   },
   {
+    "problem_name": "Minimum Operations to Reduce X to Zero",
+    "category": "Sliding Window",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Sliding_Window/min_operations_reduce_x_to_zero.py"
+  },
+  {
     "problem_name": "Max Len Substr 2 Occ",
     "category": "Sliding_Window",
     "time_complexity": "O(N)",
