@@ -140,6 +140,7 @@ Automatically generated problem index.
 | Reverse Integer | `O(N)` | `O(1)` | [reverse_integer.cpp](../Math/reverse_integer.cpp) |
 | Roman To Integer | `O(N)` | `O(1)` | [roman_to_integer.py](../Math/roman_to_integer.py) |
 | Smallest Divisible Digit Product Ii | `O(N)` | `O(1)` | [smallest_divisible_digit_product_ii.cpp](../Math/smallest_divisible_digit_product_ii.cpp) |
+| Smallest Index With Equal Sum | `O(1)` | `O(1)` | [smallest_index_with_equal_sum.py](../Math/smallest_index_with_equal_sum.py) |
 | Three Digit Even Count | `O(N)` | `O(1)` | [three_digit_even_count.py](../Math/three_digit_even_count.py) |
 | Uniform Parity Array Ii | `O(N)` | `O(1)` | [uniform_parity_array_ii.js](../Math/uniform_parity_array_ii.js) |
 | Unique Paths | `O(N)` | `O(1)` | [unique_paths.py](../Math/unique_paths.py) |

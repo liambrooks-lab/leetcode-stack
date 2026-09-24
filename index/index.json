@@ -1,311 +1,269 @@
 [
   {
-    "problem_name": "Three Digit Even Count",
-    "category": "Math",
+    "problem_name": "Trapping Rain Water",
+    "category": "Two_Pointers",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Math/three_digit_even_count.py"
+    "file": "Two_Pointers/trapping_rain_water.py"
   },
   {
-    "problem_name": "Divide Integers Alu",
-    "category": "Math",
+    "problem_name": "Rm Element",
+    "category": "Two_Pointers",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Math/divide_integers_alu.js"
+    "file": "Two_Pointers/rm_element.py"
   },
   {
-    "problem_name": "Unique Paths",
-    "category": "Math",
+    "problem_name": "Rm Duplicates",
+    "category": "Two_Pointers",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Math/unique_paths.py"
+    "file": "Two_Pointers/rm_duplicates.py"
   },
   {
-    "problem_name": "Missing Multiple",
-    "category": "Math",
+    "problem_name": "Three Sum",
+    "category": "Two_Pointers",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Math/missing_multiple.cpp"
+    "file": "Two_Pointers/three_sum.py"
   },
   {
-    "problem_name": "Pow X N",
-    "category": "Math",
+    "problem_name": "Four Sum",
+    "category": "Two_Pointers",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Math/pow_x_n.py"
+    "file": "Two_Pointers/four_sum.py"
   },
   {
-    "problem_name": "Uniform Parity Array Ii",
-    "category": "Math",
+    "problem_name": "Three Sum Closest",
+    "category": "Two_Pointers",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Math/uniform_parity_array_ii.js"
+    "file": "Two_Pointers/three_sum_closest.py"
   },
   {
-    "problem_name": "Integer To Roman",
-    "category": "Math",
+    "problem_name": "Longest Palindromic Substring",
+    "category": "Two_Pointers",
+    "time_complexity": "O(N^2)",
+    "space_complexity": "O(1)",
+    "file": "Two_Pointers/longest_palindromic_substring.cpp"
+  },
+  {
+    "problem_name": "Container With Most Water",
+    "category": "Two_Pointers",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Math/integer_to_roman.js"
+    "file": "Two_Pointers/container_with_most_water.js"
   },
   {
-    "problem_name": "Palindrome No",
-    "category": "Math",
+    "problem_name": "Distribute Elements I",
+    "category": "Arrays",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Math/palindrome_no.cpp"
+    "file": "Arrays/distribute_elements_i.js"
   },
   {
-    "problem_name": "Number of Sets of K Non-Overlapping Line Segments",
-    "category": "Math",
-    "time_complexity": "O(K)",
-    "space_complexity": "O(1)",
-    "file": "Math/k_non_overlapping_line_segments.cpp"
-  },
-  {
-    "problem_name": "Roman To Integer",
-    "category": "Math",
+    "problem_name": "Largest Almost Missing Integer",
+    "category": "Arrays",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Math/roman_to_integer.py"
+    "file": "Arrays/largest_almost_missing_integer.py"
   },
   {
-    "problem_name": "Divisible By Sum Product",
-    "category": "Math",
+    "problem_name": "Lexicographically Smallest Array",
+    "category": "Arrays",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Math/divisible_by_sum_product.cpp"
+    "file": "Arrays/lexicographically_smallest_array.py"
   },
   {
-    "problem_name": "Circle and Rectangle Overlapping",
-    "category": "Math",
-    "time_complexity": "O(1)",
-    "space_complexity": "O(1)",
-    "file": "Math/circle_and_rectangle_overlapping.cpp"
-  },
-  {
-    "problem_name": "Smallest Divisible Digit Product Ii",
-    "category": "Math",
+    "problem_name": "Valid Parentheses",
+    "category": "Stacks",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Math/smallest_divisible_digit_product_ii.cpp"
+    "file": "Stacks/valid_parentheses.js"
   },
   {
-    "problem_name": "Rectangle Overlap",
-    "category": "Math",
-    "time_complexity": "O(1)",
-    "space_complexity": "O(1)",
-    "file": "Math/rectangle_overlap.py"
-  },
-  {
-    "problem_name": "Number Of Commas",
-    "category": "Math",
+    "problem_name": "Longest Valid Parentheses",
+    "category": "Stacks",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Math/number_of_commas.py"
+    "file": "Stacks/longest_valid_parentheses.py"
   },
   {
-    "problem_name": "Permutation Sequence",
-    "category": "Math",
+    "problem_name": "Sum Game",
+    "category": "Game_Theory",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Math/permutation_sequence.cpp"
+    "file": "Game_Theory/sum_game.js"
   },
   {
-    "problem_name": "Reverse Integer",
-    "category": "Math",
+    "problem_name": "Stone Game Vii",
+    "category": "Game_Theory",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Math/reverse_integer.cpp"
+    "file": "Game_Theory/stone_game_vii.cpp"
   },
   {
-    "problem_name": "Array Parity Construct",
-    "category": "Math",
+    "problem_name": "Stone Game Ii",
+    "category": "Game_Theory",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Math/array_parity_construct.js"
+    "file": "Game_Theory/stone_game_ii.cpp"
   },
   {
-    "problem_name": "Shortest Path Cleanup Bitmask",
-    "category": "Graphs",
-    "time_complexity": "O(V + E)",
-    "space_complexity": "O(V + E)",
-    "file": "Graphs/shortest_path_cleanup_bitmask.cpp"
-  },
-  {
-    "problem_name": "Reverse Degree of a String",
-    "category": "Strings",
+    "problem_name": "Stone Game Ix",
+    "category": "Game_Theory",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/reverse_degree_of_a_string.cpp"
+    "file": "Game_Theory/stone_game_ix.py"
   },
   {
-    "problem_name": "Wildcard Matching",
-    "category": "Strings",
+    "problem_name": "Stone Game V",
+    "category": "Game_Theory",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/wildcard_matching.cpp"
+    "file": "Game_Theory/stone_game_v.py"
   },
   {
-    "problem_name": "String To Integer Atoi",
-    "category": "Strings",
+    "problem_name": "Stone Game Iv",
+    "category": "Game_Theory",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/string_to_integer_atoi.cpp"
+    "file": "Game_Theory/stone_game_iv.cpp"
   },
   {
-    "problem_name": "Shortest Beautiful Substring",
-    "category": "Strings",
+    "problem_name": "Cinema Seat Allocation",
+    "category": "Bit_Manipulation",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/shortest_beautiful_substring.js"
+    "file": "Bit_Manipulation/cinema_seat_allocation.py"
   },
   {
-    "problem_name": "Count And Say",
-    "category": "Strings",
+    "problem_name": "Longest Nonzero Xor",
+    "category": "Bit_Manipulation",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/count_and_say.py"
+    "file": "Bit_Manipulation/longest_nonzero_xor.js"
   },
   {
-    "problem_name": "Length Of Last Word",
-    "category": "Strings",
+    "problem_name": "Lexicographically Smallest Valid Sequence",
+    "category": "Greedy",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/length_of_last_word.py"
+    "file": "Greedy/lexicographically_smallest_valid_sequence.cpp"
   },
   {
-    "problem_name": "Zigzag Conversion",
-    "category": "Strings",
+    "problem_name": "Maximum Number of Non-overlapping Palindrome Substrings",
+    "category": "Greedy",
+    "time_complexity": "O(N * K)",
+    "space_complexity": "O(1)",
+    "file": "Greedy/max_no_of_non_overlapping_palindrome_substrings.cpp"
+  },
+  {
+    "problem_name": "Jump Game",
+    "category": "Greedy",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/zigzag_conversion.cpp"
+    "file": "Greedy/jump_game.py"
   },
   {
-    "problem_name": "Longest Common Prefix",
-    "category": "Strings",
+    "problem_name": "Next Permutation",
+    "category": "Greedy",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/longest_common_prefix.py"
+    "file": "Greedy/next_permutation.py"
   },
   {
-    "problem_name": "First Occurrence Str",
-    "category": "Strings",
+    "problem_name": "Lex Greater Permutation",
+    "category": "Greedy",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/first_occurrence_str.js"
+    "file": "Greedy/lex_greater_permutation.py"
   },
   {
-    "problem_name": "Next Greater Palindrome",
-    "category": "Strings",
+    "problem_name": "Maximum Number of Non-Overlapping Substrings",
+    "category": "Greedy",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/next_greater_palindrome.py"
+    "file": "Greedy/max_non_overlapping_substrings.py"
   },
   {
-    "problem_name": "Multiply Strings",
-    "category": "Strings",
+    "problem_name": "Jump Game Ii",
+    "category": "Greedy",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/multiply_strings.py"
+    "file": "Greedy/jump_game_ii.cpp"
   },
   {
-    "problem_name": "Longest Subarray K Freq",
-    "category": "Sliding_Window",
+    "problem_name": "Min Deletions Min Max",
+    "category": "Greedy",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Sliding_Window/longest_subarray_k_freq.py"
+    "file": "Greedy/min_deletions_min_max.cpp"
   },
   {
-    "problem_name": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
-    "category": "Sliding Window",
-    "time_complexity": "O(N)",
+    "problem_name": "Distinct Subsequences",
+    "category": "Dynamic_Programming",
+    "time_complexity": "O(N^2)",
     "space_complexity": "O(N)",
-    "file": "Sliding_Window/min_sum_of_lengths.cpp"
+    "file": "Dynamic_Programming/distinct_subsequences.js"
   },
   {
-    "problem_name": "Minimum Operations to Reduce X to Zero",
-    "category": "Sliding Window",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Sliding_Window/min_operations_reduce_x_to_zero.py"
-  },
-  {
-    "problem_name": "Max Len Substr 2 Occ",
-    "category": "Sliding_Window",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Sliding_Window/max_len_substr_2_occ.py"
-  },
-  {
-    "problem_name": "Longest Substring Without Rep Chars",
-    "category": "Sliding_Window",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Sliding_Window/longest_substring_without_rep_chars.cpp"
-  },
-  {
-    "problem_name": "Substring Concat Words",
-    "category": "Sliding_Window",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Sliding_Window/substring_concat_words.js"
-  },
-  {
-    "problem_name": "Subtree Average",
-    "category": "Trees",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(H)",
-    "file": "Trees/subtree_average.py"
-  },
-  {
-    "problem_name": "Valid Sudoku",
-    "category": "Hashing",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Hashing/valid_sudoku.py"
-  },
-  {
-    "problem_name": "Two Sum",
-    "category": "Hashing",
-    "time_complexity": "O(N)",
+    "problem_name": "Distinct Subsequences Ii",
+    "category": "Dynamic_Programming",
+    "time_complexity": "O(N^2)",
     "space_complexity": "O(N)",
-    "file": "Hashing/two_sum.py"
+    "file": "Dynamic_Programming/distinct_subsequences_ii.js"
   },
   {
-    "problem_name": "Group Anagrams",
-    "category": "Hashing",
+    "problem_name": "Regular Expressions Matching",
+    "category": "Dynamic_Programming",
+    "time_complexity": "O(N^2)",
+    "space_complexity": "O(N)",
+    "file": "Dynamic_Programming/regular_expressions_matching.js"
+  },
+  {
+    "problem_name": "Maximum Weight 4 Intervals",
+    "category": "Dynamic_Programming",
+    "time_complexity": "O(N^2)",
+    "space_complexity": "O(N)",
+    "file": "Dynamic_Programming/maximum_weight_4_intervals.py"
+  },
+  {
+    "problem_name": "Maximum Subarray",
+    "category": "Dynamic_Programming",
+    "time_complexity": "O(N^2)",
+    "space_complexity": "O(N)",
+    "file": "Dynamic_Programming/maximum_subarray.js"
+  },
+  {
+    "problem_name": "Find X-Values of Subarrays Modulo K",
+    "category": "Dynamic Programming",
+    "time_complexity": "O(N * K)",
+    "space_complexity": "O(K)",
+    "file": "Dynamic_Programming/find_x_values_modulo_k.cpp"
+  },
+  {
+    "problem_name": "Smallest Stable Index",
+    "category": "Prefix_Sum",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Hashing/group_anagrams.py"
+    "file": "Prefix_Sum/smallest_stable_index.js"
   },
   {
-    "problem_name": "Find X-Values of Subarrays Modulo K (Range Queries)",
-    "category": "Segment Tree",
-    "time_complexity": "O(N + Q \\log N)",
-    "space_complexity": "O(N * K)",
-    "file": "Segment_Tree/x_values_modulo_k_queries.cpp"
-  },
-  {
-    "problem_name": "Longest Repeat Substr",
-    "category": "Segment_Tree",
+    "problem_name": "First Stable Index",
+    "category": "Prefix_Sum",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Segment_Tree/longest_repeat_substr.js"
+    "file": "Prefix_Sum/first_stable_index.js"
   },
   {
-    "problem_name": "Kth Smallest Amount",
-    "category": "Binary_Search",
-    "time_complexity": "O(log N)",
+    "problem_name": "Sequential Prefix Sum",
+    "category": "Prefix_Sum",
+    "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Binary_Search/kth_smallest_amount.py"
-  },
-  {
-    "problem_name": "Find First Last Position",
-    "category": "Binary_Search",
-    "time_complexity": "O(log N)",
-    "space_complexity": "O(1)",
-    "file": "Binary_Search/find_first_last_position.py"
+    "file": "Prefix_Sum/sequential_prefix_sum.py"
   },
   {
     "problem_name": "Search Insert Position",
@@ -329,25 +287,18 @@
     "file": "Binary_Search/median_of_two_sorted_arrays.cpp"
   },
   {
-    "problem_name": "Remove Nth Node",
-    "category": "Linked_Lists",
-    "time_complexity": "O(N)",
+    "problem_name": "Kth Smallest Amount",
+    "category": "Binary_Search",
+    "time_complexity": "O(log N)",
     "space_complexity": "O(1)",
-    "file": "Linked_Lists/remove_nth_node.py"
+    "file": "Binary_Search/kth_smallest_amount.py"
   },
   {
-    "problem_name": "Rotate List",
-    "category": "Linked_Lists",
-    "time_complexity": "O(N)",
+    "problem_name": "Find First Last Position",
+    "category": "Binary_Search",
+    "time_complexity": "O(log N)",
     "space_complexity": "O(1)",
-    "file": "Linked_Lists/rotate_list.cpp"
-  },
-  {
-    "problem_name": "Add Two Numbers",
-    "category": "Linked_Lists",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Linked_Lists/add_two_numbers.cpp"
+    "file": "Binary_Search/find_first_last_position.py"
   },
   {
     "problem_name": "Merge Two Lists",
@@ -357,13 +308,6 @@
     "file": "Linked_Lists/merge_two_lists.js"
   },
   {
-    "problem_name": "Swap Pairs",
-    "category": "Linked_Lists",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Linked_Lists/swap_pairs.py"
-  },
-  {
     "problem_name": "Merge K Lists",
     "category": "Linked_Lists",
     "time_complexity": "O(N)",
@@ -371,11 +315,11 @@
     "file": "Linked_Lists/merge_k_lists.js"
   },
   {
-    "problem_name": "Reverse K Group",
+    "problem_name": "Remove Nth Node",
     "category": "Linked_Lists",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Linked_Lists/reverse_k_group.py"
+    "file": "Linked_Lists/remove_nth_node.py"
   },
   {
     "problem_name": "Critical Points Distance",
@@ -385,60 +329,291 @@
     "file": "Linked_Lists/critical_points_distance.cpp"
   },
   {
-    "problem_name": "Maximum Weight 4 Intervals",
-    "category": "Dynamic_Programming",
-    "time_complexity": "O(N^2)",
-    "space_complexity": "O(N)",
-    "file": "Dynamic_Programming/maximum_weight_4_intervals.py"
+    "problem_name": "Add Two Numbers",
+    "category": "Linked_Lists",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Linked_Lists/add_two_numbers.cpp"
   },
   {
-    "problem_name": "Distinct Subsequences",
-    "category": "Dynamic_Programming",
-    "time_complexity": "O(N^2)",
-    "space_complexity": "O(N)",
-    "file": "Dynamic_Programming/distinct_subsequences.js"
+    "problem_name": "Reverse K Group",
+    "category": "Linked_Lists",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Linked_Lists/reverse_k_group.py"
   },
   {
-    "problem_name": "Distinct Subsequences Ii",
-    "category": "Dynamic_Programming",
-    "time_complexity": "O(N^2)",
-    "space_complexity": "O(N)",
-    "file": "Dynamic_Programming/distinct_subsequences_ii.js"
+    "problem_name": "Rotate List",
+    "category": "Linked_Lists",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Linked_Lists/rotate_list.cpp"
   },
   {
-    "problem_name": "Find X-Values of Subarrays Modulo K",
-    "category": "Dynamic Programming",
-    "time_complexity": "O(N * K)",
-    "space_complexity": "O(K)",
-    "file": "Dynamic_Programming/find_x_values_modulo_k.cpp"
+    "problem_name": "Swap Pairs",
+    "category": "Linked_Lists",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Linked_Lists/swap_pairs.py"
   },
   {
-    "problem_name": "Maximum Subarray",
-    "category": "Dynamic_Programming",
-    "time_complexity": "O(N^2)",
-    "space_complexity": "O(N)",
-    "file": "Dynamic_Programming/maximum_subarray.js"
+    "problem_name": "Multiply Strings",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/multiply_strings.py"
   },
   {
-    "problem_name": "Regular Expressions Matching",
-    "category": "Dynamic_Programming",
-    "time_complexity": "O(N^2)",
-    "space_complexity": "O(N)",
-    "file": "Dynamic_Programming/regular_expressions_matching.js"
+    "problem_name": "Wildcard Matching",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/wildcard_matching.cpp"
   },
   {
-    "problem_name": "Letter Combinations",
-    "category": "Backtracking",
-    "time_complexity": "O(2^N)",
-    "space_complexity": "O(N)",
-    "file": "Backtracking/letter_combinations.py"
+    "problem_name": "Zigzag Conversion",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/zigzag_conversion.cpp"
   },
   {
-    "problem_name": "N Queens",
-    "category": "Backtracking",
-    "time_complexity": "O(2^N)",
-    "space_complexity": "O(N)",
-    "file": "Backtracking/n_queens.py"
+    "problem_name": "Shortest Beautiful Substring",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/shortest_beautiful_substring.js"
+  },
+  {
+    "problem_name": "Count And Say",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/count_and_say.py"
+  },
+  {
+    "problem_name": "Length Of Last Word",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/length_of_last_word.py"
+  },
+  {
+    "problem_name": "String To Integer Atoi",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/string_to_integer_atoi.cpp"
+  },
+  {
+    "problem_name": "Reverse Degree of a String",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/reverse_degree_of_a_string.cpp"
+  },
+  {
+    "problem_name": "Longest Common Prefix",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/longest_common_prefix.py"
+  },
+  {
+    "problem_name": "First Occurrence Str",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/first_occurrence_str.js"
+  },
+  {
+    "problem_name": "Next Greater Palindrome",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/next_greater_palindrome.py"
+  },
+  {
+    "problem_name": "First Missing Positive",
+    "category": "Cyclic_Sort",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Cyclic_Sort/first_missing_positive.js"
+  },
+  {
+    "problem_name": "Palindrome No",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/palindrome_no.cpp"
+  },
+  {
+    "problem_name": "Reverse Integer",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/reverse_integer.cpp"
+  },
+  {
+    "problem_name": "Number of Sets of K Non-Overlapping Line Segments",
+    "category": "Math",
+    "time_complexity": "O(K)",
+    "space_complexity": "O(1)",
+    "file": "Math/k_non_overlapping_line_segments.cpp"
+  },
+  {
+    "problem_name": "Permutation Sequence",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/permutation_sequence.cpp"
+  },
+  {
+    "problem_name": "Unique Paths",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/unique_paths.py"
+  },
+  {
+    "problem_name": "Smallest Divisible Digit Product Ii",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/smallest_divisible_digit_product_ii.cpp"
+  },
+  {
+    "problem_name": "Divide Integers Alu",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/divide_integers_alu.js"
+  },
+  {
+    "problem_name": "Integer To Roman",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/integer_to_roman.js"
+  },
+  {
+    "problem_name": "Array Parity Construct",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/array_parity_construct.js"
+  },
+  {
+    "problem_name": "Divisible By Sum Product",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/divisible_by_sum_product.cpp"
+  },
+  {
+    "problem_name": "Three Digit Even Count",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/three_digit_even_count.py"
+  },
+  {
+    "problem_name": "Rectangle Overlap",
+    "category": "Math",
+    "time_complexity": "O(1)",
+    "space_complexity": "O(1)",
+    "file": "Math/rectangle_overlap.py"
+  },
+  {
+    "problem_name": "Smallest Index With Equal Sum",
+    "category": "Math",
+    "time_complexity": "O(1)",
+    "space_complexity": "O(1)",
+    "file": "Math/smallest_index_with_equal_sum.py"
+  },
+  {
+    "problem_name": "Circle and Rectangle Overlapping",
+    "category": "Math",
+    "time_complexity": "O(1)",
+    "space_complexity": "O(1)",
+    "file": "Math/circle_and_rectangle_overlapping.cpp"
+  },
+  {
+    "problem_name": "Uniform Parity Array Ii",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/uniform_parity_array_ii.js"
+  },
+  {
+    "problem_name": "Missing Multiple",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/missing_multiple.cpp"
+  },
+  {
+    "problem_name": "Number Of Commas",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/number_of_commas.py"
+  },
+  {
+    "problem_name": "Pow X N",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/pow_x_n.py"
+  },
+  {
+    "problem_name": "Roman To Integer",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/roman_to_integer.py"
+  },
+  {
+    "problem_name": "Longest Repeat Substr",
+    "category": "Segment_Tree",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Segment_Tree/longest_repeat_substr.js"
+  },
+  {
+    "problem_name": "Find X-Values of Subarrays Modulo K (Range Queries)",
+    "category": "Segment Tree",
+    "time_complexity": "O(N + Q \\log N)",
+    "space_complexity": "O(N * K)",
+    "file": "Segment_Tree/x_values_modulo_k_queries.cpp"
+  },
+  {
+    "problem_name": "Spiral Matrix",
+    "category": "Matrices",
+    "time_complexity": "O(M * N)",
+    "space_complexity": "O(M * N)",
+    "file": "Matrices/spiral_matrix.py"
+  },
+  {
+    "problem_name": "Spiral Matrix Ii",
+    "category": "Matrices",
+    "time_complexity": "O(M * N)",
+    "space_complexity": "O(M * N)",
+    "file": "Matrices/spiral_matrix_ii.py"
+  },
+  {
+    "problem_name": "Image Overlap",
+    "category": "Matrices",
+    "time_complexity": "O(M * N)",
+    "space_complexity": "O(M * N)",
+    "file": "Matrices/image_overlap.py"
+  },
+  {
+    "problem_name": "Rotate Image",
+    "category": "Matrices",
+    "time_complexity": "O(M * N)",
+    "space_complexity": "O(M * N)",
+    "file": "Matrices/rotate_image.cpp"
   },
   {
     "problem_name": "Sudoku Solver",
@@ -448,11 +623,32 @@
     "file": "Backtracking/sudoku_solver.py"
   },
   {
-    "problem_name": "Combination Sum Ii",
+    "problem_name": "Permutations",
     "category": "Backtracking",
     "time_complexity": "O(2^N)",
     "space_complexity": "O(N)",
-    "file": "Backtracking/combination_sum_ii.js"
+    "file": "Backtracking/permutations.js"
+  },
+  {
+    "problem_name": "N Queens",
+    "category": "Backtracking",
+    "time_complexity": "O(2^N)",
+    "space_complexity": "O(N)",
+    "file": "Backtracking/n_queens.py"
+  },
+  {
+    "problem_name": "Permutations Ii",
+    "category": "Backtracking",
+    "time_complexity": "O(2^N)",
+    "space_complexity": "O(N)",
+    "file": "Backtracking/permutations_ii.js"
+  },
+  {
+    "problem_name": "N Queens Ii",
+    "category": "Backtracking",
+    "time_complexity": "O(2^N)",
+    "space_complexity": "O(N)",
+    "file": "Backtracking/n_queens_ii.js"
   },
   {
     "problem_name": "Combination Sum",
@@ -469,221 +665,95 @@
     "file": "Backtracking/gen_parentheses.js"
   },
   {
-    "problem_name": "Permutations Ii",
+    "problem_name": "Combination Sum Ii",
     "category": "Backtracking",
     "time_complexity": "O(2^N)",
     "space_complexity": "O(N)",
-    "file": "Backtracking/permutations_ii.js"
+    "file": "Backtracking/combination_sum_ii.js"
   },
   {
-    "problem_name": "Permutations",
+    "problem_name": "Letter Combinations",
     "category": "Backtracking",
     "time_complexity": "O(2^N)",
     "space_complexity": "O(N)",
-    "file": "Backtracking/permutations.js"
+    "file": "Backtracking/letter_combinations.py"
   },
   {
-    "problem_name": "N Queens Ii",
-    "category": "Backtracking",
-    "time_complexity": "O(2^N)",
+    "problem_name": "Two Sum",
+    "category": "Hashing",
+    "time_complexity": "O(N)",
     "space_complexity": "O(N)",
-    "file": "Backtracking/n_queens_ii.js"
+    "file": "Hashing/two_sum.py"
   },
   {
-    "problem_name": "Image Overlap",
-    "category": "Matrices",
-    "time_complexity": "O(M * N)",
-    "space_complexity": "O(M * N)",
-    "file": "Matrices/image_overlap.py"
-  },
-  {
-    "problem_name": "Spiral Matrix Ii",
-    "category": "Matrices",
-    "time_complexity": "O(M * N)",
-    "space_complexity": "O(M * N)",
-    "file": "Matrices/spiral_matrix_ii.py"
-  },
-  {
-    "problem_name": "Spiral Matrix",
-    "category": "Matrices",
-    "time_complexity": "O(M * N)",
-    "space_complexity": "O(M * N)",
-    "file": "Matrices/spiral_matrix.py"
-  },
-  {
-    "problem_name": "Rotate Image",
-    "category": "Matrices",
-    "time_complexity": "O(M * N)",
-    "space_complexity": "O(M * N)",
-    "file": "Matrices/rotate_image.cpp"
-  },
-  {
-    "problem_name": "Stone Game Ix",
-    "category": "Game_Theory",
+    "problem_name": "Group Anagrams",
+    "category": "Hashing",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Game_Theory/stone_game_ix.py"
+    "file": "Hashing/group_anagrams.py"
   },
   {
-    "problem_name": "Sum Game",
-    "category": "Game_Theory",
+    "problem_name": "Valid Sudoku",
+    "category": "Hashing",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Game_Theory/sum_game.js"
+    "file": "Hashing/valid_sudoku.py"
   },
   {
-    "problem_name": "Stone Game Iv",
-    "category": "Game_Theory",
+    "problem_name": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
+    "category": "Sliding Window",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(N)",
+    "file": "Sliding_Window/min_sum_of_lengths.cpp"
+  },
+  {
+    "problem_name": "Substring Concat Words",
+    "category": "Sliding_Window",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Game_Theory/stone_game_iv.cpp"
+    "file": "Sliding_Window/substring_concat_words.js"
   },
   {
-    "problem_name": "Stone Game Vii",
-    "category": "Game_Theory",
+    "problem_name": "Minimum Operations to Reduce X to Zero",
+    "category": "Sliding Window",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Game_Theory/stone_game_vii.cpp"
+    "file": "Sliding_Window/min_operations_reduce_x_to_zero.py"
   },
   {
-    "problem_name": "Stone Game Ii",
-    "category": "Game_Theory",
+    "problem_name": "Max Len Substr 2 Occ",
+    "category": "Sliding_Window",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Game_Theory/stone_game_ii.cpp"
+    "file": "Sliding_Window/max_len_substr_2_occ.py"
   },
   {
-    "problem_name": "Stone Game V",
-    "category": "Game_Theory",
+    "problem_name": "Longest Substring Without Rep Chars",
+    "category": "Sliding_Window",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Game_Theory/stone_game_v.py"
+    "file": "Sliding_Window/longest_substring_without_rep_chars.cpp"
   },
   {
-    "problem_name": "Sequential Prefix Sum",
-    "category": "Prefix_Sum",
+    "problem_name": "Longest Subarray K Freq",
+    "category": "Sliding_Window",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Prefix_Sum/sequential_prefix_sum.py"
+    "file": "Sliding_Window/longest_subarray_k_freq.py"
   },
   {
-    "problem_name": "First Stable Index",
-    "category": "Prefix_Sum",
+    "problem_name": "Shortest Path Cleanup Bitmask",
+    "category": "Graphs",
+    "time_complexity": "O(V + E)",
+    "space_complexity": "O(V + E)",
+    "file": "Graphs/shortest_path_cleanup_bitmask.cpp"
+  },
+  {
+    "problem_name": "Subtree Average",
+    "category": "Trees",
     "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Prefix_Sum/first_stable_index.js"
-  },
-  {
-    "problem_name": "Smallest Stable Index",
-    "category": "Prefix_Sum",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Prefix_Sum/smallest_stable_index.js"
-  },
-  {
-    "problem_name": "First Missing Positive",
-    "category": "Cyclic_Sort",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Cyclic_Sort/first_missing_positive.js"
-  },
-  {
-    "problem_name": "Distribute Elements I",
-    "category": "Arrays",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Arrays/distribute_elements_i.js"
-  },
-  {
-    "problem_name": "Lexicographically Smallest Array",
-    "category": "Arrays",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Arrays/lexicographically_smallest_array.py"
-  },
-  {
-    "problem_name": "Largest Almost Missing Integer",
-    "category": "Arrays",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Arrays/largest_almost_missing_integer.py"
-  },
-  {
-    "problem_name": "Min Deletions Min Max",
-    "category": "Greedy",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Greedy/min_deletions_min_max.cpp"
-  },
-  {
-    "problem_name": "Lexicographically Smallest Valid Sequence",
-    "category": "Greedy",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Greedy/lexicographically_smallest_valid_sequence.cpp"
-  },
-  {
-    "problem_name": "Next Permutation",
-    "category": "Greedy",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Greedy/next_permutation.py"
-  },
-  {
-    "problem_name": "Maximum Number of Non-overlapping Palindrome Substrings",
-    "category": "Greedy",
-    "time_complexity": "O(N * K)",
-    "space_complexity": "O(1)",
-    "file": "Greedy/max_no_of_non_overlapping_palindrome_substrings.cpp"
-  },
-  {
-    "problem_name": "Jump Game Ii",
-    "category": "Greedy",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Greedy/jump_game_ii.cpp"
-  },
-  {
-    "problem_name": "Maximum Number of Non-Overlapping Substrings",
-    "category": "Greedy",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Greedy/max_non_overlapping_substrings.py"
-  },
-  {
-    "problem_name": "Lex Greater Permutation",
-    "category": "Greedy",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Greedy/lex_greater_permutation.py"
-  },
-  {
-    "problem_name": "Jump Game",
-    "category": "Greedy",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Greedy/jump_game.py"
-  },
-  {
-    "problem_name": "Longest Valid Parentheses",
-    "category": "Stacks",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Stacks/longest_valid_parentheses.py"
-  },
-  {
-    "problem_name": "Valid Parentheses",
-    "category": "Stacks",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Stacks/valid_parentheses.js"
-  },
-  {
-    "problem_name": "Insert Interval",
-    "category": "Intervals",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Intervals/insert_interval.py"
+    "space_complexity": "O(H)",
+    "file": "Trees/subtree_average.py"
   },
   {
     "problem_name": "Merge Intervals",
@@ -693,73 +763,10 @@
     "file": "Intervals/merge_intervals.py"
   },
   {
-    "problem_name": "Four Sum",
-    "category": "Two_Pointers",
+    "problem_name": "Insert Interval",
+    "category": "Intervals",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Two_Pointers/four_sum.py"
-  },
-  {
-    "problem_name": "Rm Duplicates",
-    "category": "Two_Pointers",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Two_Pointers/rm_duplicates.py"
-  },
-  {
-    "problem_name": "Container With Most Water",
-    "category": "Two_Pointers",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Two_Pointers/container_with_most_water.js"
-  },
-  {
-    "problem_name": "Longest Palindromic Substring",
-    "category": "Two_Pointers",
-    "time_complexity": "O(N^2)",
-    "space_complexity": "O(1)",
-    "file": "Two_Pointers/longest_palindromic_substring.cpp"
-  },
-  {
-    "problem_name": "Trapping Rain Water",
-    "category": "Two_Pointers",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Two_Pointers/trapping_rain_water.py"
-  },
-  {
-    "problem_name": "Three Sum",
-    "category": "Two_Pointers",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Two_Pointers/three_sum.py"
-  },
-  {
-    "problem_name": "Three Sum Closest",
-    "category": "Two_Pointers",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Two_Pointers/three_sum_closest.py"
-  },
-  {
-    "problem_name": "Rm Element",
-    "category": "Two_Pointers",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Two_Pointers/rm_element.py"
-  },
-  {
-    "problem_name": "Cinema Seat Allocation",
-    "category": "Bit_Manipulation",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Bit_Manipulation/cinema_seat_allocation.py"
-  },
-  {
-    "problem_name": "Longest Nonzero Xor",
-    "category": "Bit_Manipulation",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Bit_Manipulation/longest_nonzero_xor.js"
+    "file": "Intervals/insert_interval.py"
   }
 ]
