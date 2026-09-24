@@ -178,6 +178,7 @@ Automatically generated problem index.
 | Problem | Time Complexity | Space Complexity | File |
 |---|---|---|---|
 | Find Two Non-overlapping Sub-arrays Each With Target Sum | `O(N)` | `O(N)` | [min_sum_of_lengths.cpp](../Sliding_Window/min_sum_of_lengths.cpp) |
+| Minimum Operations to Reduce X to Zero | `O(N)` | `O(1)` | [min_operations_reduce_x_to_zero.py](../Sliding_Window/min_operations_reduce_x_to_zero.py) |
 
 ## Sliding_Window
 
