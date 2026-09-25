@@ -84,6 +84,13 @@
     "file": "Stacks/valid_parentheses.js"
   },
   {
+    "problem_name": "Brace Expansion II",
+    "category": "Stack / Parser",
+    "time_complexity": "O(N + K log K) - N is string len, K is output size",
+    "space_complexity": "O(K) - Minimal memory footprint",
+    "file": "Stacks/brace_expansion_compiler.py"
+  },
+  {
     "problem_name": "Longest Valid Parentheses",
     "category": "Stacks",
     "time_complexity": "O(N)",
