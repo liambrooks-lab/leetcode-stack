@@ -420,6 +420,13 @@
     "file": "Strings/reverse_degree_of_a_string.cpp"
   },
   {
+    "problem_name": "Evaluate the Bracket Pairs of a String",
+    "category": "String Manipulation / Hash Map",
+    "time_complexity": "O(N + K)",
+    "space_complexity": "O(N + K)",
+    "file": "Strings/evaluate_bracket_pairs.cpp"
+  },
+  {
     "problem_name": "Longest Common Prefix",
     "category": "Strings",
     "time_complexity": "O(N)",

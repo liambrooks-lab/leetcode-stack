@@ -203,6 +203,12 @@ Automatically generated problem index.
 | Longest Valid Parentheses | `O(N)` | `O(1)` | [longest_valid_parentheses.py](../Stacks/longest_valid_parentheses.py) |
 | Valid Parentheses | `O(N)` | `O(1)` | [valid_parentheses.js](../Stacks/valid_parentheses.js) |
 
+## String Manipulation / Hash Map
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Evaluate the Bracket Pairs of a String | `O(N + K)` | `O(N + K)` | [evaluate_bracket_pairs.cpp](../Strings/evaluate_bracket_pairs.cpp) |
+
 ## Strings
 
 | Problem | Time Complexity | Space Complexity | File |
