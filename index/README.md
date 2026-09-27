@@ -190,6 +190,12 @@ Automatically generated problem index.
 | Max Len Substr 2 Occ | `O(N)` | `O(1)` | [max_len_substr_2_occ.py](../Sliding_Window/max_len_substr_2_occ.py) |
 | Substring Concat Words | `O(N)` | `O(1)` | [substring_concat_words.js](../Sliding_Window/substring_concat_words.js) |
 
+## Stack / O(N) Wormhole Traversal
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Reverse Substrings Between Each Pair of Parentheses | `O(N)` | `O(N)` | [reverse_substrings_parentheses.py](../Stacks/reverse_substrings_parentheses.py) |
+
 ## Stack / Parser
 
 | Problem | Time Complexity | Space Complexity | File |

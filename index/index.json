@@ -98,6 +98,13 @@
     "file": "Stacks/longest_valid_parentheses.py"
   },
   {
+    "problem_name": "Reverse Substrings Between Each Pair of Parentheses",
+    "category": "Stack / O(N) Wormhole Traversal",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(N)",
+    "file": "Stacks/reverse_substrings_parentheses.py"
+  },
+  {
     "problem_name": "Sum Game",
     "category": "Game_Theory",
     "time_complexity": "O(N)",
