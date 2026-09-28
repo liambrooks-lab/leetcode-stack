@@ -378,6 +378,13 @@
     "file": "Strings/multiply_strings.py"
   },
   {
+    "problem_name": "Maximum Nesting Depth of the Parentheses",
+    "category": "Strings / State Machine",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/maximum_nesting_depth.cpp"
+  },
+  {
     "problem_name": "Wildcard Matching",
     "category": "Strings",
     "time_complexity": "O(N)",

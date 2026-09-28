@@ -231,6 +231,12 @@ Automatically generated problem index.
 | Wildcard Matching | `O(N)` | `O(1)` | [wildcard_matching.cpp](../Strings/wildcard_matching.cpp) |
 | Zigzag Conversion | `O(N)` | `O(1)` | [zigzag_conversion.cpp](../Strings/zigzag_conversion.cpp) |
 
+## Strings / State Machine
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Maximum Nesting Depth of the Parentheses | `O(N)` | `O(1)` | [maximum_nesting_depth.cpp](../Strings/maximum_nesting_depth.cpp) |
+
 ## Trees
 
 | Problem | Time Complexity | Space Complexity | File |
