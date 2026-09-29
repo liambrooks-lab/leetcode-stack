@@ -770,6 +770,13 @@
     "file": "Sliding_Window/longest_subarray_k_freq.py"
   },
   {
+    "problem_name": "Check if There Is a Valid Parentheses String Path",
+    "category": "Graphs / DP / State Space Pruning",
+    "time_complexity": "O(m * n * (m + n))",
+    "space_complexity": "O(m * n * (m + n))",
+    "file": "Graphs/check_valid_parentheses_path.cpp"
+  },
+  {
     "problem_name": "Shortest Path Cleanup Bitmask",
     "category": "Graphs",
     "time_complexity": "O(V + E)",

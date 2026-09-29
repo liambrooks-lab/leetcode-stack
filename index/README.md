@@ -80,6 +80,12 @@ Automatically generated problem index.
 |---|---|---|---|
 | Shortest Path Cleanup Bitmask | `O(V + E)` | `O(V + E)` | [shortest_path_cleanup_bitmask.cpp](../Graphs/shortest_path_cleanup_bitmask.cpp) |
 
+## Graphs / DP / State Space Pruning
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Check if There Is a Valid Parentheses String Path | `O(m * n * (m + n))` | `O(m * n * (m + n))` | [check_valid_parentheses_path.cpp](../Graphs/check_valid_parentheses_path.cpp) |
+
 ## Greedy
 
 | Problem | Time Complexity | Space Complexity | File |
