@@ -41,6 +41,12 @@ Automatically generated problem index.
 | Cinema Seat Allocation | `O(N)` | `O(1)` | [cinema_seat_allocation.py](../Bit_Manipulation/cinema_seat_allocation.py) |
 | Longest Nonzero Xor | `O(N)` | `O(1)` | [longest_nonzero_xor.js](../Bit_Manipulation/longest_nonzero_xor.js) |
 
+## Bitwise Math / Memory Allocation
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Maximum Nesting Depth of Two Valid Parentheses Strings | `O(N)` | `O(1) auxiliary` | [max_nesting_depth_two_vps.cpp](../Strings/max_nesting_depth_two_vps.cpp) |
+
 ## Cyclic_Sort
 
 | Problem | Time Complexity | Space Complexity | File |

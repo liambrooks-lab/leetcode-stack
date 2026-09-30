@@ -378,6 +378,13 @@
     "file": "Strings/multiply_strings.py"
   },
   {
+    "problem_name": "Maximum Nesting Depth of Two Valid Parentheses Strings",
+    "category": "Bitwise Math / Memory Allocation",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1) auxiliary",
+    "file": "Strings/max_nesting_depth_two_vps.cpp"
+  },
+  {
     "problem_name": "Maximum Nesting Depth of the Parentheses",
     "category": "Strings / State Machine",
     "time_complexity": "O(N)",
