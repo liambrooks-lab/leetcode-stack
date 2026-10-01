@@ -91,6 +91,13 @@
     "file": "Stacks/brace_expansion_compiler.py"
   },
   {
+    "problem_name": "Valid Parentheses",
+    "category": "Stack",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(N)",
+    "file": "Stacks/valid_parentheses.py"
+  },
+  {
     "problem_name": "Longest Valid Parentheses",
     "category": "Stacks",
     "time_complexity": "O(N)",
