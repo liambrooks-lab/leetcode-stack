@@ -1,6 +1,6 @@
 # leetcode-stack
 
-[हिंदी में पढ़ें](https://github.com/liambrooks-lab/leetcode-stack/tree/master)
+[हिंदी में पढ़ें](https://github.com/liambrooks-lab/leetcode-stack/blob/master/README.md)
 
 ---
 > **A zero-to-one algorithmic infrastructure, independently architected for state-space optimization, advanced data structure engineering, and computational efficiency.**
@@ -300,3 +300,11 @@ These modules are architected as isolated algorithmic functions stripped of redu
   <b>Rudranarayan Jena</b><br>
   <i>Founder @ Voxion Labs</i>
 </div>
+
+---
+<div align="center">
+  (c) 2026 Rudranarayan Jena
+</div>
+<p align="center">
+ Leetcode · DSA · Python3 · C++ · Javascript
+</p>
