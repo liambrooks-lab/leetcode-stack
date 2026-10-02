@@ -679,6 +679,13 @@
     "file": "Backtracking/n_queens.py"
   },
   {
+    "problem_name": "Generate Parentheses",
+    "category": "DFS / Explicit State Routing",
+    "time_complexity": "O(4^N / sqrt(N)) - Catalan Number Bound",
+    "space_complexity": "O(N) - Recursion Stack depth bound",
+    "file": "Backtracking/generate_parentheses.py"
+  },
+  {
     "problem_name": "Permutations Ii",
     "category": "Backtracking",
     "time_complexity": "O(2^N)",

@@ -53,6 +53,12 @@ Automatically generated problem index.
 |---|---|---|---|
 | First Missing Positive | `O(N)` | `O(1)` | [first_missing_positive.js](../Cyclic_Sort/first_missing_positive.js) |
 
+## DFS / Explicit State Routing
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Generate Parentheses | `O(4^N / sqrt(N)) - Catalan Number Bound` | `O(N) - Recursion Stack depth bound` | [generate_parentheses.py](../Backtracking/generate_parentheses.py) |
+
 ## Dynamic Programming
 
 | Problem | Time Complexity | Space Complexity | File |
