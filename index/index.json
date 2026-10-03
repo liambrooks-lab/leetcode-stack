@@ -35,6 +35,13 @@
     "file": "Two_Pointers/four_sum.py"
   },
   {
+    "problem_name": "Longest Valid Parentheses",
+    "category": "Two Pointers",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1) - Pure Bare-Metal Execution",
+    "file": "Two_Pointers/longest_valid_parentheses.cpp"
+  },
+  {
     "problem_name": "Three Sum Closest",
     "category": "Two_Pointers",
     "time_complexity": "O(N)",

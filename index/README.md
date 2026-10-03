@@ -267,6 +267,12 @@ Automatically generated problem index.
 |---|---|---|---|
 | Subtree Average | `O(N)` | `O(H)` | [subtree_average.py](../Trees/subtree_average.py) |
 
+## Two Pointers
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Longest Valid Parentheses | `O(N)` | `O(1) - Pure Bare-Metal Execution` | [longest_valid_parentheses.cpp](../Two_Pointers/longest_valid_parentheses.cpp) |
+
 ## Two_Pointers
 
 | Problem | Time Complexity | Space Complexity | File |
