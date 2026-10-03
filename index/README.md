@@ -16,7 +16,7 @@ Automatically generated problem index.
 |---|---|---|---|
 | Combination Sum | `O(2^N)` | `O(N)` | [combination_sum.py](../Backtracking/combination_sum.py) |
 | Combination Sum Ii | `O(2^N)` | `O(N)` | [combination_sum_ii.js](../Backtracking/combination_sum_ii.js) |
-| Gen Parentheses | `O(2^N)` | `O(N)` | [gen_parentheses.js](../Backtracking/gen_parentheses.js) |
+| Gen Parentheses | `O(2^N)` | `O(N)` | [generate_parentheses.js](../Backtracking/generate_parentheses.js) |
 | Letter Combinations | `O(2^N)` | `O(N)` | [letter_combinations.py](../Backtracking/letter_combinations.py) |
 | N Queens | `O(2^N)` | `O(N)` | [n_queens.py](../Backtracking/n_queens.py) |
 | N Queens Ii | `O(2^N)` | `O(N)` | [n_queens_ii.js](../Backtracking/n_queens_ii.js) |
@@ -230,7 +230,7 @@ Automatically generated problem index.
 
 | Problem | Time Complexity | Space Complexity | File |
 |---|---|---|---|
-| Longest Valid Parentheses | `O(N)` | `O(1)` | [longest_valid_parentheses.py](../Stacks/longest_valid_parentheses.py) |
+| Longest Valid Parentheses | `O(N)` | `O(1)` | [longest_valid_parentheses_stack_bypass.py](../Two_Pointers/longest_valid_parentheses_stack_bypass.py) |
 | Valid Parentheses | `O(N)` | `O(1)` | [valid_parentheses.js](../Stacks/valid_parentheses.js) |
 
 ## String Manipulation / Hash Map

@@ -49,6 +49,13 @@
     "file": "Two_Pointers/three_sum_closest.py"
   },
   {
+    "problem_name": "Longest Valid Parentheses",
+    "category": "Stacks",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Two_Pointers/longest_valid_parentheses_stack_bypass.py"
+  },
+  {
     "problem_name": "Longest Palindromic Substring",
     "category": "Two_Pointers",
     "time_complexity": "O(N^2)",
@@ -103,13 +110,6 @@
     "time_complexity": "O(N)",
     "space_complexity": "O(N)",
     "file": "Stacks/valid_parentheses.py"
-  },
-  {
-    "problem_name": "Longest Valid Parentheses",
-    "category": "Stacks",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Stacks/longest_valid_parentheses.py"
   },
   {
     "problem_name": "Reverse Substrings Between Each Pair of Parentheses",
@@ -718,7 +718,7 @@
     "category": "Backtracking",
     "time_complexity": "O(2^N)",
     "space_complexity": "O(N)",
-    "file": "Backtracking/gen_parentheses.js"
+    "file": "Backtracking/generate_parentheses.js"
   },
   {
     "problem_name": "Combination Sum Ii",
