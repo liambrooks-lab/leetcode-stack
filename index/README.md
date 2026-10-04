@@ -111,6 +111,12 @@ Automatically generated problem index.
 | Min Deletions Min Max | `O(N)` | `O(1)` | [min_deletions_min_max.cpp](../Greedy/min_deletions_min_max.cpp) |
 | Next Permutation | `O(N)` | `O(1)` | [next_permutation.py](../Greedy/next_permutation.py) |
 
+## Greedy / State Space
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Valid Parenthesis String | `O(N)` | `O(1)` | [valid_parenthesis_string.cpp](../Greedy/valid_parenthesis_string.cpp) |
+
 ## Hashing
 
 | Problem | Time Complexity | Space Complexity | File |
