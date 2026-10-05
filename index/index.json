@@ -518,6 +518,13 @@
     "file": "Math/k_non_overlapping_line_segments.cpp"
   },
   {
+    "problem_name": "Score of Parentheses",
+    "category": "Math / Bitwise",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1) - Zero Stack Allocation",
+    "file": "Math/score_of_parentheses.py"
+  },
+  {
     "problem_name": "Permutation Sequence",
     "category": "Math",
     "time_complexity": "O(N)",

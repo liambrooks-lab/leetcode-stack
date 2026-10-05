@@ -169,6 +169,12 @@ Automatically generated problem index.
 | Uniform Parity Array Ii | `O(N)` | `O(1)` | [uniform_parity_array_ii.js](../Math/uniform_parity_array_ii.js) |
 | Unique Paths | `O(N)` | `O(1)` | [unique_paths.py](../Math/unique_paths.py) |
 
+## Math / Bitwise
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Score of Parentheses | `O(N)` | `O(1) - Zero Stack Allocation` | [score_of_parentheses.py](../Math/score_of_parentheses.py) |
+
 ## Matrices
 
 | Problem | Time Complexity | Space Complexity | File |
