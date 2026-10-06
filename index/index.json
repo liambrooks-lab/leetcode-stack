@@ -189,6 +189,13 @@
     "file": "Greedy/max_no_of_non_overlapping_palindrome_substrings.cpp"
   },
   {
+    "problem_name": "Minimum Add to Make Parentheses Valid",
+    "category": "Greedy / State Tracking",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1) - Zero Stack Allocation",
+    "file": "Greedy/minimum_add_to_make_valid.py"
+  },
+  {
     "problem_name": "Jump Game",
     "category": "Greedy",
     "time_complexity": "O(N)",

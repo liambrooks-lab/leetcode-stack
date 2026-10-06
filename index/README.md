@@ -117,6 +117,12 @@ Automatically generated problem index.
 |---|---|---|---|
 | Valid Parenthesis String | `O(N)` | `O(1)` | [valid_parenthesis_string.cpp](../Greedy/valid_parenthesis_string.cpp) |
 
+## Greedy / State Tracking
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum Add to Make Parentheses Valid | `O(N)` | `O(1) - Zero Stack Allocation` | [minimum_add_to_make_valid.py](../Greedy/minimum_add_to_make_valid.py) |
+
 ## Hashing
 
 | Problem | Time Complexity | Space Complexity | File |
