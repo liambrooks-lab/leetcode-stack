@@ -742,6 +742,13 @@
     "file": "Backtracking/generate_parentheses.js"
   },
   {
+    "problem_name": "Remove Invalid Parentheses",
+    "category": "DFS / Bidirectional Scan",
+    "time_complexity": "O(N^2) - Absolute minimal branching",
+    "space_complexity": "O(N) - Zero Hash Sets Allocation",
+    "file": "Backtracking/remove_invalid_parentheses.cpp"
+  },
+  {
     "problem_name": "Combination Sum Ii",
     "category": "Backtracking",
     "time_complexity": "O(2^N)",

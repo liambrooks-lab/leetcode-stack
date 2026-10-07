@@ -53,6 +53,12 @@ Automatically generated problem index.
 |---|---|---|---|
 | First Missing Positive | `O(N)` | `O(1)` | [first_missing_positive.js](../Cyclic_Sort/first_missing_positive.js) |
 
+## DFS / Bidirectional Scan
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Remove Invalid Parentheses | `O(N^2) - Absolute minimal branching` | `O(N) - Zero Hash Sets Allocation` | [remove_invalid_parentheses.cpp](../Backtracking/remove_invalid_parentheses.cpp) |
+
 ## DFS / Explicit State Routing
 
 | Problem | Time Complexity | Space Complexity | File |
