@@ -406,6 +406,13 @@
     "file": "Strings/multiply_strings.py"
   },
   {
+    "problem_name": "Remove Outermost Parentheses",
+    "category": "Strings / State Tracking",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(N) - Result string allocation",
+    "file": "Strings/remove_outermost_parentheses.cpp"
+  },
+  {
     "problem_name": "Maximum Nesting Depth of Two Valid Parentheses Strings",
     "category": "Bitwise Math / Memory Allocation",
     "time_complexity": "O(N)",

@@ -285,6 +285,12 @@ Automatically generated problem index.
 |---|---|---|---|
 | Maximum Nesting Depth of the Parentheses | `O(N)` | `O(1)` | [maximum_nesting_depth.cpp](../Strings/maximum_nesting_depth.cpp) |
 
+## Strings / State Tracking
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Remove Outermost Parentheses | `O(N)` | `O(N) - Result string allocation` | [remove_outermost_parentheses.cpp](../Strings/remove_outermost_parentheses.cpp) |
+
 ## Trees
 
 | Problem | Time Complexity | Space Complexity | File |
