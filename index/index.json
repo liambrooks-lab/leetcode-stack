@@ -182,6 +182,13 @@
     "file": "Greedy/lexicographically_smallest_valid_sequence.cpp"
   },
   {
+    "problem_name": "Minimum Insertions to Balance a Parentheses String",
+    "category": "Greedy / State Tracking",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1) - Pure Register Tracking",
+    "file": "Greedy/minimum_insertions_to_balance.cpp"
+  },
+  {
     "problem_name": "Maximum Number of Non-overlapping Palindrome Substrings",
     "category": "Greedy",
     "time_complexity": "O(N * K)",

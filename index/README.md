@@ -128,6 +128,7 @@ Automatically generated problem index.
 | Problem | Time Complexity | Space Complexity | File |
 |---|---|---|---|
 | Minimum Add to Make Parentheses Valid | `O(N)` | `O(1) - Zero Stack Allocation` | [minimum_add_to_make_valid.py](../Greedy/minimum_add_to_make_valid.py) |
+| Minimum Insertions to Balance a Parentheses String | `O(N)` | `O(1) - Pure Register Tracking` | [minimum_insertions_to_balance.cpp](../Greedy/minimum_insertions_to_balance.cpp) |
 
 ## Hashing
 
