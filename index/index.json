@@ -210,6 +210,13 @@
     "file": "Greedy/jump_game.py"
   },
   {
+    "problem_name": "Minimum Sum of Squared Difference",
+    "category": "Greedy / Bucket Sort",
+    "time_complexity": "O(N + max_diff)",
+    "space_complexity": "O(max_diff) - Zero Heap Allocation",
+    "file": "Greedy/min_sum_squared_diff.py"
+  },
+  {
     "problem_name": "Next Permutation",
     "category": "Greedy",
     "time_complexity": "O(N)",

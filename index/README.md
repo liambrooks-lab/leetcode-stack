@@ -117,6 +117,12 @@ Automatically generated problem index.
 | Min Deletions Min Max | `O(N)` | `O(1)` | [min_deletions_min_max.cpp](../Greedy/min_deletions_min_max.cpp) |
 | Next Permutation | `O(N)` | `O(1)` | [next_permutation.py](../Greedy/next_permutation.py) |
 
+## Greedy / Bucket Sort
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum Sum of Squared Difference | `O(N + max_diff)` | `O(max_diff) - Zero Heap Allocation` | [min_sum_squared_diff.py](../Greedy/min_sum_squared_diff.py) |
+
 ## Greedy / State Space
 
 | Problem | Time Complexity | Space Complexity | File |
