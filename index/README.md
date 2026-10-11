@@ -188,6 +188,12 @@ Automatically generated problem index.
 | Uniform Parity Array Ii | `O(N)` | `O(1)` | [uniform_parity_array_ii.js](../Math/uniform_parity_array_ii.js) |
 | Unique Paths | `O(N)` | `O(1)` | [unique_paths.py](../Math/unique_paths.py) |
 
+## Math / Arrays
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Sum of Squares of Special Elements | `O(N)` | `O(1) - Zero Auxiliary Memory` | [sum_of_squares_special_elements.py](../Arrays/sum_of_squares_special_elements.py) |
+
 ## Math / Bitwise
 
 | Problem | Time Complexity | Space Complexity | File |

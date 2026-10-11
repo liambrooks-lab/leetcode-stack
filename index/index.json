@@ -70,6 +70,13 @@
     "file": "Two_Pointers/container_with_most_water.js"
   },
   {
+    "problem_name": "Sum of Squares of Special Elements",
+    "category": "Math / Arrays",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1) - Zero Auxiliary Memory",
+    "file": "Arrays/sum_of_squares_special_elements.py"
+  },
+  {
     "problem_name": "Distribute Elements I",
     "category": "Arrays",
     "time_complexity": "O(N)",
