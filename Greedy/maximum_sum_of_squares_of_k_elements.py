@@ -1,9 +1,11 @@
-# {
-#   "problem_name": "Maximum Sum of Squares of K Elements",
-#   "category": "Greedy",
-#   "time_complexity": "O(N + K)",
-#   "space_complexity": "O(1)"
-# }
+"""
+{
+  "problem_name": "Maximum Sum of Squares of K Elements",
+  "category": "Greedy",
+  "time_complexity": "O(N + K)",
+  "space_complexity": "O(1)"
+}
+"""
 
 class Solution:
     def maxSum(self, nums: list[int], k: int) -> int:
