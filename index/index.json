@@ -231,6 +231,13 @@
     "file": "Greedy/next_permutation.py"
   },
   {
+    "problem_name": "Maximum Sum of Squares of K Elements",
+    "category": "Greedy",
+    "time_complexity": "O(N + K)",
+    "space_complexity": "O(1)",
+    "file": "Greedy/maximum_sum_of_squares_of_k_elements.py"
+  },
+  {
     "problem_name": "Lex Greater Permutation",
     "category": "Greedy",
     "time_complexity": "O(N)",

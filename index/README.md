@@ -114,6 +114,7 @@ Automatically generated problem index.
 | Lexicographically Smallest Valid Sequence | `O(N)` | `O(1)` | [lexicographically_smallest_valid_sequence.cpp](../Greedy/lexicographically_smallest_valid_sequence.cpp) |
 | Maximum Number of Non-Overlapping Substrings | `O(N)` | `O(1)` | [max_non_overlapping_substrings.py](../Greedy/max_non_overlapping_substrings.py) |
 | Maximum Number of Non-overlapping Palindrome Substrings | `O(N * K)` | `O(1)` | [max_no_of_non_overlapping_palindrome_substrings.cpp](../Greedy/max_no_of_non_overlapping_palindrome_substrings.cpp) |
+| Maximum Sum of Squares of K Elements | `O(N + K)` | `O(1)` | [maximum_sum_of_squares_of_k_elements.py](../Greedy/maximum_sum_of_squares_of_k_elements.py) |
 | Min Deletions Min Max | `O(N)` | `O(1)` | [min_deletions_min_max.cpp](../Greedy/min_deletions_min_max.cpp) |
 | Next Permutation | `O(N)` | `O(1)` | [next_permutation.py](../Greedy/next_permutation.py) |
 
