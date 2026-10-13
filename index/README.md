@@ -201,6 +201,12 @@ Automatically generated problem index.
 |---|---|---|---|
 | Score of Parentheses | `O(N)` | `O(1) - Zero Stack Allocation` | [score_of_parentheses.py](../Math/score_of_parentheses.py) |
 
+## Math / Quickselect (Vectorized)
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Maximum Alternating Score | `O(N) Expected - via np.partition` | `O(N) - NumPy C-array allocation` | [max_alternating_score.py](../Greedy/max_alternating_score.py) |
+
 ## Matrices
 
 | Problem | Time Complexity | Space Complexity | File |

@@ -231,6 +231,13 @@
     "file": "Greedy/next_permutation.py"
   },
   {
+    "problem_name": "Maximum Alternating Score",
+    "category": "Math / Quickselect (Vectorized)",
+    "time_complexity": "O(N) Expected - via np.partition",
+    "space_complexity": "O(N) - NumPy C-array allocation",
+    "file": "Greedy/max_alternating_score.py"
+  },
+  {
     "problem_name": "Maximum Sum of Squares of K Elements",
     "category": "Greedy",
     "time_complexity": "O(N + K)",
