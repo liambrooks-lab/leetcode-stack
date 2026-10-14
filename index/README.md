@@ -201,6 +201,12 @@ Automatically generated problem index.
 |---|---|---|---|
 | Score of Parentheses | `O(N)` | `O(1) - Zero Stack Allocation` | [score_of_parentheses.py](../Math/score_of_parentheses.py) |
 
+## Math / Greedy String Construction
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Maximum Good Integer (maxSumOfSquares) | `O(N) - Hardware-level memory fill` | `O(N) - Pre-allocated contiguous memory` | [max_good_integer.cpp](../Strings/max_good_integer.cpp) |
+
 ## Math / Quickselect (Vectorized)
 
 | Problem | Time Complexity | Space Complexity | File |

@@ -469,6 +469,13 @@
     "file": "Strings/wildcard_matching.cpp"
   },
   {
+    "problem_name": "Maximum Good Integer (maxSumOfSquares)",
+    "category": "Math / Greedy String Construction",
+    "time_complexity": "O(N) - Hardware-level memory fill",
+    "space_complexity": "O(N) - Pre-allocated contiguous memory",
+    "file": "Strings/max_good_integer.cpp"
+  },
+  {
     "problem_name": "Zigzag Conversion",
     "category": "Strings",
     "time_complexity": "O(N)",
