@@ -71,6 +71,12 @@ Automatically generated problem index.
 |---|---|---|---|
 | Find X-Values of Subarrays Modulo K | `O(N * K)` | `O(K)` | [find_x_values_modulo_k.cpp](../Dynamic_Programming/find_x_values_modulo_k.cpp) |
 
+## Dynamic Programming / Math Expansion
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Sum of Squares of Distinct Counts | `O(N^2)` | `O(N) - Strictly bounded state arrays` | [sum_squares_distinct_counts.py](../Dynamic_Programming/sum_squares_distinct_counts.py) |
+
 ## Dynamic_Programming
 
 | Problem | Time Complexity | Space Complexity | File |

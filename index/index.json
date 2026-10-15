@@ -294,6 +294,13 @@
     "file": "Dynamic_Programming/distinct_subsequences_ii.js"
   },
   {
+    "problem_name": "Sum of Squares of Distinct Counts",
+    "category": "Dynamic Programming / Math Expansion",
+    "time_complexity": "O(N^2)",
+    "space_complexity": "O(N) - Strictly bounded state arrays",
+    "file": "Dynamic_Programming/sum_squares_distinct_counts.py"
+  },
+  {
     "problem_name": "Regular Expressions Matching",
     "category": "Dynamic_Programming",
     "time_complexity": "O(N^2)",
