@@ -896,6 +896,13 @@
     "file": "Graphs/shortest_path_cleanup_bitmask.cpp"
   },
   {
+    "problem_name": "Sum of Squares of Distinct Counts II",
+    "category": "Fenwick Tree (Dual-BIT) / DP Math Expansion",
+    "time_complexity": "O(N log N) - Bare-metal bitwise hardware jumps",
+    "space_complexity": "O(N) - Strictly 2N memory, destroying Segment Tree's 4N allocation",
+    "file": "Trees/sum_squares_distinct_counts_hard.cpp"
+  },
+  {
     "problem_name": "Subtree Average",
     "category": "Trees",
     "time_complexity": "O(N)",

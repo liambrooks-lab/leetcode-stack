@@ -87,6 +87,12 @@ Automatically generated problem index.
 | Maximum Weight 4 Intervals | `O(N^2)` | `O(N)` | [maximum_weight_4_intervals.py](../Dynamic_Programming/maximum_weight_4_intervals.py) |
 | Regular Expressions Matching | `O(N^2)` | `O(N)` | [regular_expressions_matching.js](../Dynamic_Programming/regular_expressions_matching.js) |
 
+## Fenwick Tree (Dual-BIT) / DP Math Expansion
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Sum of Squares of Distinct Counts II | `O(N log N) - Bare-metal bitwise hardware jumps` | `O(N) - Strictly 2N memory, destroying Segment Tree's 4N allocation` | [sum_squares_distinct_counts_hard.cpp](../Trees/sum_squares_distinct_counts_hard.cpp) |
+
 ## Game_Theory
 
 | Problem | Time Complexity | Space Complexity | File |
