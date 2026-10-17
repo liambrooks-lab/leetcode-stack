@@ -66,12 +66,23 @@ console.log(isPowerOfTwo);
 // Output: true
 ```
 
-**Cyclic Sort &mdash; First Missing Positive (O(1) Auxiliary Space):**
-```javascript
-const { firstMissingPositive } = require('./Cyclic_Sort/first_missing_positive');
+**Binary Indexed Tree &mdash; Sum Squares Distinct Counts (Dual-BIT):**
+```cpp
+#include "binary_indexed_tree/sum_squares_distinct_counts_hard.h"
 
-const nums = [3, 4, -1, 1];
-console.log(firstMissingPositive(nums));
+std::vector<int> nums = {1, 2, 1};
+Solution sol;
+std::cout << sol.sumCounts(nums) << std::endl;
+// Output: 15
+```
+
+**Sorting — Minimum Swaps to Sort (Cycle Detection):**
+```cpp
+#include "sorting/min_swaps_to_sort.h"
+
+std::vector<int> nums = {18, 43, 34, 16};
+Solution sol;
+std::cout << sol.minSwaps(nums) << std::endl;
 // Output: 2
 ```
 
