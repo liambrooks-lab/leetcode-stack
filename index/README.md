@@ -34,6 +34,12 @@ Automatically generated problem index.
 | Search Insert Position | `O(log N)` | `O(1)` | [search_insert_position.py](../Binary_Search/search_insert_position.py) |
 | Search Rotated Array | `O(log N)` | `O(1)` | [search_rotated_array.py](../Binary_Search/search_rotated_array.py) |
 
+## Bit Manipulation / Cycle Sort
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum Swaps to Sort by Digit Sum | `O(N log N) - 64-bit Primitive Sorting` | `O(N) - Single 64-bit array, Zero Struct Overhead` | [min_swaps_to_sort.cpp](../Sorting/min_swaps_to_sort.cpp) |
+
 ## Bit_Manipulation
 
 | Problem | Time Complexity | Space Complexity | File |

@@ -98,6 +98,13 @@
     "file": "Arrays/lexicographically_smallest_array.py"
   },
   {
+    "problem_name": "Minimum Swaps to Sort by Digit Sum",
+    "category": "Bit Manipulation / Cycle Sort",
+    "time_complexity": "O(N log N) - 64-bit Primitive Sorting",
+    "space_complexity": "O(N) - Single 64-bit array, Zero Struct Overhead",
+    "file": "Sorting/min_swaps_to_sort.cpp"
+  },
+  {
     "problem_name": "Valid Parentheses",
     "category": "Stacks",
     "time_complexity": "O(N)",
