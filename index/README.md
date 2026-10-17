@@ -57,7 +57,7 @@ Automatically generated problem index.
 
 | Problem | Time Complexity | Space Complexity | File |
 |---|---|---|---|
-| First Missing Positive | `O(N)` | `O(1)` | [first_missing_positive.js](../Cyclic_Sort/first_missing_positive.js) |
+| First Missing Positive | `O(N)` | `O(1)` | [first_missing_positive.js](../Sorting/first_missing_positive.js) |
 
 ## DFS / Bidirectional Scan
 
@@ -97,7 +97,7 @@ Automatically generated problem index.
 
 | Problem | Time Complexity | Space Complexity | File |
 |---|---|---|---|
-| Sum of Squares of Distinct Counts II | `O(N log N) - Bare-metal bitwise hardware jumps` | `O(N) - Strictly 2N memory, destroying Segment Tree's 4N allocation` | [sum_squares_distinct_counts_hard.cpp](../Trees/sum_squares_distinct_counts_hard.cpp) |
+| Sum of Squares of Distinct Counts II | `O(N log N) - Bare-metal bitwise hardware jumps` | `O(N) - Strictly 2N memory, destroying Segment Tree's 4N allocation` | [sum_squares_distinct_counts_hard.cpp](../Binary_Indexed_Tree/sum_squares_distinct_counts_hard.cpp) |
 
 ## Game_Theory
 
@@ -189,6 +189,7 @@ Automatically generated problem index.
 |---|---|---|---|
 | Array Parity Construct | `O(N)` | `O(1)` | [array_parity_construct.js](../Math/array_parity_construct.js) |
 | Circle and Rectangle Overlapping | `O(1)` | `O(1)` | [circle_and_rectangle_overlapping.cpp](../Math/circle_and_rectangle_overlapping.cpp) |
+| Count Commas In Line Ii | `O(N)` | `O(1)` | [count_commas_in_line_ii.py](../Math/count_commas_in_line_ii.py) |
 | Divide Integers Alu | `O(N)` | `O(1)` | [divide_integers_alu.js](../Math/divide_integers_alu.js) |
 | Divisible By Sum Product | `O(N)` | `O(1)` | [divisible_by_sum_product.cpp](../Math/divisible_by_sum_product.cpp) |
 | Integer To Roman | `O(N)` | `O(1)` | [integer_to_roman.js](../Math/integer_to_roman.js) |

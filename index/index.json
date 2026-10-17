@@ -105,6 +105,13 @@
     "file": "Sorting/min_swaps_to_sort.cpp"
   },
   {
+    "problem_name": "First Missing Positive",
+    "category": "Cyclic_Sort",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Sorting/first_missing_positive.js"
+  },
+  {
     "problem_name": "Valid Parentheses",
     "category": "Stacks",
     "time_complexity": "O(N)",
@@ -560,13 +567,6 @@
     "file": "Strings/next_greater_palindrome.py"
   },
   {
-    "problem_name": "First Missing Positive",
-    "category": "Cyclic_Sort",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Cyclic_Sort/first_missing_positive.js"
-  },
-  {
     "problem_name": "Palindrome No",
     "category": "Math",
     "time_complexity": "O(N)",
@@ -698,6 +698,13 @@
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
     "file": "Math/pow_x_n.py"
+  },
+  {
+    "problem_name": "Count Commas In Line Ii",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/count_commas_in_line_ii.py"
   },
   {
     "problem_name": "Roman To Integer",
@@ -847,6 +854,13 @@
     "file": "Hashing/valid_sudoku.py"
   },
   {
+    "problem_name": "Sum of Squares of Distinct Counts II",
+    "category": "Fenwick Tree (Dual-BIT) / DP Math Expansion",
+    "time_complexity": "O(N log N) - Bare-metal bitwise hardware jumps",
+    "space_complexity": "O(N) - Strictly 2N memory, destroying Segment Tree's 4N allocation",
+    "file": "Binary_Indexed_Tree/sum_squares_distinct_counts_hard.cpp"
+  },
+  {
     "problem_name": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
     "category": "Sliding Window",
     "time_complexity": "O(N)",
@@ -901,13 +915,6 @@
     "time_complexity": "O(V + E)",
     "space_complexity": "O(V + E)",
     "file": "Graphs/shortest_path_cleanup_bitmask.cpp"
-  },
-  {
-    "problem_name": "Sum of Squares of Distinct Counts II",
-    "category": "Fenwick Tree (Dual-BIT) / DP Math Expansion",
-    "time_complexity": "O(N log N) - Bare-metal bitwise hardware jumps",
-    "space_complexity": "O(N) - Strictly 2N memory, destroying Segment Tree's 4N allocation",
-    "file": "Trees/sum_squares_distinct_counts_hard.cpp"
   },
   {
     "problem_name": "Subtree Average",
