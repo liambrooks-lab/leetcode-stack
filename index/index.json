@@ -693,6 +693,13 @@
     "file": "Math/number_of_commas.py"
   },
   {
+    "problem_name": "Number of Ways to Reorder Array to Get Same BST",
+    "category": "Math / Combinatorics / Doubly Linked List (Interval Merging)",
+    "time_complexity": "O(N) - Bare-metal linear pass",
+    "space_complexity": "O(N) - 1D State Tracking Arrays",
+    "file": "Math/ways_to_reorder_bst.py"
+  },
+  {
     "problem_name": "Pow X N",
     "category": "Math",
     "time_complexity": "O(N)",

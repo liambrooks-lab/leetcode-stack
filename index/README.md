@@ -220,6 +220,12 @@ Automatically generated problem index.
 |---|---|---|---|
 | Score of Parentheses | `O(N)` | `O(1) - Zero Stack Allocation` | [score_of_parentheses.py](../Math/score_of_parentheses.py) |
 
+## Math / Combinatorics / Doubly Linked List (Interval Merging)
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Number of Ways to Reorder Array to Get Same BST | `O(N) - Bare-metal linear pass` | `O(N) - 1D State Tracking Arrays` | [ways_to_reorder_bst.py](../Math/ways_to_reorder_bst.py) |
+
 ## Math / Greedy String Construction
 
 | Problem | Time Complexity | Space Complexity | File |
