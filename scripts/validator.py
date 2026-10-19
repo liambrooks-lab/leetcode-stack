@@ -42,7 +42,7 @@ def main():
         if os.path.isdir(item) and item[0].isupper() and item != ".git":
             for root, dirs, files in os.walk(item):
                 for file in files:
-                    if file.endswith(('.py', '.cpp', '.js')):
+                    if file.endswith(('.py', '.cpp', '.go')):
                         filepath = os.path.join(root, file)
                         
                         if not check_snake_case(file):

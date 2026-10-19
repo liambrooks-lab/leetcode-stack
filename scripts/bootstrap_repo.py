@@ -51,7 +51,7 @@ def process_file(filepath, category):
     if 'problem_name' in content and 'time_complexity' in content:
         return # Already has metadata
         
-    problem_name = filename.replace('.py', '').replace('.cpp', '').replace('.js', '').replace('_', ' ').title()
+    problem_name = filename.replace('.py', '').replace('.cpp', '').replace('.go', '').replace('_', ' ').title()
     time, space = get_default_complexity(category, filename)
     
     meta = {
@@ -76,6 +76,6 @@ for item in os.listdir('.'):
     if os.path.isdir(item) and item[0].isupper() and item != ".git":
         for root, dirs, files in os.walk(item):
             for file in files:
-                if file.endswith(('.py', '.cpp', '.js')):
+                if file.endswith(('.py', '.cpp', '.go')):
                     process_file(os.path.join(root, file), item)
 print("Metadata injected successfully.")

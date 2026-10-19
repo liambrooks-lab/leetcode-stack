@@ -26,7 +26,7 @@ def main():
         if os.path.isdir(item) and item[0].isupper() and item != ".git":
             for root, dirs, files in os.walk(item):
                 for file in files:
-                    if file.endswith(('.py', '.cpp', '.js')):
+                    if file.endswith(('.py', '.cpp', '.go')):
                         filepath = os.path.join(root, file)
                         meta = get_metadata(filepath)
                         if meta:
@@ -41,7 +41,11 @@ def main():
         
     # Write Markdown
     markdown_content = "# LeetCode Stack Index\n\n"
-    markdown_content += "Automatically generated problem index.\n\n"
+    markdown_content += "Automated problem index categorized by algorithmic taxonomy.\n\n"
+    markdown_content += "## Execution Stack\n\n"
+    markdown_content += "* **`C++`** (C++17): Direct memory manipulation and deterministic performance.\n"
+    markdown_content += "* **`Python 3`**: Standard library data structures and mathematical routines.\n"
+    markdown_content += "* **`Golang`** (Go 1.22): Static compilation, pre-allocated slices, and minimal runtime overhead.\n\n"
     
     categories = {}
     for entry in index_data:

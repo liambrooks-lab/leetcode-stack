@@ -2,10 +2,10 @@
 CXX = g++
 CXXFLAGS = -O3 -std=c++17
 PYTHON = python3
-NODE = node
+GO = go
 
 # 2. PHONY Targets
-.PHONY: cpp py js clean push validate test benchmark index
+.PHONY: cpp py go clean push validate test benchmark index
 
 # 3. Execution Rules
 cpp:
@@ -17,9 +17,9 @@ py:
 	@echo "Running Python script: $(file)..."
 	$(PYTHON) $(file)
 
-js:
-	@echo "Running Node.js script: $(file)..."
-	$(NODE) $(file)
+go:
+	@echo "Compiling and running Go file: $(file)..."
+	$(GO) run $(file)
 
 # 4. Infrastructure Rules
 validate:
@@ -41,7 +41,7 @@ index:
 # 5. Clean Rule
 clean:
 	@echo "Cleaning up workspace..."
-	rm -f executable test_bin test_bin.exe
+	rm -f executable executable.exe test_bin test_bin.exe
 
 # 6. Git Automation Rule
 push:

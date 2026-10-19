@@ -4,7 +4,7 @@ This repository operates as an autonomous, highly optimized archive of algorithm
 
 ## I. Acceptance Criteria
 
-Submissions must strictly align with the core language stack (C++, Python 3, JavaScript/Node.js) and fulfill at least one of the following technical requirements:
+Submissions must strictly align with the core language stack (C++, Python 3, Golang) and fulfill at least one of the following technical requirements:
 
 1. **Asymptotic Optimization:** The proposed solution must strictly reduce the upper bound time complexity (e.g., O(N^2) to O(N log N)) or optimal auxiliary space complexity.
 2. **Architectural Parity:** Providing a missing implementation of a documented algorithm in one of the approved stack languages, adhering to memory and execution constraints.

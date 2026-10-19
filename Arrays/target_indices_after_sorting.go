@@ -7,7 +7,7 @@
 }
 */
 
-package main
+package arrays
 
 func targetIndices(nums []int, target int) []int {
     lessCount := 0
