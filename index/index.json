@@ -1,38 +1,10 @@
 [
   {
-    "problem_name": "Trapping Rain Water",
-    "category": "Two_Pointers",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Two_Pointers/trapping_rain_water.py"
-  },
-  {
     "problem_name": "Rm Element",
     "category": "Two_Pointers",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
     "file": "Two_Pointers/rm_element.py"
-  },
-  {
-    "problem_name": "Rm Duplicates",
-    "category": "Two_Pointers",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Two_Pointers/rm_duplicates.py"
-  },
-  {
-    "problem_name": "Three Sum",
-    "category": "Two_Pointers",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Two_Pointers/three_sum.py"
-  },
-  {
-    "problem_name": "Container With Most Water",
-    "category": "Two_Pointers",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Two_Pointers/container_with_most_water.go"
   },
   {
     "problem_name": "Four Sum",
@@ -42,11 +14,32 @@
     "file": "Two_Pointers/four_sum.py"
   },
   {
-    "problem_name": "Longest Valid Parentheses",
-    "category": "Two Pointers",
+    "problem_name": "Container With Most Water",
+    "category": "Two_Pointers",
     "time_complexity": "O(N)",
-    "space_complexity": "O(1) - Pure Bare-Metal Execution",
-    "file": "Two_Pointers/longest_valid_parentheses.cpp"
+    "space_complexity": "O(1)",
+    "file": "Two_Pointers/container_with_most_water.go"
+  },
+  {
+    "problem_name": "Longest Palindromic Substring",
+    "category": "Two_Pointers",
+    "time_complexity": "O(N^2)",
+    "space_complexity": "O(1)",
+    "file": "Two_Pointers/longest_palindromic_substring.cpp"
+  },
+  {
+    "problem_name": "Three Sum",
+    "category": "Two_Pointers",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Two_Pointers/three_sum.py"
+  },
+  {
+    "problem_name": "Trapping Rain Water",
+    "category": "Two_Pointers",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Two_Pointers/trapping_rain_water.py"
   },
   {
     "problem_name": "Three Sum Closest",
@@ -63,18 +56,32 @@
     "file": "Two_Pointers/longest_valid_parentheses_stack_bypass.py"
   },
   {
-    "problem_name": "Longest Palindromic Substring",
+    "problem_name": "Rm Duplicates",
     "category": "Two_Pointers",
-    "time_complexity": "O(N^2)",
+    "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Two_Pointers/longest_palindromic_substring.cpp"
+    "file": "Two_Pointers/rm_duplicates.py"
   },
   {
-    "problem_name": "Sum of Squares of Special Elements",
-    "category": "Math / Arrays",
+    "problem_name": "Longest Valid Parentheses",
+    "category": "Two Pointers",
     "time_complexity": "O(N)",
-    "space_complexity": "O(1) - Zero Auxiliary Memory",
-    "file": "Arrays/sum_of_squares_special_elements.py"
+    "space_complexity": "O(1) - Pure Bare-Metal Execution",
+    "file": "Two_Pointers/longest_valid_parentheses.cpp"
+  },
+  {
+    "problem_name": "Cinema Seat Allocation",
+    "category": "Bit_Manipulation",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Bit_Manipulation/cinema_seat_allocation.py"
+  },
+  {
+    "problem_name": "Longest Nonzero Xor",
+    "category": "Bit_Manipulation",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Bit_Manipulation/longest_nonzero_xor.go"
   },
   {
     "problem_name": "Largest Almost Missing Integer",
@@ -91,13 +98,6 @@
     "file": "Arrays/lexicographically_smallest_array.py"
   },
   {
-    "problem_name": "Find Target Indices After Sorting Array",
-    "category": "Arrays / Math (Counting)",
-    "time_complexity": "O(N) - Single linear pass bypassing standard sorting overhead",
-    "space_complexity": "O(1) - Zero extra allocation besides the required return slice",
-    "file": "Arrays/target_indices_after_sorting.go"
-  },
-  {
     "problem_name": "Distribute Elements I",
     "category": "Arrays",
     "time_complexity": "O(N)",
@@ -105,102 +105,109 @@
     "file": "Arrays/distribute_elements_i.go"
   },
   {
-    "problem_name": "Minimum Swaps to Sort by Digit Sum",
-    "category": "Bit Manipulation / Cycle Sort",
-    "time_complexity": "O(N log N) - 64-bit Primitive Sorting",
-    "space_complexity": "O(N) - Single 64-bit array, Zero Struct Overhead",
-    "file": "Sorting/min_swaps_to_sort.cpp"
-  },
-  {
-    "problem_name": "First Missing Positive",
-    "category": "Cyclic_Sort",
+    "problem_name": "Sum of Squares of Special Elements",
+    "category": "Math / Arrays",
     "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Sorting/first_missing_positive.go"
+    "space_complexity": "O(1) - Zero Auxiliary Memory",
+    "file": "Arrays/sum_of_squares_special_elements.py"
   },
   {
-    "problem_name": "Brace Expansion II",
-    "category": "Stack / Parser",
-    "time_complexity": "O(N + K log K) - N is string len, K is output size",
-    "space_complexity": "O(K) - Minimal memory footprint",
-    "file": "Stacks/brace_expansion_compiler.py"
+    "problem_name": "Find Target Indices After Sorting Array",
+    "category": "Arrays / Math (Counting)",
+    "time_complexity": "O(N) - Single linear pass bypassing standard sorting overhead",
+    "space_complexity": "O(1) - Zero extra allocation besides the required return slice",
+    "file": "Arrays/target_indices_after_sorting.go"
   },
   {
-    "problem_name": "Valid Parentheses",
-    "category": "Stack",
-    "time_complexity": "O(N)",
+    "problem_name": "Permutations",
+    "category": "Backtracking",
+    "time_complexity": "O(2^N)",
     "space_complexity": "O(N)",
-    "file": "Stacks/valid_parentheses.py"
+    "file": "Backtracking/permutations.go"
   },
   {
-    "problem_name": "Valid Parentheses",
-    "category": "Stacks",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Stacks/valid_parentheses.go"
-  },
-  {
-    "problem_name": "Reverse Substrings Between Each Pair of Parentheses",
-    "category": "Stack / O(N) Wormhole Traversal",
-    "time_complexity": "O(N)",
+    "problem_name": "Sudoku Solver",
+    "category": "Backtracking",
+    "time_complexity": "O(2^N)",
     "space_complexity": "O(N)",
-    "file": "Stacks/reverse_substrings_parentheses.py"
+    "file": "Backtracking/sudoku_solver.py"
   },
   {
-    "problem_name": "Stone Game Vii",
-    "category": "Game_Theory",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Game_Theory/stone_game_vii.cpp"
+    "problem_name": "Letter Combinations",
+    "category": "Backtracking",
+    "time_complexity": "O(2^N)",
+    "space_complexity": "O(N)",
+    "file": "Backtracking/letter_combinations.py"
   },
   {
-    "problem_name": "Sum Game",
-    "category": "Game_Theory",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Game_Theory/sum_game.go"
+    "problem_name": "Generate Parentheses",
+    "category": "DFS / Explicit State Routing",
+    "time_complexity": "O(4^N / sqrt(N)) - Catalan Number Bound",
+    "space_complexity": "O(N) - Recursion Stack depth bound",
+    "file": "Backtracking/generate_parentheses.py"
   },
   {
-    "problem_name": "Stone Game Ii",
-    "category": "Game_Theory",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Game_Theory/stone_game_ii.cpp"
+    "problem_name": "N Queens",
+    "category": "Backtracking",
+    "time_complexity": "O(2^N)",
+    "space_complexity": "O(N)",
+    "file": "Backtracking/n_queens.py"
   },
   {
-    "problem_name": "Stone Game Ix",
-    "category": "Game_Theory",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Game_Theory/stone_game_ix.py"
+    "problem_name": "Combination Sum",
+    "category": "Backtracking",
+    "time_complexity": "O(2^N)",
+    "space_complexity": "O(N)",
+    "file": "Backtracking/combination_sum.py"
   },
   {
-    "problem_name": "Stone Game V",
-    "category": "Game_Theory",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Game_Theory/stone_game_v.py"
+    "problem_name": "Gen Parentheses",
+    "category": "Backtracking",
+    "time_complexity": "O(2^N)",
+    "space_complexity": "O(N)",
+    "file": "Backtracking/generate_parentheses.go"
   },
   {
-    "problem_name": "Stone Game Iv",
-    "category": "Game_Theory",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Game_Theory/stone_game_iv.cpp"
+    "problem_name": "Combination Sum Ii",
+    "category": "Backtracking",
+    "time_complexity": "O(2^N)",
+    "space_complexity": "O(N)",
+    "file": "Backtracking/combination_sum_ii.go"
   },
   {
-    "problem_name": "Longest Nonzero Xor",
-    "category": "Bit_Manipulation",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Bit_Manipulation/longest_nonzero_xor.go"
+    "problem_name": "Remove Invalid Parentheses",
+    "category": "DFS / Bidirectional Scan",
+    "time_complexity": "O(N^2) - Absolute minimal branching",
+    "space_complexity": "O(N) - Zero Hash Sets Allocation",
+    "file": "Backtracking/remove_invalid_parentheses.cpp"
   },
   {
-    "problem_name": "Cinema Seat Allocation",
-    "category": "Bit_Manipulation",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Bit_Manipulation/cinema_seat_allocation.py"
+    "problem_name": "Permutations Ii",
+    "category": "Backtracking",
+    "time_complexity": "O(2^N)",
+    "space_complexity": "O(N)",
+    "file": "Backtracking/permutations_ii.go"
+  },
+  {
+    "problem_name": "N Queens Ii",
+    "category": "Backtracking",
+    "time_complexity": "O(2^N)",
+    "space_complexity": "O(N)",
+    "file": "Backtracking/n_queens_ii.go"
+  },
+  {
+    "problem_name": "Shortest Path Cleanup Bitmask",
+    "category": "Graphs",
+    "time_complexity": "O(V + E)",
+    "space_complexity": "O(V + E)",
+    "file": "Graphs/shortest_path_cleanup_bitmask.cpp"
+  },
+  {
+    "problem_name": "Check if There Is a Valid Parentheses String Path",
+    "category": "Graphs / DP / State Space Pruning",
+    "time_complexity": "O(m * n * (m + n))",
+    "space_complexity": "O(m * n * (m + n))",
+    "file": "Graphs/check_valid_parentheses_path.cpp"
   },
   {
     "problem_name": "Lexicographically Smallest Valid Sequence",
@@ -210,18 +217,18 @@
     "file": "Greedy/lexicographically_smallest_valid_sequence.cpp"
   },
   {
-    "problem_name": "Minimum Insertions to Balance a Parentheses String",
-    "category": "Greedy / State Tracking",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1) - Pure Register Tracking",
-    "file": "Greedy/minimum_insertions_to_balance.cpp"
+    "problem_name": "Maximum Alternating Score",
+    "category": "Math / Quickselect (Vectorized)",
+    "time_complexity": "O(N) Expected - via np.partition",
+    "space_complexity": "O(N) - NumPy C-array allocation",
+    "file": "Greedy/max_alternating_score.py"
   },
   {
-    "problem_name": "Maximum Number of Non-overlapping Palindrome Substrings",
+    "problem_name": "Jump Game Ii",
     "category": "Greedy",
-    "time_complexity": "O(N * K)",
+    "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Greedy/max_no_of_non_overlapping_palindrome_substrings.cpp"
+    "file": "Greedy/jump_game_ii.cpp"
   },
   {
     "problem_name": "Minimum Add to Make Parentheses Valid",
@@ -231,6 +238,13 @@
     "file": "Greedy/minimum_add_to_make_valid.py"
   },
   {
+    "problem_name": "Maximum Sum of Squares of K Elements",
+    "category": "Greedy",
+    "time_complexity": "O(N + K)",
+    "space_complexity": "O(1)",
+    "file": "Greedy/maximum_sum_of_squares_of_k_elements.py"
+  },
+  {
     "problem_name": "Jump Game",
     "category": "Greedy",
     "time_complexity": "O(N)",
@@ -238,32 +252,25 @@
     "file": "Greedy/jump_game.py"
   },
   {
-    "problem_name": "Minimum Sum of Squared Difference",
-    "category": "Greedy / Bucket Sort",
-    "time_complexity": "O(N + max_diff)",
-    "space_complexity": "O(max_diff) - Zero Heap Allocation",
-    "file": "Greedy/min_sum_squared_diff.py"
+    "problem_name": "Valid Parenthesis String",
+    "category": "Greedy / State Space",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Greedy/valid_parenthesis_string.cpp"
   },
   {
-    "problem_name": "Next Permutation",
+    "problem_name": "Maximum Number of Non-overlapping Palindrome Substrings",
+    "category": "Greedy",
+    "time_complexity": "O(N * K)",
+    "space_complexity": "O(1)",
+    "file": "Greedy/max_no_of_non_overlapping_palindrome_substrings.cpp"
+  },
+  {
+    "problem_name": "Min Deletions Min Max",
     "category": "Greedy",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Greedy/next_permutation.py"
-  },
-  {
-    "problem_name": "Maximum Alternating Score",
-    "category": "Math / Quickselect (Vectorized)",
-    "time_complexity": "O(N) Expected - via np.partition",
-    "space_complexity": "O(N) - NumPy C-array allocation",
-    "file": "Greedy/max_alternating_score.py"
-  },
-  {
-    "problem_name": "Maximum Sum of Squares of K Elements",
-    "category": "Greedy",
-    "time_complexity": "O(N + K)",
-    "space_complexity": "O(1)",
-    "file": "Greedy/maximum_sum_of_squares_of_k_elements.py"
+    "file": "Greedy/min_deletions_min_max.cpp"
   },
   {
     "problem_name": "Lex Greater Permutation",
@@ -280,60 +287,249 @@
     "file": "Greedy/max_non_overlapping_substrings.py"
   },
   {
-    "problem_name": "Valid Parenthesis String",
-    "category": "Greedy / State Space",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Greedy/valid_parenthesis_string.cpp"
-  },
-  {
-    "problem_name": "Jump Game Ii",
+    "problem_name": "Next Permutation",
     "category": "Greedy",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Greedy/jump_game_ii.cpp"
+    "file": "Greedy/next_permutation.py"
   },
   {
-    "problem_name": "Min Deletions Min Max",
-    "category": "Greedy",
+    "problem_name": "Minimum Sum of Squared Difference",
+    "category": "Greedy / Bucket Sort",
+    "time_complexity": "O(N + max_diff)",
+    "space_complexity": "O(max_diff) - Zero Heap Allocation",
+    "file": "Greedy/min_sum_squared_diff.py"
+  },
+  {
+    "problem_name": "Minimum Insertions to Balance a Parentheses String",
+    "category": "Greedy / State Tracking",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1) - Pure Register Tracking",
+    "file": "Greedy/minimum_insertions_to_balance.cpp"
+  },
+  {
+    "problem_name": "Subtree Average",
+    "category": "Trees",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(H)",
+    "file": "Trees/subtree_average.py"
+  },
+  {
+    "problem_name": "Find X-Values of Subarrays Modulo K (Range Queries)",
+    "category": "Segment Tree",
+    "time_complexity": "O(N + Q \\log N)",
+    "space_complexity": "O(N * K)",
+    "file": "Segment_Tree/x_values_modulo_k_queries.cpp"
+  },
+  {
+    "problem_name": "Longest Repeat Substr",
+    "category": "Segment_Tree",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Greedy/min_deletions_min_max.cpp"
+    "file": "Segment_Tree/longest_repeat_substr.go"
   },
   {
-    "problem_name": "Regular Expressions Matching",
-    "category": "Dynamic_Programming",
-    "time_complexity": "O(N^2)",
+    "problem_name": "Sortable Integers",
+    "category": "Math / Arrays / Prefix Sums",
+    "time_complexity": "O(N + \u03c3(N)) - Linear precomputation + O(1) block evaluations. Completely bypasses TLE.",
+    "space_complexity": "O(N) - State tracking arrays for prefix max, suffix min, and drops.",
+    "file": "Math/sum_sortable_divisors.go"
+  },
+  {
+    "problem_name": "Palindrome No",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/palindrome_no.cpp"
+  },
+  {
+    "problem_name": "Array Parity Construct",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/array_parity_construct.go"
+  },
+  {
+    "problem_name": "Integer To Roman",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/integer_to_roman.go"
+  },
+  {
+    "problem_name": "Divisible By Sum Product",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/divisible_by_sum_product.cpp"
+  },
+  {
+    "problem_name": "Number Of Commas",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/number_of_commas.py"
+  },
+  {
+    "problem_name": "Uniform Parity Array Ii",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/uniform_parity_array_ii.go"
+  },
+  {
+    "problem_name": "Smallest Divisible Digit Product Ii",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/smallest_divisible_digit_product_ii.cpp"
+  },
+  {
+    "problem_name": "Divide Integers Alu",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/divide_integers_alu.go"
+  },
+  {
+    "problem_name": "Unique Paths",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/unique_paths.py"
+  },
+  {
+    "problem_name": "Reverse Integer",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/reverse_integer.cpp"
+  },
+  {
+    "problem_name": "Rectangle Overlap",
+    "category": "Math",
+    "time_complexity": "O(1)",
+    "space_complexity": "O(1)",
+    "file": "Math/rectangle_overlap.py"
+  },
+  {
+    "problem_name": "Pow X N",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/pow_x_n.py"
+  },
+  {
+    "problem_name": "Roman To Integer",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/roman_to_integer.py"
+  },
+  {
+    "problem_name": "Three Digit Even Count",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/three_digit_even_count.py"
+  },
+  {
+    "problem_name": "Smallest Index With Equal Sum",
+    "category": "Math",
+    "time_complexity": "O(1)",
+    "space_complexity": "O(1)",
+    "file": "Math/smallest_index_with_equal_sum.py"
+  },
+  {
+    "problem_name": "Circle and Rectangle Overlapping",
+    "category": "Math",
+    "time_complexity": "O(1)",
+    "space_complexity": "O(1)",
+    "file": "Math/circle_and_rectangle_overlapping.cpp"
+  },
+  {
+    "problem_name": "Score of Parentheses",
+    "category": "Math / Bitwise",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1) - Zero Stack Allocation",
+    "file": "Math/score_of_parentheses.py"
+  },
+  {
+    "problem_name": "Missing Multiple",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/missing_multiple.cpp"
+  },
+  {
+    "problem_name": "Number of Ways to Reorder Array to Get Same BST",
+    "category": "Math / Combinatorics / Doubly Linked List (Interval Merging)",
+    "time_complexity": "O(N) - Bare-metal linear pass",
+    "space_complexity": "O(N) - 1D State Tracking Arrays",
+    "file": "Math/ways_to_reorder_bst.py"
+  },
+  {
+    "problem_name": "Number of Sets of K Non-Overlapping Line Segments",
+    "category": "Math",
+    "time_complexity": "O(K)",
+    "space_complexity": "O(1)",
+    "file": "Math/k_non_overlapping_line_segments.cpp"
+  },
+  {
+    "problem_name": "Count Commas In Line Ii",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/count_commas_in_line_ii.py"
+  },
+  {
+    "problem_name": "Permutation Sequence",
+    "category": "Math",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Math/permutation_sequence.cpp"
+  },
+  {
+    "problem_name": "Minimum Swaps to Sort by Digit Sum",
+    "category": "Bit Manipulation / Cycle Sort",
+    "time_complexity": "O(N log N) - 64-bit Primitive Sorting",
+    "space_complexity": "O(N) - Single 64-bit array, Zero Struct Overhead",
+    "file": "Sorting/min_swaps_to_sort.cpp"
+  },
+  {
+    "problem_name": "First Missing Positive",
+    "category": "Cyclic_Sort",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Sorting/first_missing_positive.go"
+  },
+  {
+    "problem_name": "Valid Parentheses",
+    "category": "Stack",
+    "time_complexity": "O(N)",
     "space_complexity": "O(N)",
-    "file": "Dynamic_Programming/regular_expressions_matching.go"
+    "file": "Stacks/valid_parentheses.py"
   },
   {
-    "problem_name": "Sum of Squares of Distinct Counts",
-    "category": "Dynamic Programming / Math Expansion",
-    "time_complexity": "O(N^2)",
-    "space_complexity": "O(N) - Strictly bounded state arrays",
-    "file": "Dynamic_Programming/sum_squares_distinct_counts.py"
+    "problem_name": "Valid Parentheses",
+    "category": "Stacks",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Stacks/valid_parentheses.go"
   },
   {
-    "problem_name": "Distinct Subsequences",
-    "category": "Dynamic_Programming",
-    "time_complexity": "O(N^2)",
+    "problem_name": "Brace Expansion II",
+    "category": "Stack / Parser",
+    "time_complexity": "O(N + K log K) - N is string len, K is output size",
+    "space_complexity": "O(K) - Minimal memory footprint",
+    "file": "Stacks/brace_expansion_compiler.py"
+  },
+  {
+    "problem_name": "Reverse Substrings Between Each Pair of Parentheses",
+    "category": "Stack / O(N) Wormhole Traversal",
+    "time_complexity": "O(N)",
     "space_complexity": "O(N)",
-    "file": "Dynamic_Programming/distinct_subsequences.go"
-  },
-  {
-    "problem_name": "Maximum Weight 4 Intervals",
-    "category": "Dynamic_Programming",
-    "time_complexity": "O(N^2)",
-    "space_complexity": "O(N)",
-    "file": "Dynamic_Programming/maximum_weight_4_intervals.py"
-  },
-  {
-    "problem_name": "Distinct Subsequences Ii",
-    "category": "Dynamic_Programming",
-    "time_complexity": "O(N^2)",
-    "space_complexity": "O(N)",
-    "file": "Dynamic_Programming/distinct_subsequences_ii.go"
+    "file": "Stacks/reverse_substrings_parentheses.py"
   },
   {
     "problem_name": "Find X-Values of Subarrays Modulo K",
@@ -343,11 +539,228 @@
     "file": "Dynamic_Programming/find_x_values_modulo_k.cpp"
   },
   {
+    "problem_name": "Distinct Subsequences",
+    "category": "Dynamic_Programming",
+    "time_complexity": "O(N^2)",
+    "space_complexity": "O(N)",
+    "file": "Dynamic_Programming/distinct_subsequences.go"
+  },
+  {
+    "problem_name": "Distinct Subsequences Ii",
+    "category": "Dynamic_Programming",
+    "time_complexity": "O(N^2)",
+    "space_complexity": "O(N)",
+    "file": "Dynamic_Programming/distinct_subsequences_ii.go"
+  },
+  {
+    "problem_name": "Maximum Weight 4 Intervals",
+    "category": "Dynamic_Programming",
+    "time_complexity": "O(N^2)",
+    "space_complexity": "O(N)",
+    "file": "Dynamic_Programming/maximum_weight_4_intervals.py"
+  },
+  {
     "problem_name": "Maximum Subarray",
     "category": "Dynamic_Programming",
     "time_complexity": "O(N^2)",
     "space_complexity": "O(N)",
     "file": "Dynamic_Programming/maximum_subarray.go"
+  },
+  {
+    "problem_name": "Sum of Squares of Distinct Counts",
+    "category": "Dynamic Programming / Math Expansion",
+    "time_complexity": "O(N^2)",
+    "space_complexity": "O(N) - Strictly bounded state arrays",
+    "file": "Dynamic_Programming/sum_squares_distinct_counts.py"
+  },
+  {
+    "problem_name": "Regular Expressions Matching",
+    "category": "Dynamic_Programming",
+    "time_complexity": "O(N^2)",
+    "space_complexity": "O(N)",
+    "file": "Dynamic_Programming/regular_expressions_matching.go"
+  },
+  {
+    "problem_name": "Spiral Matrix Ii",
+    "category": "Matrices",
+    "time_complexity": "O(M * N)",
+    "space_complexity": "O(M * N)",
+    "file": "Matrices/spiral_matrix_ii.py"
+  },
+  {
+    "problem_name": "Spiral Matrix",
+    "category": "Matrices",
+    "time_complexity": "O(M * N)",
+    "space_complexity": "O(M * N)",
+    "file": "Matrices/spiral_matrix.py"
+  },
+  {
+    "problem_name": "Image Overlap",
+    "category": "Matrices",
+    "time_complexity": "O(M * N)",
+    "space_complexity": "O(M * N)",
+    "file": "Matrices/image_overlap.py"
+  },
+  {
+    "problem_name": "Rotate Image",
+    "category": "Matrices",
+    "time_complexity": "O(M * N)",
+    "space_complexity": "O(M * N)",
+    "file": "Matrices/rotate_image.cpp"
+  },
+  {
+    "problem_name": "Max Len Substr 2 Occ",
+    "category": "Sliding_Window",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Sliding_Window/max_len_substr_2_occ.py"
+  },
+  {
+    "problem_name": "Longest Substring Without Rep Chars",
+    "category": "Sliding_Window",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Sliding_Window/longest_substring_without_rep_chars.cpp"
+  },
+  {
+    "problem_name": "Longest Subarray K Freq",
+    "category": "Sliding_Window",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Sliding_Window/longest_subarray_k_freq.py"
+  },
+  {
+    "problem_name": "Substring Concat Words",
+    "category": "Sliding_Window",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Sliding_Window/substring_concat_words.go"
+  },
+  {
+    "problem_name": "Minimum Operations to Reduce X to Zero",
+    "category": "Sliding Window",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Sliding_Window/min_operations_reduce_x_to_zero.py"
+  },
+  {
+    "problem_name": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
+    "category": "Sliding Window",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(N)",
+    "file": "Sliding_Window/min_sum_of_lengths.cpp"
+  },
+  {
+    "problem_name": "Count And Say",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/count_and_say.py"
+  },
+  {
+    "problem_name": "Maximum Nesting Depth of the Parentheses",
+    "category": "Strings / State Machine",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/maximum_nesting_depth.cpp"
+  },
+  {
+    "problem_name": "Zigzag Conversion",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/zigzag_conversion.cpp"
+  },
+  {
+    "problem_name": "Reverse Degree of a String",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/reverse_degree_of_a_string.cpp"
+  },
+  {
+    "problem_name": "Wildcard Matching",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/wildcard_matching.cpp"
+  },
+  {
+    "problem_name": "Remove Outermost Parentheses",
+    "category": "Strings / State Tracking",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(N) - Result string allocation",
+    "file": "Strings/remove_outermost_parentheses.cpp"
+  },
+  {
+    "problem_name": "Evaluate the Bracket Pairs of a String",
+    "category": "String Manipulation / Hash Map",
+    "time_complexity": "O(N + K)",
+    "space_complexity": "O(N + K)",
+    "file": "Strings/evaluate_bracket_pairs.cpp"
+  },
+  {
+    "problem_name": "Length Of Last Word",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/length_of_last_word.py"
+  },
+  {
+    "problem_name": "Longest Common Prefix",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/longest_common_prefix.py"
+  },
+  {
+    "problem_name": "Maximum Nesting Depth of Two Valid Parentheses Strings",
+    "category": "Bitwise Math / Memory Allocation",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1) auxiliary",
+    "file": "Strings/max_nesting_depth_two_vps.cpp"
+  },
+  {
+    "problem_name": "String To Integer Atoi",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/string_to_integer_atoi.cpp"
+  },
+  {
+    "problem_name": "Shortest Beautiful Substring",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/shortest_beautiful_substring.go"
+  },
+  {
+    "problem_name": "Multiply Strings",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/multiply_strings.py"
+  },
+  {
+    "problem_name": "First Occurrence Str",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/first_occurrence_str.go"
+  },
+  {
+    "problem_name": "Maximum Good Integer (maxSumOfSquares)",
+    "category": "Math / Greedy String Construction",
+    "time_complexity": "O(N) - Hardware-level memory fill",
+    "space_complexity": "O(N) - Pre-allocated contiguous memory",
+    "file": "Strings/max_good_integer.cpp"
+  },
+  {
+    "problem_name": "Next Greater Palindrome",
+    "category": "Strings",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Strings/next_greater_palindrome.py"
   },
   {
     "problem_name": "Smallest Stable Index",
@@ -357,13 +770,6 @@
     "file": "Prefix_Sum/smallest_stable_index.go"
   },
   {
-    "problem_name": "First Stable Index",
-    "category": "Prefix_Sum",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Prefix_Sum/first_stable_index.go"
-  },
-  {
     "problem_name": "Sequential Prefix Sum",
     "category": "Prefix_Sum",
     "time_complexity": "O(N)",
@@ -371,11 +777,11 @@
     "file": "Prefix_Sum/sequential_prefix_sum.py"
   },
   {
-    "problem_name": "Search Insert Position",
-    "category": "Binary_Search",
-    "time_complexity": "O(log N)",
+    "problem_name": "First Stable Index",
+    "category": "Prefix_Sum",
+    "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Binary_Search/search_insert_position.py"
+    "file": "Prefix_Sum/first_stable_index.go"
   },
   {
     "problem_name": "Search Rotated Array",
@@ -406,25 +812,60 @@
     "file": "Binary_Search/find_first_last_position.py"
   },
   {
-    "problem_name": "Remove Nth Node",
-    "category": "Linked_Lists",
-    "time_complexity": "O(N)",
+    "problem_name": "Search Insert Position",
+    "category": "Binary_Search",
+    "time_complexity": "O(log N)",
     "space_complexity": "O(1)",
-    "file": "Linked_Lists/remove_nth_node.py"
+    "file": "Binary_Search/search_insert_position.py"
   },
   {
-    "problem_name": "Critical Points Distance",
-    "category": "Linked_Lists",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Linked_Lists/critical_points_distance.cpp"
+    "problem_name": "Sum of Squares of Distinct Counts II",
+    "category": "Fenwick Tree (Dual-BIT) / DP Math Expansion",
+    "time_complexity": "O(N log N) - Bare-metal bitwise hardware jumps",
+    "space_complexity": "O(N) - Strictly 2N memory, destroying Segment Tree's 4N allocation",
+    "file": "Binary_Indexed_Tree/sum_squares_distinct_counts_hard.cpp"
   },
   {
-    "problem_name": "Merge K Lists",
+    "problem_name": "Insert Interval",
+    "category": "Intervals",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Intervals/insert_interval.py"
+  },
+  {
+    "problem_name": "Merge Intervals",
+    "category": "Intervals",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Intervals/merge_intervals.py"
+  },
+  {
+    "problem_name": "Group Anagrams",
+    "category": "Hashing",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Hashing/group_anagrams.py"
+  },
+  {
+    "problem_name": "Two Sum",
+    "category": "Hashing",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(N)",
+    "file": "Hashing/two_sum.py"
+  },
+  {
+    "problem_name": "Valid Sudoku",
+    "category": "Hashing",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Hashing/valid_sudoku.py"
+  },
+  {
+    "problem_name": "Rotate List",
     "category": "Linked_Lists",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Linked_Lists/merge_k_lists.go"
+    "file": "Linked_Lists/rotate_list.cpp"
   },
   {
     "problem_name": "Add Two Numbers",
@@ -448,11 +889,25 @@
     "file": "Linked_Lists/merge_two_lists.go"
   },
   {
-    "problem_name": "Rotate List",
+    "problem_name": "Merge K Lists",
     "category": "Linked_Lists",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Linked_Lists/rotate_list.cpp"
+    "file": "Linked_Lists/merge_k_lists.go"
+  },
+  {
+    "problem_name": "Remove Nth Node",
+    "category": "Linked_Lists",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Linked_Lists/remove_nth_node.py"
+  },
+  {
+    "problem_name": "Critical Points Distance",
+    "category": "Linked_Lists",
+    "time_complexity": "O(N)",
+    "space_complexity": "O(1)",
+    "file": "Linked_Lists/critical_points_distance.cpp"
   },
   {
     "problem_name": "Swap Pairs",
@@ -462,493 +917,45 @@
     "file": "Linked_Lists/swap_pairs.py"
   },
   {
-    "problem_name": "Multiply Strings",
-    "category": "Strings",
+    "problem_name": "Stone Game Ix",
+    "category": "Game_Theory",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/multiply_strings.py"
+    "file": "Game_Theory/stone_game_ix.py"
   },
   {
-    "problem_name": "First Occurrence Str",
-    "category": "Strings",
+    "problem_name": "Stone Game V",
+    "category": "Game_Theory",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/first_occurrence_str.go"
+    "file": "Game_Theory/stone_game_v.py"
   },
   {
-    "problem_name": "Remove Outermost Parentheses",
-    "category": "Strings / State Tracking",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(N) - Result string allocation",
-    "file": "Strings/remove_outermost_parentheses.cpp"
-  },
-  {
-    "problem_name": "Maximum Nesting Depth of Two Valid Parentheses Strings",
-    "category": "Bitwise Math / Memory Allocation",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1) auxiliary",
-    "file": "Strings/max_nesting_depth_two_vps.cpp"
-  },
-  {
-    "problem_name": "Maximum Nesting Depth of the Parentheses",
-    "category": "Strings / State Machine",
+    "problem_name": "Stone Game Vii",
+    "category": "Game_Theory",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/maximum_nesting_depth.cpp"
+    "file": "Game_Theory/stone_game_vii.cpp"
   },
   {
-    "problem_name": "Wildcard Matching",
-    "category": "Strings",
+    "problem_name": "Stone Game Ii",
+    "category": "Game_Theory",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/wildcard_matching.cpp"
+    "file": "Game_Theory/stone_game_ii.cpp"
   },
   {
-    "problem_name": "Maximum Good Integer (maxSumOfSquares)",
-    "category": "Math / Greedy String Construction",
-    "time_complexity": "O(N) - Hardware-level memory fill",
-    "space_complexity": "O(N) - Pre-allocated contiguous memory",
-    "file": "Strings/max_good_integer.cpp"
-  },
-  {
-    "problem_name": "Zigzag Conversion",
-    "category": "Strings",
+    "problem_name": "Stone Game Iv",
+    "category": "Game_Theory",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/zigzag_conversion.cpp"
+    "file": "Game_Theory/stone_game_iv.cpp"
   },
   {
-    "problem_name": "Count And Say",
-    "category": "Strings",
+    "problem_name": "Sum Game",
+    "category": "Game_Theory",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
-    "file": "Strings/count_and_say.py"
-  },
-  {
-    "problem_name": "Length Of Last Word",
-    "category": "Strings",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Strings/length_of_last_word.py"
-  },
-  {
-    "problem_name": "String To Integer Atoi",
-    "category": "Strings",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Strings/string_to_integer_atoi.cpp"
-  },
-  {
-    "problem_name": "Reverse Degree of a String",
-    "category": "Strings",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Strings/reverse_degree_of_a_string.cpp"
-  },
-  {
-    "problem_name": "Evaluate the Bracket Pairs of a String",
-    "category": "String Manipulation / Hash Map",
-    "time_complexity": "O(N + K)",
-    "space_complexity": "O(N + K)",
-    "file": "Strings/evaluate_bracket_pairs.cpp"
-  },
-  {
-    "problem_name": "Longest Common Prefix",
-    "category": "Strings",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Strings/longest_common_prefix.py"
-  },
-  {
-    "problem_name": "Shortest Beautiful Substring",
-    "category": "Strings",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Strings/shortest_beautiful_substring.go"
-  },
-  {
-    "problem_name": "Next Greater Palindrome",
-    "category": "Strings",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Strings/next_greater_palindrome.py"
-  },
-  {
-    "problem_name": "Divide Integers Alu",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/divide_integers_alu.go"
-  },
-  {
-    "problem_name": "Palindrome No",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/palindrome_no.cpp"
-  },
-  {
-    "problem_name": "Reverse Integer",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/reverse_integer.cpp"
-  },
-  {
-    "problem_name": "Number of Sets of K Non-Overlapping Line Segments",
-    "category": "Math",
-    "time_complexity": "O(K)",
-    "space_complexity": "O(1)",
-    "file": "Math/k_non_overlapping_line_segments.cpp"
-  },
-  {
-    "problem_name": "Score of Parentheses",
-    "category": "Math / Bitwise",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1) - Zero Stack Allocation",
-    "file": "Math/score_of_parentheses.py"
-  },
-  {
-    "problem_name": "Permutation Sequence",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/permutation_sequence.cpp"
-  },
-  {
-    "problem_name": "Unique Paths",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/unique_paths.py"
-  },
-  {
-    "problem_name": "Smallest Divisible Digit Product Ii",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/smallest_divisible_digit_product_ii.cpp"
-  },
-  {
-    "problem_name": "Array Parity Construct",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/array_parity_construct.go"
-  },
-  {
-    "problem_name": "Uniform Parity Array Ii",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/uniform_parity_array_ii.go"
-  },
-  {
-    "problem_name": "Divisible By Sum Product",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/divisible_by_sum_product.cpp"
-  },
-  {
-    "problem_name": "Three Digit Even Count",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/three_digit_even_count.py"
-  },
-  {
-    "problem_name": "Rectangle Overlap",
-    "category": "Math",
-    "time_complexity": "O(1)",
-    "space_complexity": "O(1)",
-    "file": "Math/rectangle_overlap.py"
-  },
-  {
-    "problem_name": "Smallest Index With Equal Sum",
-    "category": "Math",
-    "time_complexity": "O(1)",
-    "space_complexity": "O(1)",
-    "file": "Math/smallest_index_with_equal_sum.py"
-  },
-  {
-    "problem_name": "Circle and Rectangle Overlapping",
-    "category": "Math",
-    "time_complexity": "O(1)",
-    "space_complexity": "O(1)",
-    "file": "Math/circle_and_rectangle_overlapping.cpp"
-  },
-  {
-    "problem_name": "Missing Multiple",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/missing_multiple.cpp"
-  },
-  {
-    "problem_name": "Number Of Commas",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/number_of_commas.py"
-  },
-  {
-    "problem_name": "Number of Ways to Reorder Array to Get Same BST",
-    "category": "Math / Combinatorics / Doubly Linked List (Interval Merging)",
-    "time_complexity": "O(N) - Bare-metal linear pass",
-    "space_complexity": "O(N) - 1D State Tracking Arrays",
-    "file": "Math/ways_to_reorder_bst.py"
-  },
-  {
-    "problem_name": "Integer To Roman",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/integer_to_roman.go"
-  },
-  {
-    "problem_name": "Pow X N",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/pow_x_n.py"
-  },
-  {
-    "problem_name": "Count Commas In Line Ii",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/count_commas_in_line_ii.py"
-  },
-  {
-    "problem_name": "Roman To Integer",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/roman_to_integer.py"
-  },
-  {
-    "problem_name": "Longest Repeat Substr",
-    "category": "Segment_Tree",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Segment_Tree/longest_repeat_substr.go"
-  },
-  {
-    "problem_name": "Find X-Values of Subarrays Modulo K (Range Queries)",
-    "category": "Segment Tree",
-    "time_complexity": "O(N + Q \\log N)",
-    "space_complexity": "O(N * K)",
-    "file": "Segment_Tree/x_values_modulo_k_queries.cpp"
-  },
-  {
-    "problem_name": "Spiral Matrix",
-    "category": "Matrices",
-    "time_complexity": "O(M * N)",
-    "space_complexity": "O(M * N)",
-    "file": "Matrices/spiral_matrix.py"
-  },
-  {
-    "problem_name": "Spiral Matrix Ii",
-    "category": "Matrices",
-    "time_complexity": "O(M * N)",
-    "space_complexity": "O(M * N)",
-    "file": "Matrices/spiral_matrix_ii.py"
-  },
-  {
-    "problem_name": "Image Overlap",
-    "category": "Matrices",
-    "time_complexity": "O(M * N)",
-    "space_complexity": "O(M * N)",
-    "file": "Matrices/image_overlap.py"
-  },
-  {
-    "problem_name": "Rotate Image",
-    "category": "Matrices",
-    "time_complexity": "O(M * N)",
-    "space_complexity": "O(M * N)",
-    "file": "Matrices/rotate_image.cpp"
-  },
-  {
-    "problem_name": "Sudoku Solver",
-    "category": "Backtracking",
-    "time_complexity": "O(2^N)",
-    "space_complexity": "O(N)",
-    "file": "Backtracking/sudoku_solver.py"
-  },
-  {
-    "problem_name": "N Queens",
-    "category": "Backtracking",
-    "time_complexity": "O(2^N)",
-    "space_complexity": "O(N)",
-    "file": "Backtracking/n_queens.py"
-  },
-  {
-    "problem_name": "Generate Parentheses",
-    "category": "DFS / Explicit State Routing",
-    "time_complexity": "O(4^N / sqrt(N)) - Catalan Number Bound",
-    "space_complexity": "O(N) - Recursion Stack depth bound",
-    "file": "Backtracking/generate_parentheses.py"
-  },
-  {
-    "problem_name": "Permutations Ii",
-    "category": "Backtracking",
-    "time_complexity": "O(2^N)",
-    "space_complexity": "O(N)",
-    "file": "Backtracking/permutations_ii.go"
-  },
-  {
-    "problem_name": "N Queens Ii",
-    "category": "Backtracking",
-    "time_complexity": "O(2^N)",
-    "space_complexity": "O(N)",
-    "file": "Backtracking/n_queens_ii.go"
-  },
-  {
-    "problem_name": "Permutations",
-    "category": "Backtracking",
-    "time_complexity": "O(2^N)",
-    "space_complexity": "O(N)",
-    "file": "Backtracking/permutations.go"
-  },
-  {
-    "problem_name": "Combination Sum",
-    "category": "Backtracking",
-    "time_complexity": "O(2^N)",
-    "space_complexity": "O(N)",
-    "file": "Backtracking/combination_sum.py"
-  },
-  {
-    "problem_name": "Remove Invalid Parentheses",
-    "category": "DFS / Bidirectional Scan",
-    "time_complexity": "O(N^2) - Absolute minimal branching",
-    "space_complexity": "O(N) - Zero Hash Sets Allocation",
-    "file": "Backtracking/remove_invalid_parentheses.cpp"
-  },
-  {
-    "problem_name": "Combination Sum Ii",
-    "category": "Backtracking",
-    "time_complexity": "O(2^N)",
-    "space_complexity": "O(N)",
-    "file": "Backtracking/combination_sum_ii.go"
-  },
-  {
-    "problem_name": "Letter Combinations",
-    "category": "Backtracking",
-    "time_complexity": "O(2^N)",
-    "space_complexity": "O(N)",
-    "file": "Backtracking/letter_combinations.py"
-  },
-  {
-    "problem_name": "Gen Parentheses",
-    "category": "Backtracking",
-    "time_complexity": "O(2^N)",
-    "space_complexity": "O(N)",
-    "file": "Backtracking/generate_parentheses.go"
-  },
-  {
-    "problem_name": "Two Sum",
-    "category": "Hashing",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(N)",
-    "file": "Hashing/two_sum.py"
-  },
-  {
-    "problem_name": "Group Anagrams",
-    "category": "Hashing",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Hashing/group_anagrams.py"
-  },
-  {
-    "problem_name": "Valid Sudoku",
-    "category": "Hashing",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Hashing/valid_sudoku.py"
-  },
-  {
-    "problem_name": "Sum of Squares of Distinct Counts II",
-    "category": "Fenwick Tree (Dual-BIT) / DP Math Expansion",
-    "time_complexity": "O(N log N) - Bare-metal bitwise hardware jumps",
-    "space_complexity": "O(N) - Strictly 2N memory, destroying Segment Tree's 4N allocation",
-    "file": "Binary_Indexed_Tree/sum_squares_distinct_counts_hard.cpp"
-  },
-  {
-    "problem_name": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
-    "category": "Sliding Window",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(N)",
-    "file": "Sliding_Window/min_sum_of_lengths.cpp"
-  },
-  {
-    "problem_name": "Substring Concat Words",
-    "category": "Sliding_Window",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Sliding_Window/substring_concat_words.go"
-  },
-  {
-    "problem_name": "Minimum Operations to Reduce X to Zero",
-    "category": "Sliding Window",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Sliding_Window/min_operations_reduce_x_to_zero.py"
-  },
-  {
-    "problem_name": "Max Len Substr 2 Occ",
-    "category": "Sliding_Window",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Sliding_Window/max_len_substr_2_occ.py"
-  },
-  {
-    "problem_name": "Longest Substring Without Rep Chars",
-    "category": "Sliding_Window",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Sliding_Window/longest_substring_without_rep_chars.cpp"
-  },
-  {
-    "problem_name": "Longest Subarray K Freq",
-    "category": "Sliding_Window",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Sliding_Window/longest_subarray_k_freq.py"
-  },
-  {
-    "problem_name": "Check if There Is a Valid Parentheses String Path",
-    "category": "Graphs / DP / State Space Pruning",
-    "time_complexity": "O(m * n * (m + n))",
-    "space_complexity": "O(m * n * (m + n))",
-    "file": "Graphs/check_valid_parentheses_path.cpp"
-  },
-  {
-    "problem_name": "Shortest Path Cleanup Bitmask",
-    "category": "Graphs",
-    "time_complexity": "O(V + E)",
-    "space_complexity": "O(V + E)",
-    "file": "Graphs/shortest_path_cleanup_bitmask.cpp"
-  },
-  {
-    "problem_name": "Subtree Average",
-    "category": "Trees",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(H)",
-    "file": "Trees/subtree_average.py"
-  },
-  {
-    "problem_name": "Merge Intervals",
-    "category": "Intervals",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Intervals/merge_intervals.py"
-  },
-  {
-    "problem_name": "Insert Interval",
-    "category": "Intervals",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Intervals/insert_interval.py"
+    "file": "Game_Theory/sum_game.go"
   }
 ]

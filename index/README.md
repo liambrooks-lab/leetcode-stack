@@ -226,6 +226,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Sum of Squares of Special Elements | `O(N)` | `O(1) - Zero Auxiliary Memory` | [sum_of_squares_special_elements.py](../Arrays/sum_of_squares_special_elements.py) |
 
+## Math / Arrays / Prefix Sums
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Sortable Integers | `O(N + σ(N)) - Linear precomputation + O(1) block evaluations. Completely bypasses TLE.` | `O(N) - State tracking arrays for prefix max, suffix min, and drops.` | [sum_sortable_divisors.go](../Math/sum_sortable_divisors.go) |
+
 ## Math / Bitwise
 
 | Problem | Time Complexity | Space Complexity | File |
