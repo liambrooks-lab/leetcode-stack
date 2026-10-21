@@ -1,8 +1,8 @@
 /*
 {
-    "problem": "Minimum Operations to Make String Sorted",
+    "problem_name": "Minimum Operations to Make String Sorted",
     "category": "Strings / Greedy",
-    "time_complexity": "O(N) -> Pure linear scans using STL is_sorted and bare-metal loops. No nested overheads.",
+    "time_complexity": "O(N) -> Pure linear scans using STL is_sorted and bare-metal loops.",
     "space_complexity": "O(1) -> Strict constant space, purely tracking min/max chars and state flags."
 }
 */
