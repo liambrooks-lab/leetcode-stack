@@ -348,6 +348,12 @@ Automated problem index categorized by algorithmic taxonomy.
 | Wildcard Matching | `O(N)` | `O(1)` | [wildcard_matching.cpp](../Strings/wildcard_matching.cpp) |
 | Zigzag Conversion | `O(N)` | `O(1)` | [zigzag_conversion.cpp](../Strings/zigzag_conversion.cpp) |
 
+## Strings / Greedy
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum Operations to Make String Sorted | `O(N) -> Pure linear scans using STL is_sorted and bare-metal loops.` | `O(1) -> Strict constant space, purely tracking min/max chars and state flags.` | [minimum_operations_to_sort_string.cpp](../Strings/minimum_operations_to_sort_string.cpp) |
+
 ## Strings / State Machine
 
 | Problem | Time Complexity | Space Complexity | File |
