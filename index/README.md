@@ -16,6 +16,12 @@ Automated problem index categorized by algorithmic taxonomy.
 | Largest Almost Missing Integer | `O(N)` | `O(1)` | [largest_almost_missing_integer.py](../Arrays/largest_almost_missing_integer.py) |
 | Lexicographically Smallest Array | `O(N)` | `O(1)` | [lexicographically_smallest_array.py](../Arrays/lexicographically_smallest_array.py) |
 
+## Arrays / Math
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum Operations to Sort a Permutation | `O(N) -> Pure linear state-space evaluation. Bypasses hardware modulo division with arithmetic jumps.` | `O(1) -> Strict constant space, zero dynamic memory allocations.` | [min_op_to_sort_permutation.go](../Arrays/min_op_to_sort_permutation.go) |
+
 ## Arrays / Math (Counting)
 
 | Problem | Time Complexity | Space Complexity | File |

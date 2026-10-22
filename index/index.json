@@ -119,6 +119,13 @@
     "file": "Arrays/target_indices_after_sorting.go"
   },
   {
+    "problem_name": "Minimum Operations to Sort a Permutation",
+    "category": "Arrays / Math",
+    "time_complexity": "O(N) -> Pure linear state-space evaluation. Bypasses hardware modulo division with arithmetic jumps.",
+    "space_complexity": "O(1) -> Strict constant space, zero dynamic memory allocations.",
+    "file": "Arrays/min_op_to_sort_permutation.go"
+  },
+  {
     "problem_name": "Permutations",
     "category": "Backtracking",
     "time_complexity": "O(2^N)",
