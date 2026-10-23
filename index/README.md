@@ -52,6 +52,12 @@ Automated problem index categorized by algorithmic taxonomy.
 | Search Insert Position | `O(log N)` | `O(1)` | [search_insert_position.py](../Binary_Search/search_insert_position.py) |
 | Search Rotated Array | `O(log N)` | `O(1)` | [search_rotated_array.py](../Binary_Search/search_rotated_array.py) |
 
+## Bit Manipulation
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Maximum K to Sort a Permutation | `O(N) -> Pure linear scan with zero-state short-circuiting.` | `O(1) -> Strict constant space using a single scalar accumulator.` | [max_k_to_sort_permutation.go](../Bit_Manipulation/max_k_to_sort_permutation.go) |
+
 ## Bit Manipulation / Cycle Sort
 
 | Problem | Time Complexity | Space Complexity | File |
