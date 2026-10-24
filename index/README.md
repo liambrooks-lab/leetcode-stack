@@ -194,6 +194,12 @@ Automated problem index categorized by algorithmic taxonomy.
 | Insert Interval | `O(N)` | `O(1)` | [insert_interval.py](../Intervals/insert_interval.py) |
 | Merge Intervals | `O(N)` | `O(1)` | [merge_intervals.py](../Intervals/merge_intervals.py) |
 
+## Intervals / Math
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Count Days Spent Together | `O(1) -> Bare-metal byte parsing and direct arithmetic lookups. Bypasses all standard string/time library overheads.` | `O(1) -> Strict constant space. Zero dynamic memory allocations, using a static prefix array.` | [count_days_together.go](../Intervals/count_days_together.go) |
+
 ## Linked_Lists
 
 | Problem | Time Complexity | Space Complexity | File |

@@ -978,5 +978,12 @@
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
     "file": "Intervals/insert_interval.py"
+  },
+  {
+    "problem_name": "Count Days Spent Together",
+    "category": "Intervals / Math",
+    "time_complexity": "O(1) -> Bare-metal byte parsing and direct arithmetic lookups. Bypasses all standard string/time library overheads.",
+    "space_complexity": "O(1) -> Strict constant space. Zero dynamic memory allocations, using a static prefix array.",
+    "file": "Intervals/count_days_together.go"
   }
 ]
