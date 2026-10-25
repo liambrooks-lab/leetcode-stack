@@ -140,6 +140,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Shortest Path Cleanup Bitmask | `O(V + E)` | `O(V + E)` | [shortest_path_cleanup_bitmask.cpp](../Graphs/shortest_path_cleanup_bitmask.cpp) |
 
+## Graphs / DFS
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Number of Closed Islands | `O(R * C) -> Bare-metal matrix traversal. Each land cell is visited and mutated exactly once.` | `O(1) auxiliary -> In-place grid mutation completely bypasses external visited array allocations.` | [number_of_closed_islands.go](../Graphs/number_of_closed_islands.go) |
+
 ## Graphs / DP / State Space Pruning
 
 | Problem | Time Complexity | Space Complexity | File |

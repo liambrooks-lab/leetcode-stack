@@ -959,6 +959,13 @@
     "file": "Graphs/shortest_path_cleanup_bitmask.cpp"
   },
   {
+    "problem_name": "Number of Closed Islands",
+    "category": "Graphs / DFS",
+    "time_complexity": "O(R * C) -> Bare-metal matrix traversal. Each land cell is visited and mutated exactly once.",
+    "space_complexity": "O(1) auxiliary -> In-place grid mutation completely bypasses external visited array allocations.",
+    "file": "Graphs/number_of_closed_islands.go"
+  },
+  {
     "problem_name": "Subtree Average",
     "category": "Trees",
     "time_complexity": "O(N)",
