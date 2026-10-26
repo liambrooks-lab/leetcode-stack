@@ -152,6 +152,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Check if There Is a Valid Parentheses String Path | `O(m * n * (m + n))` | `O(m * n * (m + n))` | [check_valid_parentheses_path.cpp](../Graphs/check_valid_parentheses_path.cpp) |
 
+## Graphs / Iterative DFS
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Count Islands With Total Value Divisible by K | `O(m * n) -> Pure bare-metal iterative traversal. Bypasses all recursive call stack allocations.` | `O(m * n) worst-case for the stack slice, but completely eliminates deep recursion memory bloat. Immediate sinking prevents duplicate pushes.` | [count_islands_with_total_value_divisible_by_k.go](../Graphs/count_islands_with_total_value_divisible_by_k.go) |
+
 ## Greedy
 
 | Problem | Time Complexity | Space Complexity | File |
