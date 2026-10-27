@@ -854,6 +854,13 @@
     "file": "Math/circle_and_rectangle_overlapping.cpp"
   },
   {
+    "problem_name": "Create Grid With Exactly One Path",
+    "category": "Matrices / Constructive",
+    "time_complexity": "O(m * n) -> Zero string concatenations. Direct memory assignment and fast I/O detachment.",
+    "space_complexity": "O(1) auxiliary -> Single obstacle template copied directly. Overwrites memory block in-place.",
+    "file": "Matrices/create_grid_exactly_one_path.cpp"
+  },
+  {
     "problem_name": "Spiral Matrix Ii",
     "category": "Matrices",
     "time_complexity": "O(M * N)",

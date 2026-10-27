@@ -295,6 +295,12 @@ Automated problem index categorized by algorithmic taxonomy.
 | Spiral Matrix | `O(M * N)` | `O(M * N)` | [spiral_matrix.py](../Matrices/spiral_matrix.py) |
 | Spiral Matrix Ii | `O(M * N)` | `O(M * N)` | [spiral_matrix_ii.py](../Matrices/spiral_matrix_ii.py) |
 
+## Matrices / Constructive
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Create Grid With Exactly One Path | `O(m * n) -> Zero string concatenations. Direct memory assignment and fast I/O detachment.` | `O(1) auxiliary -> Single obstacle template copied directly. Overwrites memory block in-place.` | [create_grid_exactly_one_path.cpp](../Matrices/create_grid_exactly_one_path.cpp) |
+
 ## Prefix_Sum
 
 | Problem | Time Complexity | Space Complexity | File |
