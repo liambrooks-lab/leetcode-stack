@@ -101,6 +101,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Find X-Values of Subarrays Modulo K | `O(N * K)` | `O(K)` | [find_x_values_modulo_k.cpp](../Dynamic_Programming/find_x_values_modulo_k.cpp) |
 
+## Dynamic Programming / Bit Manipulation
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum XOR Path in a Grid | `O(m * n * min(1024, path_length)) -> Highly optimized state evaluation using Python's native Hash Sets.` | `O(n * 1024) -> Strictly 1D array of sets. Automatically garbage collected and dynamically sized.` | [min_path_xor_cost.py](../Dynamic_Programming/min_path_xor_cost.py) |
+
 ## Dynamic Programming / Math Expansion
 
 | Problem | Time Complexity | Space Complexity | File |
