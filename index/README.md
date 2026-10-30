@@ -159,6 +159,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Check if There Is a Valid Parentheses String Path | `O(m * n * (m + n))` | `O(m * n * (m + n))` | [check_valid_parentheses_path.cpp](../Graphs/check_valid_parentheses_path.cpp) |
 
+## Graphs / Dijkstra / State-Space DP
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum Total Edge Weight Valid Path | `O(E log (N*K)) -> Custom bare-metal min-heap with CSR graph for 0ms overhead.` | `O(N * K + E) -> Flattened 1D distance array and flat edges. Strictly zero heap re-allocations during traversal.` | [minimum_weight_valid_path.go](../Graphs/minimum_weight_valid_path.go) |
+
 ## Graphs / Iterative DFS
 
 | Problem | Time Complexity | Space Complexity | File |

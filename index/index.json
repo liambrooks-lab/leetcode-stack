@@ -434,6 +434,13 @@
     "file": "Graphs/count_islands_with_total_value_divisible_by_k.go"
   },
   {
+    "problem_name": "Minimum Total Edge Weight Valid Path",
+    "category": "Graphs / Dijkstra / State-Space DP",
+    "time_complexity": "O(E log (N*K)) -> Custom bare-metal min-heap with CSR graph for 0ms overhead.",
+    "space_complexity": "O(N * K + E) -> Flattened 1D distance array and flat edges. Strictly zero heap re-allocations during traversal.",
+    "file": "Graphs/minimum_weight_valid_path.go"
+  },
+  {
     "problem_name": "Check if There Is a Valid Parentheses String Path",
     "category": "Graphs / DP / State Space Pruning",
     "time_complexity": "O(m * n * (m + n))",
