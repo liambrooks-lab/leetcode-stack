@@ -108,6 +108,12 @@ Automated problem index categorized by algorithmic taxonomy.
 | Minimum XOR Path in a Grid | `O(m * n * min(1024, path_length)) -> Highly optimized state evaluation using Python's native Hash Sets.` | `O(n * 1024) -> Strictly 1D array of sets. Automatically garbage collected and dynamically sized.` | [min_path_xor_cost.py](../Dynamic_Programming/min_path_xor_cost.py) |
 | Minimum XOR Path in a Grid | `O(m * n * 1024) -> Fully unrolled contiguous memory traversal evaluating all state sets natively.` | `O(n * 1024) -> Strictly stack-allocated C-style arrays. Zero heap allocations. L1/L2 cache optimized.` | [palindrome_path_queries_in_a_tree.go](../Trees/palindrome_path_queries_in_a_tree.go) |
 
+## Dynamic Programming / Branchless Bit Manipulation
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Number of Unique Valid Paths (Grid with Mirrors) | `O(m * n) -> Flawless branchless execution. CPU pipelining is never interrupted by if-else jumps.` | `O(1) auxiliary -> Relies on a globally pre-allocated fixed-size array. Zero runtime heap allocations.` | [unique_paths_with_mirrors.go](../Dynamic_Programming/unique_paths_with_mirrors.go) |
+
 ## Dynamic Programming / Math Expansion
 
 | Problem | Time Complexity | Space Complexity | File |

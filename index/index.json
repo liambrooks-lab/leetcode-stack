@@ -217,6 +217,13 @@
     "file": "Dynamic_Programming/distinct_subsequences.go"
   },
   {
+    "problem_name": "Number of Unique Valid Paths (Grid with Mirrors)",
+    "category": "Dynamic Programming / Branchless Bit Manipulation",
+    "time_complexity": "O(m * n) -> Flawless branchless execution. CPU pipelining is never interrupted by if-else jumps.",
+    "space_complexity": "O(1) auxiliary -> Relies on a globally pre-allocated fixed-size array. Zero runtime heap allocations.",
+    "file": "Dynamic_Programming/unique_paths_with_mirrors.go"
+  },
+  {
     "problem_name": "Minimum XOR Path in a Grid",
     "category": "Dynamic Programming / Bit Manipulation",
     "time_complexity": "O(m * n * min(1024, path_length)) -> Highly optimized state evaluation using Python's native Hash Sets.",
