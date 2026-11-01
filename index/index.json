@@ -980,6 +980,13 @@
     "file": "Math/unique_paths.py"
   },
   {
+    "problem_name": "Minimum Moves to Equal Array Elements",
+    "category": "Math / Brainteaser",
+    "time_complexity": "O(N) -> Two pure cache-friendly linear scans. Zero branching inside the sum.",
+    "space_complexity": "O(1) auxiliary -> No extra memory allocated, executed directly on CPU registers.",
+    "file": "Math/min_moves_to_equal_array.go"
+  },
+  {
     "problem_name": "Uniform Parity Array Ii",
     "category": "Math",
     "time_complexity": "O(N)",

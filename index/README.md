@@ -287,6 +287,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Score of Parentheses | `O(N)` | `O(1) - Zero Stack Allocation` | [score_of_parentheses.py](../Math/score_of_parentheses.py) |
 
+## Math / Brainteaser
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum Moves to Equal Array Elements | `O(N) -> Two pure cache-friendly linear scans. Zero branching inside the sum.` | `O(1) auxiliary -> No extra memory allocated, executed directly on CPU registers.` | [min_moves_to_equal_array.go](../Math/min_moves_to_equal_array.go) |
+
 ## Math / Combinatorics / Doubly Linked List (Interval Merging)
 
 | Problem | Time Complexity | Space Complexity | File |
