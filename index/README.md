@@ -305,6 +305,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Maximum Good Integer (maxSumOfSquares) | `O(N) - Hardware-level memory fill` | `O(N) - Pre-allocated contiguous memory` | [max_good_integer.cpp](../Strings/max_good_integer.cpp) |
 
+## Math / L1 Norm Minimization
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum Moves to Equal Array Elements II | `O(N log N) -> Execution is dominated by the sorting algorithm. The distance calculation is a pure O(N) scan.` | `O(1) auxiliary -> Relies on in-place sorting and scalar accumulators. Zero extra heap overhead.` | [min_moves_to_equal_array_ii.go](../Math/min_moves_to_equal_array_ii.go) |
+
 ## Math / Quickselect (Vectorized)
 
 | Problem | Time Complexity | Space Complexity | File |
