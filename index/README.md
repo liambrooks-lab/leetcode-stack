@@ -317,6 +317,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Maximum Alternating Score | `O(N) Expected - via np.partition` | `O(N) - NumPy C-array allocation` | [max_alternating_score.py](../Greedy/max_alternating_score.py) |
 
+## Math / Single Pass
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum Total Moves to Equal Array Elements (Single Increment) | `O(N) -> Pure single-pass scan evaluating Sum and Max simultaneously.` | `O(1) -> Strictly scalar register variables, zero allocations.` | [min_moves_to_equal_array_iii.go](../Math/min_moves_to_equal_array_iii.go) |
+
 ## Matrices
 
 | Problem | Time Complexity | Space Complexity | File |

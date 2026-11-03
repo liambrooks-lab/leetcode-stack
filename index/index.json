@@ -875,6 +875,13 @@
     "file": "Binary_Indexed_Tree/sum_squares_distinct_counts_hard.cpp"
   },
   {
+    "problem_name": "Minimum Total Moves to Equal Array Elements (Single Increment)",
+    "category": "Math / Single Pass",
+    "time_complexity": "O(N) -> Pure single-pass scan evaluating Sum and Max simultaneously.",
+    "space_complexity": "O(1) -> Strictly scalar register variables, zero allocations.",
+    "file": "Math/min_moves_to_equal_array_iii.go"
+  },
+  {
     "problem_name": "Number of Sets of K Non-Overlapping Line Segments",
     "category": "Math",
     "time_complexity": "O(K)",
