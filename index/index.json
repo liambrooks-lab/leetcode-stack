@@ -238,6 +238,13 @@
     "file": "Dynamic_Programming/distinct_subsequences_ii.go"
   },
   {
+    "problem_name": "Minimum Operations to Make k Subarrays Equal",
+    "category": "DP / Fenwick Tree (BIT) / Binary Lifting",
+    "time_complexity": "O(N log(N) + K * N) -> N log N for coordinate compressed BIT sliding window, and K*N for the DP transitions.",
+    "space_complexity": "O(N) -> Purely flat 1D arrays for DP, BIT, and frequency counting. Zero 2D grid bloat.",
+    "file": "Dynamic_Programming/min_ops_k_equal_subarrays.go"
+  },
+  {
     "problem_name": "Maximum Subarray",
     "category": "Dynamic_Programming",
     "time_complexity": "O(N^2)",

@@ -95,6 +95,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Generate Parentheses | `O(4^N / sqrt(N)) - Catalan Number Bound` | `O(N) - Recursion Stack depth bound` | [generate_parentheses.py](../Backtracking/generate_parentheses.py) |
 
+## DP / Fenwick Tree (BIT) / Binary Lifting
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum Operations to Make k Subarrays Equal | `O(N log(N) + K * N) -> N log N for coordinate compressed BIT sliding window, and K*N for the DP transitions.` | `O(N) -> Purely flat 1D arrays for DP, BIT, and frequency counting. Zero 2D grid bloat.` | [min_ops_k_equal_subarrays.go](../Dynamic_Programming/min_ops_k_equal_subarrays.go) |
+
 ## Dynamic Programming
 
 | Problem | Time Complexity | Space Complexity | File |
