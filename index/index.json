@@ -819,6 +819,13 @@
     "file": "Arrays/distribute_elements_i.go"
   },
   {
+    "problem_name": "Find the Distance Value Between Two Arrays",
+    "category": "Arrays / Binary Search",
+    "time_complexity": "O(M log M + N log M) -> In-place sort of arr2 followed by O(log M) binary search per element in arr1.",
+    "space_complexity": "O(1) auxiliary -> Pure scalar variables and pointers, zero heap allocations.",
+    "file": "Arrays/distance_values_between_two_arrays.go"
+  },
+  {
     "problem_name": "Lexicographically Smallest Array",
     "category": "Arrays",
     "time_complexity": "O(N)",

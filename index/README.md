@@ -16,6 +16,12 @@ Automated problem index categorized by algorithmic taxonomy.
 | Largest Almost Missing Integer | `O(N)` | `O(1)` | [largest_almost_missing_integer.py](../Arrays/largest_almost_missing_integer.py) |
 | Lexicographically Smallest Array | `O(N)` | `O(1)` | [lexicographically_smallest_array.py](../Arrays/lexicographically_smallest_array.py) |
 
+## Arrays / Binary Search
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Find the Distance Value Between Two Arrays | `O(M log M + N log M) -> In-place sort of arr2 followed by O(log M) binary search per element in arr1.` | `O(1) auxiliary -> Pure scalar variables and pointers, zero heap allocations.` | [distance_values_between_two_arrays.go](../Arrays/distance_values_between_two_arrays.go) |
+
 ## Arrays / Math
 
 | Problem | Time Complexity | Space Complexity | File |
