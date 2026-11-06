@@ -117,8 +117,8 @@ Automated problem index categorized by algorithmic taxonomy.
 
 | Problem | Time Complexity | Space Complexity | File |
 |---|---|---|---|
-| Minimum XOR Path in a Grid | `O(m * n * min(1024, path_length)) -> Highly optimized state evaluation using Python's native Hash Sets.` | `O(n * 1024) -> Strictly 1D array of sets. Automatically garbage collected and dynamically sized.` | [min_path_xor_cost.py](../Dynamic_Programming/min_path_xor_cost.py) |
 | Minimum XOR Path in a Grid | `O(m * n * 1024) -> Fully unrolled contiguous memory traversal evaluating all state sets natively.` | `O(n * 1024) -> Strictly stack-allocated C-style arrays. Zero heap allocations. L1/L2 cache optimized.` | [palindrome_path_queries_in_a_tree.go](../Trees/palindrome_path_queries_in_a_tree.go) |
+| Minimum XOR Path in a Grid | `O(m * n * min(1024, path_length)) -> Highly optimized state evaluation using Python's native Hash Sets.` | `O(n * 1024) -> Strictly 1D array of sets. Automatically garbage collected and dynamically sized.` | [min_path_xor_cost.py](../Dynamic_Programming/min_path_xor_cost.py) |
 
 ## Dynamic Programming / Branchless Bit Manipulation
 
@@ -357,6 +357,12 @@ Automated problem index categorized by algorithmic taxonomy.
 | First Stable Index | `O(N)` | `O(1)` | [first_stable_index.go](../Prefix_Sum/first_stable_index.go) |
 | Sequential Prefix Sum | `O(N)` | `O(1)` | [sequential_prefix_sum.py](../Prefix_Sum/sequential_prefix_sum.py) |
 | Smallest Stable Index | `O(N)` | `O(1)` | [smallest_stable_index.go](../Prefix_Sum/smallest_stable_index.go) |
+
+## SIMD / Custom Radix Sort / Extreme Memory Aliasing
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Count the Number of Servers that Did Not Receive Any Requests | `O(M + Q) -> Bypasses O(N log N) via AVX2 hardware-accelerated Radix Sort.` | `O(1) auxiliary -> Dangerously brilliant memory aliasing. Reuses input vectors completely. Zero GC overhead.` | [count_zero_request_servers.cpp](../Sliding_Window/count_zero_request_servers.cpp) |
 
 ## Segment Tree
 
