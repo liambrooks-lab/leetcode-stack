@@ -152,11 +152,8 @@ Automated problem index categorized by algorithmic taxonomy.
 
 | Problem | Time Complexity | Space Complexity | File |
 |---|---|---|---|
-| Stone Game Ii | `O(N)` | `O(1)` | [stone_game_ii.cpp](../Game_Theory/stone_game_ii.cpp) |
-| Stone Game Iv | `O(N)` | `O(1)` | [stone_game_iv.cpp](../Game_Theory/stone_game_iv.cpp) |
 | Stone Game Ix | `O(N)` | `O(1)` | [stone_game_ix.py](../Game_Theory/stone_game_ix.py) |
 | Stone Game V | `O(N)` | `O(1)` | [stone_game_v.py](../Game_Theory/stone_game_v.py) |
-| Stone Game Vii | `O(N)` | `O(1)` | [stone_game_vii.cpp](../Game_Theory/stone_game_vii.cpp) |
 | Sum Game | `O(N)` | `O(1)` | [sum_game.go](../Game_Theory/sum_game.go) |
 
 ## Graphs
@@ -275,7 +272,6 @@ Automated problem index categorized by algorithmic taxonomy.
 | Rectangle Overlap | `O(1)` | `O(1)` | [rectangle_overlap.py](../Math/rectangle_overlap.py) |
 | Reverse Integer | `O(N)` | `O(1)` | [reverse_integer.cpp](../Math/reverse_integer.cpp) |
 | Roman To Integer | `O(N)` | `O(1)` | [roman_to_integer.py](../Math/roman_to_integer.py) |
-| Smallest Divisible Digit Product Ii | `O(N)` | `O(1)` | [smallest_divisible_digit_product_ii.cpp](../Math/smallest_divisible_digit_product_ii.cpp) |
 | Smallest Index With Equal Sum | `O(1)` | `O(1)` | [smallest_index_with_equal_sum.py](../Math/smallest_index_with_equal_sum.py) |
 | Three Digit Even Count | `O(N)` | `O(1)` | [three_digit_even_count.py](../Math/three_digit_even_count.py) |
 | Uniform Parity Array Ii | `O(N)` | `O(1)` | [uniform_parity_array_ii.go](../Math/uniform_parity_array_ii.go) |
@@ -456,6 +452,12 @@ Automated problem index categorized by algorithmic taxonomy.
 | Problem | Time Complexity | Space Complexity | File |
 |---|---|---|---|
 | Remove Outermost Parentheses | `O(N)` | `O(N) - Result string allocation` | [remove_outermost_parentheses.cpp](../Strings/remove_outermost_parentheses.cpp) |
+
+## Time Wheel / Hierarchical Bitset / Bucket Sort
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Process Tasks Using Servers | `O(N + M) -> Strictly linear. Bypasses O(log N) heaps entirely using O(1) bitwise trailing zeros and O(1) time-wheel lookups.` | `O(max(N, W)) -> Massive static arrays pre-allocated globally. Zero heap allocations during runtime.` | [process_tasks_using_servers_bitset.go](../Heaps/process_tasks_using_servers_bitset.go) |
 
 ## Trees
 

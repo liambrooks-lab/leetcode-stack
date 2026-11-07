@@ -203,13 +203,6 @@
     "file": "Math/reverse_integer.cpp"
   },
   {
-    "problem_name": "Smallest Divisible Digit Product Ii",
-    "category": "Math",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Math/smallest_divisible_digit_product_ii.cpp"
-  },
-  {
     "problem_name": "Minimum Moves to Equal Array Elements",
     "category": "Math / Brainteaser",
     "time_complexity": "O(N) -> Two pure cache-friendly linear scans. Zero branching inside the sum.",
@@ -315,32 +308,11 @@
     "file": "Game_Theory/stone_game_v.py"
   },
   {
-    "problem_name": "Stone Game Iv",
-    "category": "Game_Theory",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Game_Theory/stone_game_iv.cpp"
-  },
-  {
-    "problem_name": "Stone Game Vii",
-    "category": "Game_Theory",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Game_Theory/stone_game_vii.cpp"
-  },
-  {
     "problem_name": "Sum Game",
     "category": "Game_Theory",
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
     "file": "Game_Theory/sum_game.go"
-  },
-  {
-    "problem_name": "Stone Game Ii",
-    "category": "Game_Theory",
-    "time_complexity": "O(N)",
-    "space_complexity": "O(1)",
-    "file": "Game_Theory/stone_game_ii.cpp"
   },
   {
     "problem_name": "Stone Game Ix",
@@ -817,6 +789,13 @@
     "time_complexity": "O(N)",
     "space_complexity": "O(1)",
     "file": "Hashing/group_anagrams.py"
+  },
+  {
+    "problem_name": "Process Tasks Using Servers",
+    "category": "Time Wheel / Hierarchical Bitset / Bucket Sort",
+    "time_complexity": "O(N + M) -> Strictly linear. Bypasses O(log N) heaps entirely using O(1) bitwise trailing zeros and O(1) time-wheel lookups.",
+    "space_complexity": "O(max(N, W)) -> Massive static arrays pre-allocated globally. Zero heap allocations during runtime.",
+    "file": "Heaps/process_tasks_using_servers_bitset.go"
   },
   {
     "problem_name": "Reverse K Group",
