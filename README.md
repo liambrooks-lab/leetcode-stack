@@ -1,6 +1,6 @@
 # leetcode-stack
 
-[हिंदी में पढ़ें](https://github.com/liambrooks-lab/leetcode-stack/blob/master/README.md)
+[हिंदी में पढ़ें](https://github.com/R-Jena/leetcode-stack/blob/main/README.md)
 
 ---
 > **A zero-to-one algorithmic infrastructure, independently architected for state-space optimization, advanced data structure engineering, and computational efficiency.**
@@ -299,6 +299,24 @@ func buildPrefixSum(nums []int) []int {
 		prefix[i+1] = prefix[i] + nums[i]
 	}
 	return prefix // Range [i, j] sum is prefix[j+1] - prefix[i]
+}
+```
+
+**Heaps &mdash; Zero-Allocation Bare-Metal Priority Queue:**
+```go
+// Interface-free custom slice heap bypassing GC and boxing overhead; O(log N) push/pop
+type ServerNode struct { weight, index int }
+type ServerHeap []ServerNode
+
+func (h *ServerHeap) pop() ServerNode {
+	n := len(*h) - 1
+	res := (*h)[0]
+	(*h)[0] = (*h)[n] // Swap root with last element
+	*h = (*h)[:n]     // Truncate slice strictly in-place
+	if n > 0 {
+		h.down(0) // O(log N) hardware-efficient sift-down
+	}
+	return res
 }
 ```
 
